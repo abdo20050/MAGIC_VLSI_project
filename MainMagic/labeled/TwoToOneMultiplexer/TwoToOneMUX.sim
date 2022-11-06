@@ -1,0 +1,82 @@
+| units: 100 tech: scmos format: MIT
+p or_0/m1_40_44# vdd out 2 4 147 35
+n or_0/m1_40_44# gnd out 2 4 147 -49
+p m1_60_20# vdd or_0/nor_0/a_14_88# 2 4 103 31
+p m1_64_n28# or_0/nor_0/a_14_88# or_0/m1_40_44# 2 4 118 31
+n m1_60_20# or_0/m1_40_44# gnd 2 4 103 -45
+n m1_64_n28# gnd or_0/m1_40_44# 2 4 118 -45
+p s vdd m1_n24_32# 2 4 -36 45
+n s gnd m1_n24_32# 2 4 -36 -39
+p and_0/m1_36_28# vdd m1_60_20# 2 4 52 92
+n and_0/m1_36_28# gnd m1_60_20# 2 4 52 8
+p d0 vdd and_0/m1_36_28# 2 4 8 88
+n d0 gnd and_0/nand_0/a_14_12# 2 4 8 12
+p m1_n24_32# and_0/m1_36_28# vdd 2 4 20 88
+n m1_n24_32# and_0/nand_0/a_14_12# and_0/m1_36_28# 2 4 20 12
+p and_1/m1_36_28# vdd m1_64_n28# 2 4 52 -19
+n and_1/m1_36_28# gnd m1_64_n28# 2 4 52 -103
+p d1 vdd and_1/m1_36_28# 2 4 8 -23
+n d1 gnd and_1/nand_0/a_14_12# 2 4 8 -99
+p s and_1/m1_36_28# vdd 2 4 20 -23
+n s and_1/nand_0/a_14_12# and_1/m1_36_28# 2 4 20 -99
+R and_1/nand_0/a_14_12# 67
+C and_1/m1_36_28# GND 42.11
+R and_1/m1_36_28# 1484
+= and_1/m1_36_28# and_1/not_0/a_8_28#
+= and_1/m1_36_28# and_1/nand_0/a_14_88#
+C d1 GND 28.54
+R d1 1051
+= d1 and_1/nand_0/a_4_80#
+C m1_64_n28# GND 42.35
+R m1_64_n28# 1389
+= m1_64_n28# or_0/nor_0/a_20_56#
+= m1_64_n28# and_1/not_0/a_22_8#
+C vdd GND 70.90
+R vdd 2693
+= vdd m1_n20_53#
+= vdd not_0/a_8_92#
+= vdd and_0/not_0/a_8_92#
+= vdd and_0/nand_0/a_4_88#
+= vdd or_0/not_0/a_8_92#
+= vdd or_0/nor_0/a_0_88#
+= vdd m1_80_n11#
+= vdd and_1/not_0/a_8_92#
+= vdd and_1/nand_0/a_4_88#
+R and_0/nand_0/a_14_12# 67
+C and_0/m1_36_28# GND 42.11
+R and_0/m1_36_28# 1484
+= and_0/m1_36_28# and_0/not_0/a_8_28#
+= and_0/m1_36_28# and_0/nand_0/a_14_88#
+C d0 GND 26.84
+R d0 1051
+= d0 and_0/nand_0/a_4_80#
+C m1_n24_32# GND 43.65
+R m1_n24_32# 1305
+= m1_n24_32# and_0/nand_0/a_24_10#
+= m1_n24_32# not_0/a_22_8#
+C s GND 71.29
+R s 2293
+= s and_1/nand_0/a_24_10#
+= s not_0/a_8_28#
+C gnd GND 52.92
+R gnd 906
+= gnd and_0/not_0/a_8_8#
+= gnd and_0/nand_0/a_4_12#
+= gnd m1_n12_n48#
+= gnd not_0/a_8_8#
+= gnd and_1/not_0/a_8_8#
+= gnd and_1/nand_0/a_4_12#
+= gnd or_0/not_0/a_8_8#
+= gnd or_0/nor_0/a_14_12#
+R or_0/nor_0/a_14_88# 194
+C m1_60_20# GND 40.06
+R m1_60_20# 1400
+= m1_60_20# and_0/not_0/a_22_8#
+= m1_60_20# or_0/nor_0/a_4_72#
+C out GND 15.04
+R out 303
+= out or_0/not_0/a_22_8#
+C or_0/m1_40_44# GND 52.26
+R or_0/m1_40_44# 1628
+= or_0/m1_40_44# or_0/nor_0/a_0_12#
+= or_0/m1_40_44# or_0/not_0/a_8_28#

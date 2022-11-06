@@ -1,0 +1,133 @@
+magic
+tech scmos
+timestamp 1665594305
+<< metal1 >>
+rect -2027 184 -2012 188
+rect -1514 184 -1508 188
+rect -953 184 -952 188
+rect -427 184 -424 188
+rect -2312 180 -2308 184
+rect -1800 180 -1796 184
+rect -1776 68 -1762 72
+rect -2296 64 -2275 68
+rect -2296 -16 -2292 64
+rect -1776 -4 -1772 68
+rect -1512 -16 -1508 184
+rect -1240 180 -1236 184
+rect -712 180 -708 184
+rect -688 68 -675 72
+rect -2296 -20 -1508 -16
+rect -1220 64 -1201 68
+rect -1220 -28 -1216 64
+rect -1016 20 -932 24
+rect -1016 12 -1012 20
+rect -688 -20 -684 68
+rect -428 -28 -424 184
+rect -228 180 -224 184
+rect 224 181 228 188
+rect -200 68 -191 72
+rect -200 -8 -196 68
+rect 256 65 264 68
+rect 256 13 260 65
+rect -20 8 104 12
+rect 512 -8 516 189
+rect -200 -12 516 -8
+rect -1220 -32 -424 -28
+<< metal2 >>
+rect -2040 236 -1922 240
+rect -1524 236 -1361 240
+rect -964 236 -835 240
+rect -440 236 -351 240
+rect 44 237 104 241
+rect -2040 232 -2036 236
+rect -1524 232 -1520 236
+rect -964 232 -960 236
+rect -440 232 -436 236
+rect 44 232 48 237
+rect -1523 228 -1520 232
+rect -962 228 -960 232
+rect -1944 108 -1934 112
+rect -1384 100 -1373 104
+rect -2456 96 -2447 100
+rect -2070 76 -2064 80
+rect -1557 76 -1552 80
+rect -996 76 -992 80
+rect -2100 20 -1922 24
+rect -1584 20 -1361 24
+rect -2100 12 -2096 20
+rect -1584 12 -1580 20
+rect -2106 8 -2096 12
+rect -1593 8 -1580 12
+rect -1032 8 -1016 12
+rect -952 -4 -948 184
+rect -856 100 -847 104
+rect -372 80 -363 84
+rect -470 76 -464 80
+rect 14 76 20 80
+rect -928 20 -835 24
+rect -492 20 -351 24
+rect -492 12 -488 20
+rect -506 8 -488 12
+rect -1772 -8 -948 -4
+rect 56 -20 60 184
+rect 84 84 92 88
+rect 469 77 476 81
+rect 104 12 108 21
+rect -684 -24 60 -20
+<< m2contact >>
+rect -952 184 -948 188
+rect 56 184 60 188
+rect -1776 -8 -1772 -4
+rect -932 20 -928 24
+rect -1016 8 -1012 12
+rect -688 -24 -684 -20
+rect -24 8 -20 12
+rect 104 8 108 12
+rect 256 9 260 13
+use FullAdder  FullAdder_0
+timestamp 1665587791
+transform 1 0 104 0 1 129
+box -12 -128 408 112
+use FullAdder  FullAdder_1
+timestamp 1665587791
+transform 1 0 -351 0 1 128
+box -12 -128 408 112
+use FullAdder  FullAdder_2
+timestamp 1665587791
+transform 1 0 -835 0 1 128
+box -12 -128 408 112
+use FullAdder  FullAdder_3
+timestamp 1665587791
+transform 1 0 -1361 0 1 128
+box -12 -128 408 112
+use FullAdder  FullAdder_4
+timestamp 1665587791
+transform 1 0 -1922 0 1 128
+box -12 -128 408 112
+use FullAdder  FullAdder_5
+timestamp 1665587791
+transform 1 0 -2435 0 1 128
+box -12 -128 408 112
+<< labels >>
+rlabel metal2 86 86 86 86 1 b0
+rlabel metal1 226 186 226 186 1 a0
+rlabel metal2 474 79 474 79 1 s0
+rlabel metal2 18 78 18 78 1 s1
+rlabel metal2 -370 82 -370 82 1 b1
+rlabel metal1 -226 182 -226 182 1 a1
+rlabel metal2 -466 78 -466 78 1 s2
+rlabel metal2 -854 102 -854 102 1 b2
+rlabel metal1 -710 182 -710 182 1 a2
+rlabel metal2 -994 78 -994 78 1 s3
+rlabel metal2 -1382 102 -1382 102 1 b3
+rlabel metal1 -1238 182 -1238 182 1 a3
+rlabel metal2 -1554 78 -1554 78 1 s4
+rlabel metal2 -1942 110 -1942 110 1 b4
+rlabel metal1 -1798 182 -1798 182 1 a4
+rlabel metal2 -2066 78 -2066 78 1 s5
+rlabel metal2 -2454 98 -2454 98 3 b5
+rlabel metal1 -2310 182 -2310 182 1 a5
+rlabel metal2 -2006 238 -2006 238 5 vdd
+rlabel metal2 -1998 22 -1998 22 1 gnd
+rlabel metal1 -2014 186 -2014 186 1 cout
+<< end >>

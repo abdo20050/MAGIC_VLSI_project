@@ -1,0 +1,48 @@
+| units: 100 tech: scmos format: MIT
+p b vdd m1_n12_72# 2 4 -20 100
+n b gnd m1_n12_72# 2 4 -20 16
+p m1_n12_72# vdd xor_0/a_18_88# 2 4 52 96
+n m1_n12_72# xor_0/a_n36_12# gnd 2 4 52 20
+p b xor_0/a_n12_88# vdd 2 4 36 96
+p a xor_0/a_18_88# o 2 4 68 96
+n b o xor_0/a_n36_12# 2 4 36 20
+n a gnd xor_0/a_n36_12# 2 4 68 20
+p m1_0_36# o xor_0/a_n12_88# 2 4 23 96
+n m1_0_36# xor_0/a_n36_12# o 2 4 23 20
+p a vdd m1_0_36# 2 4 109 100
+n a gnd m1_0_36# 2 4 109 16
+C gnd GND 19.92
+R gnd 385
+= gnd not_1/a_8_8#
+= gnd not_0/a_8_8#
+= gnd m2_92_4#
+= gnd m2_0_4#
+= gnd xor_0/a_18_12#
+C xor_0/a_n36_12# GND 20.49
+R xor_0/a_n36_12# 491
+R xor_0/a_18_88# 208
+C vdd GND 16.89
+R vdd 858
+= vdd not_1/a_8_92#
+= vdd not_0/a_8_92#
+= vdd xor_0/a_2_88#
+R xor_0/a_n12_88# 179
+C o GND 31.77
+R o 702
+= o xor_0/a_n36_88#
+C a GND 58.58
+R a 2422
+= a not_1/a_8_28#
+= a xor_0/a_24_40#
+C m1_n12_72# GND 43.18
+R m1_n12_72# 1448
+= m1_n12_72# not_0/a_22_8#
+= m1_n12_72# xor_0/a_8_76#
+C b GND 60.61
+R b 2423
+= b not_0/a_8_28#
+= b xor_0/a_n8_80#
+C m1_0_36# GND 57.31
+R m1_0_36# 1509
+= m1_0_36# not_1/a_22_8#
+= m1_0_36# xor_0/a_n28_36#

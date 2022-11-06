@@ -1,0 +1,29 @@
+| units: 100 tech: scmos format: MIT
+n transgates_0/a_16_n4# d1 out 2 4 18 16
+p transgates_1/a_16_n4# d1 out 2 4 18 92
+n transgates_1/a_16_n4# d0 out 2 4 18 127
+p transgates_1/a_16_100# d0 out 2 4 18 203
+C s GND 23.10
+= s transgates_1/m2_0_100#
+= s transgates_0/m2_0_0#
+= s m2_40_4#
+C sb GND 3.04
+= sb transgates_1/m2_0_0#
+C d0 GND 15.79
+R d0 389
+= d0 transgates_1/a_0_12#
+C transgates_1/a_16_100# GND 6.34
+R transgates_1/a_16_100# 242
+C transgates_0/m2_0_100# GND 2.74
+C transgates_0/a_16_n4# GND 6.34
+R transgates_0/a_16_n4# 242
+C out GND 59.22
+R out 901
+= out transgates_1/a_20_12#
+= out transgates_0/a_20_12#
+C d1 GND 15.79
+R d1 389
+= d1 transgates_0/a_0_12#
+C transgates_1/a_16_n4# GND 11.73
+R transgates_1/a_16_n4# 458
+= transgates_1/a_16_n4# transgates_0/a_16_100#

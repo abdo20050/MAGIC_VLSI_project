@@ -1,0 +1,44 @@
+magic
+tech scmos
+timestamp 1664048427
+<< metal1 >>
+rect -8 68 0 72
+rect 108 47 112 100
+rect -8 32 0 36
+rect 80 -7 84 43
+rect 159 4 168 8
+rect 88 -24 91 2
+rect 64 -28 91 -24
+rect 0 -56 4 -51
+rect -8 -60 4 -56
+rect -8 -76 0 -73
+<< metal2 >>
+rect 72 100 108 104
+rect 84 43 95 47
+rect 64 20 91 24
+rect -24 0 0 4
+rect -24 -107 -20 0
+rect 72 -11 80 -7
+rect 95 -107 100 -57
+rect -24 -111 0 -107
+rect 72 -111 100 -107
+<< m2contact >>
+rect 108 100 112 104
+rect 80 43 84 47
+rect 108 43 112 47
+rect 60 20 64 24
+rect 91 20 95 24
+rect 80 -11 84 -7
+use and  and_0
+timestamp 1663595043
+transform 1 0 0 0 1 0
+box 0 0 72 104
+use and  and_1
+timestamp 1663595043
+transform 1 0 0 0 1 -111
+box 0 0 72 104
+use or  or_0
+timestamp 1663598260
+transform 1 0 91 0 1 -57
+box 0 0 76 104
+<< end >>

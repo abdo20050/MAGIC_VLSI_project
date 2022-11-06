@@ -1,0 +1,77 @@
+magic
+tech scmos
+timestamp 1664048737
+<< metal1 >>
+rect -12 -47 -8 116
+rect 52 48 56 51
+rect 236 24 240 211
+rect 475 18 485 22
+rect 200 -32 204 0
+rect 200 -36 228 -32
+rect -12 -51 23 -47
+rect -4 -175 0 -68
+rect 31 -81 35 -74
+rect 224 -144 228 -36
+rect 272 -46 299 -42
+rect 252 -80 256 -72
+rect -4 -179 23 -175
+rect 20 -195 23 -192
+<< metal2 >>
+rect 172 211 236 215
+rect 240 211 300 215
+rect 16 179 52 183
+rect 296 126 300 211
+rect -8 116 32 120
+rect 228 115 256 119
+rect 252 86 256 115
+rect 252 82 299 86
+rect 8 -64 12 25
+rect 220 19 236 24
+rect 160 0 200 4
+rect 220 -15 224 19
+rect 143 -19 224 -15
+rect 0 -68 12 -64
+rect 268 -111 272 -46
+rect 200 -115 272 -111
+rect 287 -144 292 -97
+rect 228 -148 292 -144
+rect 244 -149 292 -148
+rect 244 -172 248 -149
+rect 198 -176 248 -172
+<< m2contact >>
+rect 236 211 240 215
+rect 52 179 56 183
+rect -12 116 -8 120
+rect 32 116 36 120
+rect 224 115 228 119
+rect 8 25 12 29
+rect 299 82 304 86
+rect 236 19 240 24
+rect 200 0 204 4
+rect -4 -68 0 -64
+rect 196 -115 200 -111
+rect 268 -46 272 -42
+rect 224 -148 228 -144
+use TwoToOneMUX  TwoToOneMUX_0
+timestamp 1664037220
+transform 1 0 60 0 1 111
+box -60 -111 168 112
+use TwoToOneMUX  TwoToOneMUX_1
+timestamp 1664037220
+transform 1 0 307 0 1 14
+box -60 -111 168 112
+use WONOTTwoToOneMUX  WONOTTwoToOneMUX_0
+timestamp 1664048427
+transform 1 0 31 0 1 -119
+box -24 -111 168 104
+<< labels >>
+rlabel metal2 18 181 18 181 1 d0
+rlabel metal2 10 10 10 10 1 s0
+rlabel metal1 54 50 54 50 1 d1
+rlabel metal1 22 -193 22 -193 1 d3
+rlabel metal2 290 -128 290 -128 1 gnd
+rlabel metal2 298 213 298 213 1 vdd
+rlabel metal1 254 -78 254 -78 1 s1
+rlabel metal1 482 20 482 20 7 o
+rlabel metal1 33 -77 33 -77 1 d2
+<< end >>

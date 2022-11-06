@@ -1,0 +1,30 @@
+magic
+tech scmos
+timestamp 1664032479
+<< metal1 >>
+rect -4 163 4 167
+rect 32 163 60 167
+rect 56 56 60 163
+rect -4 52 4 56
+rect 32 52 60 56
+<< metal2 >>
+rect -12 215 0 219
+rect -12 8 -8 215
+rect 40 115 44 119
+rect -12 4 0 8
+rect 40 4 41 8
+use transgates  transgates_0
+timestamp 1664028172
+transform 1 0 0 0 1 4
+box 0 -4 40 108
+use transgates  transgates_1
+timestamp 1664028172
+transform 1 0 0 0 1 115
+box 0 -4 40 108
+<< labels >>
+rlabel metal2 42 117 42 117 7 sb
+rlabel metal2 -10 18 -10 18 3 s
+rlabel metal1 0 165 0 165 1 d0
+rlabel metal1 -2 54 -2 54 1 d1
+rlabel metal1 58 122 58 122 7 out
+<< end >>

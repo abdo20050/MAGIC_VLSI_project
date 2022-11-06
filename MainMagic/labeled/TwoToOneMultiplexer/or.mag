@@ -1,0 +1,15 @@
+magic
+tech scmos
+timestamp 1663598260
+<< metal1 >>
+rect 40 44 48 48
+rect 44 28 48 44
+use nor  nor_0
+timestamp 1663597339
+transform 1 0 0 0 1 0
+box 0 0 44 104
+use not  not_0
+timestamp 1663582360
+transform 1 0 36 0 1 0
+box 8 0 40 104
+<< end >>

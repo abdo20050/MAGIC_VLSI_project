@@ -1,0 +1,29 @@
+| units: 100 tech: scmos format: MIT
+p m1_40_44# vdd o 2 4 56 92
+n m1_40_44# gnd o 2 4 56 8
+p a vdd nor_0/a_14_88# 2 4 12 88
+p b nor_0/a_14_88# m1_40_44# 2 4 27 88
+n a m1_40_44# gnd 2 4 12 12
+n b gnd m1_40_44# 2 4 27 12
+R nor_0/a_14_88# 194
+C b GND 26.23
+R b 1086
+= b nor_0/a_20_56#
+C a GND 23.84
+R a 1097
+= a nor_0/a_4_72#
+C gnd GND 8.93
+R gnd 235
+= gnd nor_0/a_14_12#
+= gnd not_0/a_8_8#
+C o GND 15.79
+R o 303
+= o not_0/a_22_8#
+C vdd GND 8.93
+R vdd 510
+= vdd nor_0/a_0_88#
+= vdd not_0/a_8_92#
+C m1_40_44# GND 52.26
+R m1_40_44# 1628
+= m1_40_44# nor_0/a_0_12#
+= m1_40_44# not_0/a_8_28#

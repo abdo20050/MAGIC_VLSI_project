@@ -1,0 +1,23 @@
+timestamp 1664032479
+version 8.3
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+use transgates transgates_1 1 0 0 0 1 115
+use transgates transgates_0 1 0 0 0 1 4
+node "m2_40_4#" 0 76 40 4 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 10 0 0
+node "sb" 0 304 40 115 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "s" 2 17556 -12 4 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 924 470 0 0
+node "d1" 0 1504 -4 52 m1 0 0 0 0 0 0 0 0 0 0 0 0 32 24 0 0 0 0
+node "out" 2 30644 32 52 m1 0 0 0 0 0 0 0 0 0 0 0 0 652 334 0 0 0 0
+node "d0" 0 1504 -4 163 m1 0 0 0 0 0 0 0 0 0 0 0 0 32 24 0 0 0 0
+merge "transgates_1/a_20_12#" "transgates_0/a_20_12#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0
+merge "transgates_0/a_20_12#" "out"
+merge "transgates_1/m2_0_100#" "transgates_0/m2_0_0#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 0 0
+merge "transgates_0/m2_0_0#" "m2_40_4#"
+merge "m2_40_4#" "s"
+merge "transgates_0/a_16_100#" "transgates_1/a_16_n4#" -956 0 0 0 0 -4 -10 0 0 0 0 0 0 0 0 0 0 0 0
+merge "transgates_1/m2_0_0#" "sb" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "transgates_1/a_0_12#" "d0" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "transgates_0/a_0_12#" "d1" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0

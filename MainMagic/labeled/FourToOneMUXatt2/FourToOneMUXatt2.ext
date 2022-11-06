@@ -1,0 +1,52 @@
+timestamp 1664049971
+version 8.3
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+use WONOTTwoToOneMUX WONOTTwoToOneMUX_0 1 0 8 0 1 -108
+use TwoToOneMUX TwoToOneMUX_1 1 0 297 0 1 -14
+use TwoToOneMUX TwoToOneMUX_0 1 0 60 0 1 111
+node "vdd" 4 42256 120 -8 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2256 1136 0 0
+node "d3" 0 423 -3 -184 m1 0 0 0 0 0 0 0 0 0 0 0 0 9 12 0 0 0 0
+node "s1" 0 1504 244 -108 m1 0 0 0 0 0 0 0 0 0 0 0 0 32 24 0 0 0 0
+node "m1_176_n104#" 2 20822 176 -104 m1 0 0 0 0 0 0 0 0 0 0 0 0 346 190 272 144 0 0
+node "d2" 0 1504 0 -72 m1 0 0 0 0 0 0 0 0 0 0 0 0 32 24 0 0 0 0
+node "o" 0 2820 465 -10 m1 0 0 0 0 0 0 0 0 0 0 0 0 60 38 0 0 0 0
+node "gnd" 2 30679 192 -56 v 0 0 0 0 0 0 0 0 0 0 0 0 240 128 1069 510 0 0
+node "s0" 2 19696 -8 -168 v 0 0 0 0 0 0 0 0 0 0 0 0 128 88 800 416 0 0
+node "d1" 0 1316 52 44 m1 0 0 0 0 0 0 0 0 0 0 0 0 28 22 0 0 0 0
+node "m1_228_115#" 2 16485 228 115 m1 0 0 0 0 0 0 0 0 0 0 0 0 299 194 160 88 0 0
+node "m1_n20_n40#" 3 42112 -20 -40 m1 0 0 0 0 0 0 0 0 0 0 0 0 896 456 0 0 0 0
+node "d0" 0 940 52 183 m1 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0 0 0
+cap "gnd" "vdd" 720
+cap "gnd" "m1_176_n104#" 720
+cap "m1_228_115#" "vdd" 720
+cap "m1_n20_n40#" "s0" 720
+cap "s0" "WONOTTwoToOneMUX_0/m2_n24_n111#" 720
+cap "TwoToOneMUX_1/m1_n12_n48#" "m1_176_n104#" 540
+cap "TwoToOneMUX_1/m1_n60_n86#" "m1_176_n104#" 720
+cap "TwoToOneMUX_1/m1_n12_n48#" "TwoToOneMUX_1/m1_n8_n60#" 180
+cap "TwoToOneMUX_1/not_0/a_8_92#" "m1_228_115#" 540
+cap "TwoToOneMUX_1/m1_n20_53#" "m1_228_115#" 180
+cap "m1_n20_n40#" "TwoToOneMUX_0/not_0/a_8_28#" 240
+merge "TwoToOneMUX_0/m1_108_43#" "TwoToOneMUX_1/m1_n20_53#" -18620 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1012 -526 0 0
+merge "TwoToOneMUX_1/m1_n20_53#" "WONOTTwoToOneMUX_0/m1_108_43#"
+merge "WONOTTwoToOneMUX_0/m1_108_43#" "vdd"
+merge "TwoToOneMUX_0/m1_n60_n86#" "WONOTTwoToOneMUX_0/m1_n8_n60#" -10288 0 0 0 0 0 0 0 0 0 0 0 0 -96 -72 -352 -184 0 0
+merge "WONOTTwoToOneMUX_0/m1_n8_n60#" "s0"
+merge "TwoToOneMUX_1/m1_n60_n86#" "s1" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "WONOTTwoToOneMUX_0/m1_n8_32#" "d2" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "TwoToOneMUX_1/m1_159_4#" "o" -2632 0 0 0 0 0 0 0 0 0 0 0 0 -56 -44 0 0 0 0
+merge "TwoToOneMUX_1/m1_n8_n60#" "WONOTTwoToOneMUX_0/m1_159_4#" -6098 0 0 0 0 0 0 0 0 0 0 0 0 -78 -68 -144 -80 0 0
+merge "WONOTTwoToOneMUX_0/m1_159_4#" "m1_176_n104#"
+merge "TwoToOneMUX_0/not_0/a_22_8#" "WONOTTwoToOneMUX_0/m1_n8_68#" -9541 0 0 0 0 0 0 0 0 0 0 0 0 -203 -225 0 0 0 0
+merge "WONOTTwoToOneMUX_0/m1_n8_68#" "m1_n20_n40#"
+merge "TwoToOneMUX_0/m2_72_n111#" "TwoToOneMUX_1/m1_n12_n48#" -3584 0 0 0 0 0 0 0 0 0 0 0 0 -52 -34 -76 -76 0 0
+merge "TwoToOneMUX_1/m1_n12_n48#" "WONOTTwoToOneMUX_0/or_0/not_0/a_8_8#"
+merge "WONOTTwoToOneMUX_0/or_0/not_0/a_8_8#" "gnd"
+merge "WONOTTwoToOneMUX_0/m1_n8_n76#" "d3" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0
+merge "TwoToOneMUX_0/m1_n8_n60#" "d1" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "TwoToOneMUX_0/m1_n8_68#" "d0" -940 0 0 0 0 0 0 0 0 0 0 0 0 -20 -18 0 0 0 0
+merge "TwoToOneMUX_0/m1_159_4#" "TwoToOneMUX_1/m1_n8_68#" -11700 0 0 0 0 0 0 0 0 0 0 0 0 -236 -157 -48 -28 0 0
+merge "TwoToOneMUX_1/m1_n8_68#" "m1_228_115#"

@@ -1,0 +1,12 @@
+timestamp 1663614911
+version 8.3
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+node "gnd" 107 3936 4 8 ndiff 64 40 0 0 0 0 0 0 0 0 0 0 48 32 144 80 0 0
+node "o" 303 15040 22 8 ndiff 56 36 56 36 0 0 0 0 0 0 0 0 352 184 0 0 0 0
+node "vdd" 239 3936 4 92 pdiff 0 0 64 40 0 0 0 0 0 0 0 0 48 32 144 80 0 0
+node "i" 1240 26696 8 28 pc 0 0 0 0 216 216 0 0 0 0 0 0 64 40 0 0 0 0
+device mosfet nfet 20 8 21 9 2 4 "Gnd!" "i" 4 0 "gnd" 4 0 "o" 4 0
+device mosfet pfet 20 92 21 93 2 4 "Vdd!" "i" 4 0 "vdd" 4 0 "o" 4 0

@@ -1,0 +1,16 @@
+| units: 100 tech: scmos format: MIT
+p a vdd a_14_88# 2 4 12 88
+p b a_14_88# o 2 4 27 88
+n a o gnd 2 4 12 12
+n b gnd o 2 4 27 12
+C gnd GND 5.30
+R gnd 87
+C o GND 24.82
+R o 388
+R a_14_88# 194
+C vdd GND 5.30
+R vdd 179
+C b GND 26.23
+R b 1085
+C a GND 23.84
+R a 1097

@@ -1,0 +1,27 @@
+magic
+tech scmos
+timestamp 1663597793
+<< metal1 >>
+rect 0 80 4 84
+rect 0 64 4 68
+rect 40 44 48 48
+rect 68 44 72 48
+rect 44 28 48 44
+<< metal2 >>
+rect 0 100 4 104
+rect 0 0 4 4
+use nor  nor_0
+timestamp 1663597339
+transform 1 0 0 0 1 0
+box 0 0 44 104
+use not  not_0
+timestamp 1663582360
+transform 1 0 36 0 1 0
+box 8 0 40 104
+<< labels >>
+rlabel metal2 2 102 2 102 4 vdd
+rlabel metal1 2 82 2 82 3 a
+rlabel metal1 2 66 2 66 3 b
+rlabel metal2 2 2 2 2 2 gnd
+rlabel metal1 70 46 70 46 1 o
+<< end >>

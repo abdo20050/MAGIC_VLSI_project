@@ -1,0 +1,13 @@
+timestamp 1663595043
+version 8.3
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+use not not_0 1 0 32 0 1 0
+use nand nand_0 1 0 -4 0 1 0
+node "m1_36_28#" 0 1504 36 28 m1 0 0 0 0 0 0 0 0 0 0 0 0 32 24 0 0 0 0
+merge "nand_0/a_4_12#" "not_0/a_8_8#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "nand_0/a_4_88#" "not_0/a_8_92#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "nand_0/a_14_88#" "not_0/a_8_28#" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -24 0 0 0 0
+merge "not_0/a_8_28#" "m1_36_28#"

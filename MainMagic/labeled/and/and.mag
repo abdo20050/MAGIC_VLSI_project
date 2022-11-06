@@ -1,0 +1,26 @@
+magic
+tech scmos
+timestamp 1664040441
+<< metal1 >>
+rect -4 60 0 64
+rect 64 60 68 64
+rect -4 36 0 40
+rect 36 28 44 32
+<< metal2 >>
+rect -4 100 0 104
+rect -4 0 0 4
+use nand  nand_0
+timestamp 1664040408
+transform 1 0 -4 0 1 0
+box 4 0 44 104
+use not  not_0
+timestamp 1663582360
+transform 1 0 32 0 1 0
+box 8 0 40 104
+<< labels >>
+rlabel metal2 -2 102 -2 102 4 vdd
+rlabel metal1 -2 62 -2 62 3 a
+rlabel metal2 -2 2 -2 2 2 gnd
+rlabel metal1 66 62 66 62 1 o
+rlabel metal1 -2 38 -2 38 3 b
+<< end >>
