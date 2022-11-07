@@ -1,0 +1,62 @@
+magic
+tech scmos
+timestamp 1667780743
+<< metal1 >>
+rect 156 52 160 107
+rect 340 104 355 108
+rect 340 52 344 104
+rect 520 52 524 110
+rect 700 52 704 112
+rect 880 104 896 108
+rect 880 52 884 104
+rect 1092 56 1096 108
+rect 1060 52 1096 56
+use trans4to1  trans4to1_0
+timestamp 1667779387
+transform 1 0 56 0 1 8
+box -56 -8 120 64
+use trans4to1  trans4to1_1
+timestamp 1667779387
+transform 1 0 236 0 1 8
+box -56 -8 120 64
+use trans4to1  trans4to1_2
+timestamp 1667779387
+transform 1 0 416 0 1 8
+box -56 -8 120 64
+use trans4to1  trans4to1_3
+timestamp 1667779387
+transform 1 0 596 0 1 8
+box -56 -8 120 64
+use trans4to1  trans4to1_8
+timestamp 1667779387
+transform 1 0 776 0 1 8
+box -56 -8 120 64
+use trans4to1  trans4to1_9
+timestamp 1667779387
+transform 1 0 956 0 1 8
+box -56 -8 120 64
+use xor  xor_0
+timestamp 1663616262
+transform 0 1 652 -1 0 151
+box -36 -8 63 104
+use xor  xor_1
+timestamp 1663616262
+transform 0 1 472 -1 0 150
+box -36 -8 63 104
+use xor  xor_2
+timestamp 1663616262
+transform 0 1 304 -1 0 147
+box -36 -8 63 104
+use xor  xor_3
+timestamp 1663616262
+transform 0 1 108 -1 0 147
+box -36 -8 63 104
+use xor  xor_8
+timestamp 1663616262
+transform 0 1 848 -1 0 147
+box -36 -8 63 104
+use xor  xor_9
+timestamp 1663616262
+transform 0 1 1044 -1 0 148
+box -36 -8 63 104
+<< end >>

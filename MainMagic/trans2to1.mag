@@ -1,0 +1,21 @@
+magic
+tech scmos
+timestamp 1664050318
+<< metal2 >>
+rect -4 40 0 44
+rect 28 40 32 44
+rect 24 20 36 24
+rect -4 0 0 4
+rect 28 0 32 4
+<< m2contact >>
+rect 20 20 24 24
+rect 36 20 40 24
+use tansGate  tansGate_0
+timestamp 1664036889
+transform 1 0 0 0 1 4
+box 0 -4 28 40
+use tansGate  tansGate_1
+timestamp 1664036889
+transform 1 0 32 0 -1 40
+box 0 -4 28 40
+<< end >>

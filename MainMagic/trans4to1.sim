@@ -1,0 +1,71 @@
+| units: 100 tech: scmos format: MIT
+n m1_56_0# m1_n32_20# trans2to1_0/m1_20_20# 2 4 16 12
+p m1_0_0# m1_n32_20# trans2to1_0/m1_20_20# 2 4 16 28
+n m1_0_0# trans2to1_0/m1_20_20# m1_56_20# 2 4 48 31
+p m1_56_0# trans2to1_0/m1_20_20# m1_56_20# 2 4 48 15
+n m2_n16_52# trans2to1_1/tansGate_0/a_4_8# m1_56_20# 2 4 88 39
+p m2_n56_56# trans2to1_1/tansGate_0/a_4_8# m1_56_20# 2 4 104 39
+n m2_n56_56# m1_56_20# trans2to1_1/tansGate_1/a_14_8# 2 4 107 7
+p m2_n16_52# m1_56_20# trans2to1_1/tansGate_1/a_14_8# 2 4 91 7
+n m2_n16_52# trans2to1_2/tansGate_0/a_4_8# m1_n32_20# 2 4 -25 39
+p m2_n56_56# trans2to1_2/tansGate_0/a_4_8# m1_n32_20# 2 4 -41 39
+n m2_n56_56# m1_n32_20# trans2to1_2/tansGate_1/a_14_8# 2 4 -44 7
+p m2_n16_52# m1_n32_20# trans2to1_2/tansGate_1/a_14_8# 2 4 -28 7
+C m2_n56_56# GND 46.13
+R m2_n56_56# 814
+= m2_n56_56# trans2to1_1/m2_n4_40#
+= m2_n56_56# trans2to1_1/tansGate_0/a_12_22#
+= m2_n56_56# trans2to1_1/m2_28_40#
+= m2_n56_56# trans2to1_1/tansGate_1/a_12_0#
+= m2_n56_56# m1_n56_n4#
+= m2_n56_56# trans2to1_2/m2_n4_40#
+= m2_n56_56# trans2to1_2/tansGate_0/a_12_22#
+= m2_n56_56# trans2to1_2/m2_28_40#
+= m2_n56_56# trans2to1_2/tansGate_1/a_12_0#
+C trans2to1_2/tansGate_1/a_14_8# GND 2.26
+R trans2to1_2/tansGate_1/a_14_8# 216
+C m1_n32_20# GND 15.20
+R m1_n32_20# 1019
+= m1_n32_20# trans2to1_0/tansGate_0/a_4_8#
+= m1_n32_20# trans2to1_2/m1_20_20#
+= m1_n32_20# trans2to1_2/tansGate_0/a_14_8#
+= m1_n32_20# trans2to1_2/tansGate_1/a_4_8#
+C m2_n16_52# GND 38.22
+R m2_n16_52# 813
+= m2_n16_52# trans2to1_1/m2_n4_0#
+= m2_n16_52# trans2to1_1/tansGate_0/a_12_0#
+= m2_n16_52# trans2to1_1/m2_28_0#
+= m2_n16_52# trans2to1_1/tansGate_1/a_12_22#
+= m2_n16_52# m1_n16_n4#
+= m2_n16_52# trans2to1_2/m2_n4_0#
+= m2_n16_52# trans2to1_2/tansGate_0/a_12_0#
+= m2_n16_52# trans2to1_2/m2_28_0#
+= m2_n16_52# trans2to1_2/tansGate_1/a_12_22#
+C trans2to1_2/tansGate_0/a_4_8# GND 2.26
+R trans2to1_2/tansGate_0/a_4_8# 173
+C trans2to1_1/tansGate_1/a_14_8# GND 2.26
+R trans2to1_1/tansGate_1/a_14_8# 216
+C m1_56_20# GND 14.90
+R m1_56_20# 1054
+= m1_56_20# trans2to1_0/tansGate_1/a_14_8#
+= m1_56_20# trans2to1_1/m1_20_20#
+= m1_56_20# trans2to1_1/tansGate_0/a_14_8#
+= m1_56_20# trans2to1_1/tansGate_1/a_4_8#
+C trans2to1_1/tansGate_0/a_4_8# GND 2.26
+R trans2to1_1/tansGate_0/a_4_8# 173
+C m1_0_0# GND 20.15
+R m1_0_0# 382
+= m1_0_0# trans2to1_0/m2_n4_40#
+= m1_0_0# trans2to1_0/tansGate_0/a_12_22#
+= m1_0_0# trans2to1_0/m2_28_40#
+= m1_0_0# trans2to1_0/tansGate_1/a_12_0#
+C trans2to1_0/m1_20_20# GND 5.42
+R trans2to1_0/m1_20_20# 626
+= trans2to1_0/m1_20_20# trans2to1_0/tansGate_0/a_14_8#
+= trans2to1_0/m1_20_20# trans2to1_0/tansGate_1/a_4_8#
+C m1_56_0# GND 16.07
+R m1_56_0# 381
+= m1_56_0# trans2to1_0/m2_n4_0#
+= m1_56_0# trans2to1_0/tansGate_0/a_12_0#
+= m1_56_0# trans2to1_0/m2_28_0#
+= m1_56_0# trans2to1_0/tansGate_1/a_12_22#

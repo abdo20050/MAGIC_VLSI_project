@@ -1,0 +1,21 @@
+timestamp 1664050318
+version 8.3
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+use tansGate tansGate_1 1 0 32 0 -1 40
+use tansGate tansGate_0 1 0 0 0 1 4
+node "m2_28_0#" 0 304 28 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "m2_n4_0#" 0 304 -4 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "m2_28_40#" 0 304 28 40 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "m2_n4_40#" 0 304 -4 40 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "m1_20_20#" 0 2416 20 20 v 0 0 0 0 0 0 0 0 0 0 0 0 32 32 80 48 0 0
+merge "tansGate_0/a_14_8#" "tansGate_1/a_4_8#" -1504 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0 0 0
+merge "tansGate_1/a_4_8#" "m1_20_20#"
+merge "tansGate_0/a_12_22#" "m2_n4_40#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 0 0
+merge "m2_n4_40#" "tansGate_1/a_12_0#"
+merge "tansGate_1/a_12_0#" "m2_28_40#"
+merge "tansGate_0/a_12_0#" "m2_n4_0#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 0 0
+merge "m2_n4_0#" "tansGate_1/a_12_22#"
+merge "tansGate_1/a_12_22#" "m2_28_0#"
