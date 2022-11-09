@@ -1,0 +1,3033 @@
+| units: 100 tech: scmos format: MIT
+p m1_380_56# vdd ZeroDetection_0/m1_85_64# 2 4 2347 891
+n m1_380_56# gnd ZeroDetection_0/m1_85_64# 2 4 2431 891
+p ZeroDetection_0/m1_174_40# vdd ZeroDetection_0/m1_217_76# 2 4 2347 759
+n ZeroDetection_0/m1_174_40# gnd ZeroDetection_0/m1_217_76# 2 4 2431 759
+p m1_740_55# vdd ZeroDetection_0/m1_311_36# 2 4 2347 665
+n m1_740_55# gnd ZeroDetection_0/m1_311_36# 2 4 2431 665
+p m1_n400_548# vdd ZeroDetection_0/nor_0/a_14_88# 2 4 2351 953
+p m1_116_540# ZeroDetection_0/nor_0/a_14_88# ZeroDetection_0/m1_39_44# 2 4 2351 938
+n m1_n400_548# ZeroDetection_0/m1_39_44# gnd 2 4 2427 953
+n m1_116_540# gnd ZeroDetection_0/m1_39_44# 2 4 2427 938
+p ZeroDetection_0/m1_390_44# vdd ZeroDetection_0/m1_428_76# 2 4 2347 548
+n ZeroDetection_0/m1_390_44# gnd ZeroDetection_0/m1_428_76# 2 4 2431 548
+p ZeroDetection_0/m1_217_76# vdd ZeroDetection_0/nor_1/a_14_88# 2 4 2351 718
+p m1_560_56# ZeroDetection_0/nor_1/a_14_88# ZeroDetection_0/m1_270_64# 2 4 2351 703
+n ZeroDetection_0/m1_217_76# ZeroDetection_0/m1_270_64# gnd 2 4 2427 718
+n m1_560_56# gnd ZeroDetection_0/m1_270_64# 2 4 2427 703
+p ZeroDetection_0/m1_428_76# vdd ZeroDetection_0/nor_2/a_14_88# 2 4 2351 511
+p m1_920_56# ZeroDetection_0/nor_2/a_14_88# m1_2304_n752# 2 4 2351 496
+n ZeroDetection_0/m1_428_76# m1_2304_n752# gnd 2 4 2427 511
+n m1_920_56# gnd m1_2304_n752# 2 4 2427 496
+p ZeroDetection_0/and_0/m1_36_28# vdd ZeroDetection_0/m1_174_40# 2 4 2347 802
+n ZeroDetection_0/and_0/m1_36_28# gnd ZeroDetection_0/m1_174_40# 2 4 2431 802
+p ZeroDetection_0/m1_85_64# vdd ZeroDetection_0/and_0/m1_36_28# 2 4 2351 846
+n ZeroDetection_0/m1_85_64# gnd ZeroDetection_0/and_0/nand_0/a_14_12# 2 4 2427 846
+p ZeroDetection_0/m1_39_44# ZeroDetection_0/and_0/m1_36_28# vdd 2 4 2351 834
+n ZeroDetection_0/m1_39_44# ZeroDetection_0/and_0/nand_0/a_14_12# ZeroDetection_0/and_0/m1_36_28# 2 4 2427 834
+p ZeroDetection_0/and_1/m1_36_28# vdd ZeroDetection_0/m1_390_44# 2 4 2347 586
+n ZeroDetection_0/and_1/m1_36_28# gnd ZeroDetection_0/m1_390_44# 2 4 2431 586
+p ZeroDetection_0/m1_270_64# vdd ZeroDetection_0/and_1/m1_36_28# 2 4 2351 630
+n ZeroDetection_0/m1_270_64# gnd ZeroDetection_0/and_1/nand_0/a_14_12# 2 4 2427 630
+p ZeroDetection_0/m1_311_36# ZeroDetection_0/and_1/m1_36_28# vdd 2 4 2351 618
+n ZeroDetection_0/m1_311_36# ZeroDetection_0/and_1/nand_0/a_14_12# ZeroDetection_0/and_1/m1_36_28# 2 4 2427 618
+p m1_688_n148# vdd ZeroDetection_1/m1_85_64# 2 4 2347 -258
+n m1_688_n148# gnd ZeroDetection_1/m1_85_64# 2 4 2431 -258
+p ZeroDetection_1/m1_174_40# vdd ZeroDetection_1/m1_217_76# 2 4 2347 -390
+n ZeroDetection_1/m1_174_40# gnd ZeroDetection_1/m1_217_76# 2 4 2431 -390
+p m1_92_n433# vdd ZeroDetection_1/m1_311_36# 2 4 2347 -484
+n m1_92_n433# gnd ZeroDetection_1/m1_311_36# 2 4 2431 -484
+p m1_1052_n124# vdd ZeroDetection_1/nor_0/a_14_88# 2 4 2351 -196
+p m1_872_n136# ZeroDetection_1/nor_0/a_14_88# ZeroDetection_1/m1_39_44# 2 4 2351 -211
+n m1_1052_n124# ZeroDetection_1/m1_39_44# gnd 2 4 2427 -196
+n m1_872_n136# gnd ZeroDetection_1/m1_39_44# 2 4 2427 -211
+p ZeroDetection_1/m1_390_44# vdd ZeroDetection_1/m1_428_76# 2 4 2347 -601
+n ZeroDetection_1/m1_390_44# gnd ZeroDetection_1/m1_428_76# 2 4 2431 -601
+p ZeroDetection_1/m1_217_76# vdd ZeroDetection_1/nor_1/a_14_88# 2 4 2351 -431
+p m1_512_n160# ZeroDetection_1/nor_1/a_14_88# ZeroDetection_1/m1_270_64# 2 4 2351 -446
+n ZeroDetection_1/m1_217_76# ZeroDetection_1/m1_270_64# gnd 2 4 2427 -431
+n m1_512_n160# gnd ZeroDetection_1/m1_270_64# 2 4 2427 -446
+p ZeroDetection_1/m1_428_76# vdd ZeroDetection_1/nor_2/a_14_88# 2 4 2351 -638
+p m1_n408_n433# ZeroDetection_1/nor_2/a_14_88# m1_2380_n672# 2 4 2351 -653
+n ZeroDetection_1/m1_428_76# m1_2380_n672# gnd 2 4 2427 -638
+n m1_n408_n433# gnd m1_2380_n672# 2 4 2427 -653
+p ZeroDetection_1/and_0/m1_36_28# vdd ZeroDetection_1/m1_174_40# 2 4 2347 -347
+n ZeroDetection_1/and_0/m1_36_28# gnd ZeroDetection_1/m1_174_40# 2 4 2431 -347
+p ZeroDetection_1/m1_85_64# vdd ZeroDetection_1/and_0/m1_36_28# 2 4 2351 -303
+n ZeroDetection_1/m1_85_64# gnd ZeroDetection_1/and_0/nand_0/a_14_12# 2 4 2427 -303
+p ZeroDetection_1/m1_39_44# ZeroDetection_1/and_0/m1_36_28# vdd 2 4 2351 -315
+n ZeroDetection_1/m1_39_44# ZeroDetection_1/and_0/nand_0/a_14_12# ZeroDetection_1/and_0/m1_36_28# 2 4 2427 -315
+p ZeroDetection_1/and_1/m1_36_28# vdd ZeroDetection_1/m1_390_44# 2 4 2347 -563
+n ZeroDetection_1/and_1/m1_36_28# gnd ZeroDetection_1/m1_390_44# 2 4 2431 -563
+p ZeroDetection_1/m1_270_64# vdd ZeroDetection_1/and_1/m1_36_28# 2 4 2351 -519
+n ZeroDetection_1/m1_270_64# gnd ZeroDetection_1/and_1/nand_0/a_14_12# 2 4 2427 -519
+p ZeroDetection_1/m1_311_36# ZeroDetection_1/and_1/m1_36_28# vdd 2 4 2351 -531
+n ZeroDetection_1/m1_311_36# ZeroDetection_1/and_1/nand_0/a_14_12# ZeroDetection_1/and_1/m1_36_28# 2 4 2427 -531
+p or_0/m1_40_44# vdd m1_2376_n752# 2 4 2347 -729
+n or_0/m1_40_44# gnd m1_2376_n752# 2 4 2431 -729
+p a_2348_n167# vdd or_0/nor_0/a_14_88# 2 4 2351 -685
+p m1_2380_n672# or_0/nor_0/a_14_88# or_0/m1_40_44# 2 4 2351 -700
+n a_2348_n167# or_0/m1_40_44# gnd 2 4 2427 -685
+n m1_2380_n672# gnd or_0/m1_40_44# 2 4 2427 -700
+p or_1/m1_40_44# vdd m1_920_n112# 2 4 2347 -809
+n or_1/m1_40_44# gnd m1_920_n112# 2 4 2431 -809
+p m1_2304_n752# vdd or_1/nor_0/a_14_88# 2 4 2351 -765
+p m1_2376_n752# or_1/nor_0/a_14_88# or_1/m1_40_44# 2 4 2351 -780
+n m1_2304_n752# or_1/m1_40_44# gnd 2 4 2427 -765
+n m1_2376_n752# gnd or_1/m1_40_44# 2 4 2427 -780
+p CRA6B_0/FullAdder_0/or_0/m1_40_44# vdd CRA6B_0/m1_n200_n12# 2 4 2071 -288
+n CRA6B_0/FullAdder_0/or_0/m1_40_44# gnd CRA6B_0/m1_n200_n12# 2 4 2071 -372
+p CRA6B_0/FullAdder_0/m1_240_80# vdd CRA6B_0/FullAdder_0/or_0/nor_0/a_14_88# 2 4 2027 -292
+p CRA6B_0/FullAdder_0/m1_60_n52# CRA6B_0/FullAdder_0/or_0/nor_0/a_14_88# CRA6B_0/FullAdder_0/or_0/m1_40_44# 2 4 2042 -292
+n CRA6B_0/FullAdder_0/m1_240_80# CRA6B_0/FullAdder_0/or_0/m1_40_44# gnd 2 4 2027 -368
+n CRA6B_0/FullAdder_0/m1_60_n52# gnd CRA6B_0/FullAdder_0/or_0/m1_40_44# 2 4 2042 -368
+p CRA6B_0/FullAdder_0/and_0/m1_36_28# vdd CRA6B_0/FullAdder_0/m1_60_n52# 2 4 1744 -396
+n CRA6B_0/FullAdder_0/and_0/m1_36_28# gnd CRA6B_0/FullAdder_0/m1_60_n52# 2 4 1744 -480
+p a0 vdd CRA6B_0/FullAdder_0/and_0/m1_36_28# 2 4 1700 -400
+n a0 gnd CRA6B_0/FullAdder_0/and_0/nand_0/a_14_12# 2 4 1700 -476
+p b0 CRA6B_0/FullAdder_0/and_0/m1_36_28# vdd 2 4 1712 -400
+n b0 CRA6B_0/FullAdder_0/and_0/nand_0/a_14_12# CRA6B_0/FullAdder_0/and_0/m1_36_28# 2 4 1712 -476
+p CRA6B_0/FullAdder_0/and_1/m1_36_28# vdd CRA6B_0/FullAdder_0/m1_240_80# 2 4 1924 -280
+n CRA6B_0/FullAdder_0/and_1/m1_36_28# gnd CRA6B_0/FullAdder_0/m1_240_80# 2 4 1924 -364
+p CRA6B_0/FullAdder_0/m1_108_80# vdd CRA6B_0/FullAdder_0/and_1/m1_36_28# 2 4 1880 -284
+n CRA6B_0/FullAdder_0/m1_108_80# gnd CRA6B_0/FullAdder_0/and_1/nand_0/a_14_12# 2 4 1880 -360
+p Cin CRA6B_0/FullAdder_0/and_1/m1_36_28# vdd 2 4 1892 -284
+n Cin CRA6B_0/FullAdder_0/and_1/nand_0/a_14_12# CRA6B_0/FullAdder_0/and_1/m1_36_28# 2 4 1892 -360
+p b0 vdd CRA6B_0/FullAdder_0/EXC_0/m1_n12_72# 2 4 1704 -280
+n b0 gnd CRA6B_0/FullAdder_0/EXC_0/m1_n12_72# 2 4 1704 -364
+p CRA6B_0/FullAdder_0/EXC_0/m1_n12_72# vdd CRA6B_0/FullAdder_0/EXC_0/xor_0/a_18_88# 2 4 1776 -284
+n CRA6B_0/FullAdder_0/EXC_0/m1_n12_72# CRA6B_0/FullAdder_0/EXC_0/xor_0/a_n36_12# gnd 2 4 1776 -360
+p b0 CRA6B_0/FullAdder_0/EXC_0/xor_0/a_n12_88# vdd 2 4 1760 -284
+p a0 CRA6B_0/FullAdder_0/EXC_0/xor_0/a_18_88# CRA6B_0/FullAdder_0/m1_108_80# 2 4 1792 -284
+n b0 CRA6B_0/FullAdder_0/m1_108_80# CRA6B_0/FullAdder_0/EXC_0/xor_0/a_n36_12# 2 4 1760 -360
+n a0 gnd CRA6B_0/FullAdder_0/EXC_0/xor_0/a_n36_12# 2 4 1792 -360
+p CRA6B_0/FullAdder_0/EXC_0/m1_0_36# CRA6B_0/FullAdder_0/m1_108_80# CRA6B_0/FullAdder_0/EXC_0/xor_0/a_n12_88# 2 4 1747 -284
+n CRA6B_0/FullAdder_0/EXC_0/m1_0_36# CRA6B_0/FullAdder_0/EXC_0/xor_0/a_n36_12# CRA6B_0/FullAdder_0/m1_108_80# 2 4 1747 -360
+p a0 vdd CRA6B_0/FullAdder_0/EXC_0/m1_0_36# 2 4 1833 -280
+n a0 gnd CRA6B_0/FullAdder_0/EXC_0/m1_0_36# 2 4 1833 -364
+p Cin vdd CRA6B_0/FullAdder_0/EXC_1/m1_n12_72# 2 4 1872 -408
+n Cin gnd CRA6B_0/FullAdder_0/EXC_1/m1_n12_72# 2 4 1872 -492
+p CRA6B_0/FullAdder_0/EXC_1/m1_n12_72# vdd CRA6B_0/FullAdder_0/EXC_1/xor_0/a_18_88# 2 4 1944 -412
+n CRA6B_0/FullAdder_0/EXC_1/m1_n12_72# CRA6B_0/FullAdder_0/EXC_1/xor_0/a_n36_12# gnd 2 4 1944 -488
+p Cin CRA6B_0/FullAdder_0/EXC_1/xor_0/a_n12_88# vdd 2 4 1928 -412
+p CRA6B_0/FullAdder_0/m1_108_80# CRA6B_0/FullAdder_0/EXC_1/xor_0/a_18_88# m1_1052_n124# 2 4 1960 -412
+n Cin m1_1052_n124# CRA6B_0/FullAdder_0/EXC_1/xor_0/a_n36_12# 2 4 1928 -488
+n CRA6B_0/FullAdder_0/m1_108_80# gnd CRA6B_0/FullAdder_0/EXC_1/xor_0/a_n36_12# 2 4 1960 -488
+p CRA6B_0/FullAdder_0/EXC_1/m1_0_36# m1_1052_n124# CRA6B_0/FullAdder_0/EXC_1/xor_0/a_n12_88# 2 4 1915 -412
+n CRA6B_0/FullAdder_0/EXC_1/m1_0_36# CRA6B_0/FullAdder_0/EXC_1/xor_0/a_n36_12# m1_1052_n124# 2 4 1915 -488
+p CRA6B_0/FullAdder_0/m1_108_80# vdd CRA6B_0/FullAdder_0/EXC_1/m1_0_36# 2 4 2001 -408
+n CRA6B_0/FullAdder_0/m1_108_80# gnd CRA6B_0/FullAdder_0/EXC_1/m1_0_36# 2 4 2001 -492
+p CRA6B_0/FullAdder_1/or_0/m1_40_44# vdd CRA6B_0/m1_n688_n24# 2 4 1616 -289
+n CRA6B_0/FullAdder_1/or_0/m1_40_44# gnd CRA6B_0/m1_n688_n24# 2 4 1616 -373
+p CRA6B_0/FullAdder_1/m1_240_80# vdd CRA6B_0/FullAdder_1/or_0/nor_0/a_14_88# 2 4 1572 -293
+p CRA6B_0/FullAdder_1/m1_60_n52# CRA6B_0/FullAdder_1/or_0/nor_0/a_14_88# CRA6B_0/FullAdder_1/or_0/m1_40_44# 2 4 1587 -293
+n CRA6B_0/FullAdder_1/m1_240_80# CRA6B_0/FullAdder_1/or_0/m1_40_44# gnd 2 4 1572 -369
+n CRA6B_0/FullAdder_1/m1_60_n52# gnd CRA6B_0/FullAdder_1/or_0/m1_40_44# 2 4 1587 -369
+p CRA6B_0/FullAdder_1/and_0/m1_36_28# vdd CRA6B_0/FullAdder_1/m1_60_n52# 2 4 1289 -397
+n CRA6B_0/FullAdder_1/and_0/m1_36_28# gnd CRA6B_0/FullAdder_1/m1_60_n52# 2 4 1289 -481
+p a1 vdd CRA6B_0/FullAdder_1/and_0/m1_36_28# 2 4 1245 -401
+n a1 gnd CRA6B_0/FullAdder_1/and_0/nand_0/a_14_12# 2 4 1245 -477
+p b1 CRA6B_0/FullAdder_1/and_0/m1_36_28# vdd 2 4 1257 -401
+n b1 CRA6B_0/FullAdder_1/and_0/nand_0/a_14_12# CRA6B_0/FullAdder_1/and_0/m1_36_28# 2 4 1257 -477
+p CRA6B_0/FullAdder_1/and_1/m1_36_28# vdd CRA6B_0/FullAdder_1/m1_240_80# 2 4 1469 -281
+n CRA6B_0/FullAdder_1/and_1/m1_36_28# gnd CRA6B_0/FullAdder_1/m1_240_80# 2 4 1469 -365
+p CRA6B_0/FullAdder_1/m1_108_80# vdd CRA6B_0/FullAdder_1/and_1/m1_36_28# 2 4 1425 -285
+n CRA6B_0/FullAdder_1/m1_108_80# gnd CRA6B_0/FullAdder_1/and_1/nand_0/a_14_12# 2 4 1425 -361
+p CRA6B_0/m1_n200_n12# CRA6B_0/FullAdder_1/and_1/m1_36_28# vdd 2 4 1437 -285
+n CRA6B_0/m1_n200_n12# CRA6B_0/FullAdder_1/and_1/nand_0/a_14_12# CRA6B_0/FullAdder_1/and_1/m1_36_28# 2 4 1437 -361
+p b1 vdd CRA6B_0/FullAdder_1/EXC_0/m1_n12_72# 2 4 1249 -281
+n b1 gnd CRA6B_0/FullAdder_1/EXC_0/m1_n12_72# 2 4 1249 -365
+p CRA6B_0/FullAdder_1/EXC_0/m1_n12_72# vdd CRA6B_0/FullAdder_1/EXC_0/xor_0/a_18_88# 2 4 1321 -285
+n CRA6B_0/FullAdder_1/EXC_0/m1_n12_72# CRA6B_0/FullAdder_1/EXC_0/xor_0/a_n36_12# gnd 2 4 1321 -361
+p b1 CRA6B_0/FullAdder_1/EXC_0/xor_0/a_n12_88# vdd 2 4 1305 -285
+p a1 CRA6B_0/FullAdder_1/EXC_0/xor_0/a_18_88# CRA6B_0/FullAdder_1/m1_108_80# 2 4 1337 -285
+n b1 CRA6B_0/FullAdder_1/m1_108_80# CRA6B_0/FullAdder_1/EXC_0/xor_0/a_n36_12# 2 4 1305 -361
+n a1 gnd CRA6B_0/FullAdder_1/EXC_0/xor_0/a_n36_12# 2 4 1337 -361
+p CRA6B_0/FullAdder_1/EXC_0/m1_0_36# CRA6B_0/FullAdder_1/m1_108_80# CRA6B_0/FullAdder_1/EXC_0/xor_0/a_n12_88# 2 4 1292 -285
+n CRA6B_0/FullAdder_1/EXC_0/m1_0_36# CRA6B_0/FullAdder_1/EXC_0/xor_0/a_n36_12# CRA6B_0/FullAdder_1/m1_108_80# 2 4 1292 -361
+p a1 vdd CRA6B_0/FullAdder_1/EXC_0/m1_0_36# 2 4 1378 -281
+n a1 gnd CRA6B_0/FullAdder_1/EXC_0/m1_0_36# 2 4 1378 -365
+p CRA6B_0/m1_n200_n12# vdd CRA6B_0/FullAdder_1/EXC_1/m1_n12_72# 2 4 1417 -409
+n CRA6B_0/m1_n200_n12# gnd CRA6B_0/FullAdder_1/EXC_1/m1_n12_72# 2 4 1417 -493
+p CRA6B_0/FullAdder_1/EXC_1/m1_n12_72# vdd CRA6B_0/FullAdder_1/EXC_1/xor_0/a_18_88# 2 4 1489 -413
+n CRA6B_0/FullAdder_1/EXC_1/m1_n12_72# CRA6B_0/FullAdder_1/EXC_1/xor_0/a_n36_12# gnd 2 4 1489 -489
+p CRA6B_0/m1_n200_n12# CRA6B_0/FullAdder_1/EXC_1/xor_0/a_n12_88# vdd 2 4 1473 -413
+p CRA6B_0/FullAdder_1/m1_108_80# CRA6B_0/FullAdder_1/EXC_1/xor_0/a_18_88# m1_872_n136# 2 4 1505 -413
+n CRA6B_0/m1_n200_n12# m1_872_n136# CRA6B_0/FullAdder_1/EXC_1/xor_0/a_n36_12# 2 4 1473 -489
+n CRA6B_0/FullAdder_1/m1_108_80# gnd CRA6B_0/FullAdder_1/EXC_1/xor_0/a_n36_12# 2 4 1505 -489
+p CRA6B_0/FullAdder_1/EXC_1/m1_0_36# m1_872_n136# CRA6B_0/FullAdder_1/EXC_1/xor_0/a_n12_88# 2 4 1460 -413
+n CRA6B_0/FullAdder_1/EXC_1/m1_0_36# CRA6B_0/FullAdder_1/EXC_1/xor_0/a_n36_12# m1_872_n136# 2 4 1460 -489
+p CRA6B_0/FullAdder_1/m1_108_80# vdd CRA6B_0/FullAdder_1/EXC_1/m1_0_36# 2 4 1546 -409
+n CRA6B_0/FullAdder_1/m1_108_80# gnd CRA6B_0/FullAdder_1/EXC_1/m1_0_36# 2 4 1546 -493
+p CRA6B_0/FullAdder_2/or_0/m1_40_44# vdd CRA6B_0/m1_n1220_n32# 2 4 1132 -289
+n CRA6B_0/FullAdder_2/or_0/m1_40_44# gnd CRA6B_0/m1_n1220_n32# 2 4 1132 -373
+p CRA6B_0/FullAdder_2/m1_240_80# vdd CRA6B_0/FullAdder_2/or_0/nor_0/a_14_88# 2 4 1088 -293
+p CRA6B_0/FullAdder_2/m1_60_n52# CRA6B_0/FullAdder_2/or_0/nor_0/a_14_88# CRA6B_0/FullAdder_2/or_0/m1_40_44# 2 4 1103 -293
+n CRA6B_0/FullAdder_2/m1_240_80# CRA6B_0/FullAdder_2/or_0/m1_40_44# gnd 2 4 1088 -369
+n CRA6B_0/FullAdder_2/m1_60_n52# gnd CRA6B_0/FullAdder_2/or_0/m1_40_44# 2 4 1103 -369
+p CRA6B_0/FullAdder_2/and_0/m1_36_28# vdd CRA6B_0/FullAdder_2/m1_60_n52# 2 4 805 -397
+n CRA6B_0/FullAdder_2/and_0/m1_36_28# gnd CRA6B_0/FullAdder_2/m1_60_n52# 2 4 805 -481
+p a2 vdd CRA6B_0/FullAdder_2/and_0/m1_36_28# 2 4 761 -401
+n a2 gnd CRA6B_0/FullAdder_2/and_0/nand_0/a_14_12# 2 4 761 -477
+p b2 CRA6B_0/FullAdder_2/and_0/m1_36_28# vdd 2 4 773 -401
+n b2 CRA6B_0/FullAdder_2/and_0/nand_0/a_14_12# CRA6B_0/FullAdder_2/and_0/m1_36_28# 2 4 773 -477
+p CRA6B_0/FullAdder_2/and_1/m1_36_28# vdd CRA6B_0/FullAdder_2/m1_240_80# 2 4 985 -281
+n CRA6B_0/FullAdder_2/and_1/m1_36_28# gnd CRA6B_0/FullAdder_2/m1_240_80# 2 4 985 -365
+p CRA6B_0/FullAdder_2/m1_108_80# vdd CRA6B_0/FullAdder_2/and_1/m1_36_28# 2 4 941 -285
+n CRA6B_0/FullAdder_2/m1_108_80# gnd CRA6B_0/FullAdder_2/and_1/nand_0/a_14_12# 2 4 941 -361
+p CRA6B_0/m1_n688_n24# CRA6B_0/FullAdder_2/and_1/m1_36_28# vdd 2 4 953 -285
+n CRA6B_0/m1_n688_n24# CRA6B_0/FullAdder_2/and_1/nand_0/a_14_12# CRA6B_0/FullAdder_2/and_1/m1_36_28# 2 4 953 -361
+p b2 vdd CRA6B_0/FullAdder_2/EXC_0/m1_n12_72# 2 4 765 -281
+n b2 gnd CRA6B_0/FullAdder_2/EXC_0/m1_n12_72# 2 4 765 -365
+p CRA6B_0/FullAdder_2/EXC_0/m1_n12_72# vdd CRA6B_0/FullAdder_2/EXC_0/xor_0/a_18_88# 2 4 837 -285
+n CRA6B_0/FullAdder_2/EXC_0/m1_n12_72# CRA6B_0/FullAdder_2/EXC_0/xor_0/a_n36_12# gnd 2 4 837 -361
+p b2 CRA6B_0/FullAdder_2/EXC_0/xor_0/a_n12_88# vdd 2 4 821 -285
+p a2 CRA6B_0/FullAdder_2/EXC_0/xor_0/a_18_88# CRA6B_0/FullAdder_2/m1_108_80# 2 4 853 -285
+n b2 CRA6B_0/FullAdder_2/m1_108_80# CRA6B_0/FullAdder_2/EXC_0/xor_0/a_n36_12# 2 4 821 -361
+n a2 gnd CRA6B_0/FullAdder_2/EXC_0/xor_0/a_n36_12# 2 4 853 -361
+p CRA6B_0/FullAdder_2/EXC_0/m1_0_36# CRA6B_0/FullAdder_2/m1_108_80# CRA6B_0/FullAdder_2/EXC_0/xor_0/a_n12_88# 2 4 808 -285
+n CRA6B_0/FullAdder_2/EXC_0/m1_0_36# CRA6B_0/FullAdder_2/EXC_0/xor_0/a_n36_12# CRA6B_0/FullAdder_2/m1_108_80# 2 4 808 -361
+p a2 vdd CRA6B_0/FullAdder_2/EXC_0/m1_0_36# 2 4 894 -281
+n a2 gnd CRA6B_0/FullAdder_2/EXC_0/m1_0_36# 2 4 894 -365
+p CRA6B_0/m1_n688_n24# vdd CRA6B_0/FullAdder_2/EXC_1/m1_n12_72# 2 4 933 -409
+n CRA6B_0/m1_n688_n24# gnd CRA6B_0/FullAdder_2/EXC_1/m1_n12_72# 2 4 933 -493
+p CRA6B_0/FullAdder_2/EXC_1/m1_n12_72# vdd CRA6B_0/FullAdder_2/EXC_1/xor_0/a_18_88# 2 4 1005 -413
+n CRA6B_0/FullAdder_2/EXC_1/m1_n12_72# CRA6B_0/FullAdder_2/EXC_1/xor_0/a_n36_12# gnd 2 4 1005 -489
+p CRA6B_0/m1_n688_n24# CRA6B_0/FullAdder_2/EXC_1/xor_0/a_n12_88# vdd 2 4 989 -413
+p CRA6B_0/FullAdder_2/m1_108_80# CRA6B_0/FullAdder_2/EXC_1/xor_0/a_18_88# m1_688_n148# 2 4 1021 -413
+n CRA6B_0/m1_n688_n24# m1_688_n148# CRA6B_0/FullAdder_2/EXC_1/xor_0/a_n36_12# 2 4 989 -489
+n CRA6B_0/FullAdder_2/m1_108_80# gnd CRA6B_0/FullAdder_2/EXC_1/xor_0/a_n36_12# 2 4 1021 -489
+p CRA6B_0/FullAdder_2/EXC_1/m1_0_36# m1_688_n148# CRA6B_0/FullAdder_2/EXC_1/xor_0/a_n12_88# 2 4 976 -413
+n CRA6B_0/FullAdder_2/EXC_1/m1_0_36# CRA6B_0/FullAdder_2/EXC_1/xor_0/a_n36_12# m1_688_n148# 2 4 976 -489
+p CRA6B_0/FullAdder_2/m1_108_80# vdd CRA6B_0/FullAdder_2/EXC_1/m1_0_36# 2 4 1062 -409
+n CRA6B_0/FullAdder_2/m1_108_80# gnd CRA6B_0/FullAdder_2/EXC_1/m1_0_36# 2 4 1062 -493
+p CRA6B_0/FullAdder_3/or_0/m1_40_44# vdd CRA6B_0/m1_n1776_n8# 2 4 606 -289
+n CRA6B_0/FullAdder_3/or_0/m1_40_44# gnd CRA6B_0/m1_n1776_n8# 2 4 606 -373
+p CRA6B_0/FullAdder_3/m1_240_80# vdd CRA6B_0/FullAdder_3/or_0/nor_0/a_14_88# 2 4 562 -293
+p CRA6B_0/FullAdder_3/m1_60_n52# CRA6B_0/FullAdder_3/or_0/nor_0/a_14_88# CRA6B_0/FullAdder_3/or_0/m1_40_44# 2 4 577 -293
+n CRA6B_0/FullAdder_3/m1_240_80# CRA6B_0/FullAdder_3/or_0/m1_40_44# gnd 2 4 562 -369
+n CRA6B_0/FullAdder_3/m1_60_n52# gnd CRA6B_0/FullAdder_3/or_0/m1_40_44# 2 4 577 -369
+p CRA6B_0/FullAdder_3/and_0/m1_36_28# vdd CRA6B_0/FullAdder_3/m1_60_n52# 2 4 279 -397
+n CRA6B_0/FullAdder_3/and_0/m1_36_28# gnd CRA6B_0/FullAdder_3/m1_60_n52# 2 4 279 -481
+p a3 vdd CRA6B_0/FullAdder_3/and_0/m1_36_28# 2 4 235 -401
+n a3 gnd CRA6B_0/FullAdder_3/and_0/nand_0/a_14_12# 2 4 235 -477
+p b3 CRA6B_0/FullAdder_3/and_0/m1_36_28# vdd 2 4 247 -401
+n b3 CRA6B_0/FullAdder_3/and_0/nand_0/a_14_12# CRA6B_0/FullAdder_3/and_0/m1_36_28# 2 4 247 -477
+p CRA6B_0/FullAdder_3/and_1/m1_36_28# vdd CRA6B_0/FullAdder_3/m1_240_80# 2 4 459 -281
+n CRA6B_0/FullAdder_3/and_1/m1_36_28# gnd CRA6B_0/FullAdder_3/m1_240_80# 2 4 459 -365
+p CRA6B_0/FullAdder_3/m1_108_80# vdd CRA6B_0/FullAdder_3/and_1/m1_36_28# 2 4 415 -285
+n CRA6B_0/FullAdder_3/m1_108_80# gnd CRA6B_0/FullAdder_3/and_1/nand_0/a_14_12# 2 4 415 -361
+p CRA6B_0/m1_n1220_n32# CRA6B_0/FullAdder_3/and_1/m1_36_28# vdd 2 4 427 -285
+n CRA6B_0/m1_n1220_n32# CRA6B_0/FullAdder_3/and_1/nand_0/a_14_12# CRA6B_0/FullAdder_3/and_1/m1_36_28# 2 4 427 -361
+p b3 vdd CRA6B_0/FullAdder_3/EXC_0/m1_n12_72# 2 4 239 -281
+n b3 gnd CRA6B_0/FullAdder_3/EXC_0/m1_n12_72# 2 4 239 -365
+p CRA6B_0/FullAdder_3/EXC_0/m1_n12_72# vdd CRA6B_0/FullAdder_3/EXC_0/xor_0/a_18_88# 2 4 311 -285
+n CRA6B_0/FullAdder_3/EXC_0/m1_n12_72# CRA6B_0/FullAdder_3/EXC_0/xor_0/a_n36_12# gnd 2 4 311 -361
+p b3 CRA6B_0/FullAdder_3/EXC_0/xor_0/a_n12_88# vdd 2 4 295 -285
+p a3 CRA6B_0/FullAdder_3/EXC_0/xor_0/a_18_88# CRA6B_0/FullAdder_3/m1_108_80# 2 4 327 -285
+n b3 CRA6B_0/FullAdder_3/m1_108_80# CRA6B_0/FullAdder_3/EXC_0/xor_0/a_n36_12# 2 4 295 -361
+n a3 gnd CRA6B_0/FullAdder_3/EXC_0/xor_0/a_n36_12# 2 4 327 -361
+p CRA6B_0/FullAdder_3/EXC_0/m1_0_36# CRA6B_0/FullAdder_3/m1_108_80# CRA6B_0/FullAdder_3/EXC_0/xor_0/a_n12_88# 2 4 282 -285
+n CRA6B_0/FullAdder_3/EXC_0/m1_0_36# CRA6B_0/FullAdder_3/EXC_0/xor_0/a_n36_12# CRA6B_0/FullAdder_3/m1_108_80# 2 4 282 -361
+p a3 vdd CRA6B_0/FullAdder_3/EXC_0/m1_0_36# 2 4 368 -281
+n a3 gnd CRA6B_0/FullAdder_3/EXC_0/m1_0_36# 2 4 368 -365
+p CRA6B_0/m1_n1220_n32# vdd CRA6B_0/FullAdder_3/EXC_1/m1_n12_72# 2 4 407 -409
+n CRA6B_0/m1_n1220_n32# gnd CRA6B_0/FullAdder_3/EXC_1/m1_n12_72# 2 4 407 -493
+p CRA6B_0/FullAdder_3/EXC_1/m1_n12_72# vdd CRA6B_0/FullAdder_3/EXC_1/xor_0/a_18_88# 2 4 479 -413
+n CRA6B_0/FullAdder_3/EXC_1/m1_n12_72# CRA6B_0/FullAdder_3/EXC_1/xor_0/a_n36_12# gnd 2 4 479 -489
+p CRA6B_0/m1_n1220_n32# CRA6B_0/FullAdder_3/EXC_1/xor_0/a_n12_88# vdd 2 4 463 -413
+p CRA6B_0/FullAdder_3/m1_108_80# CRA6B_0/FullAdder_3/EXC_1/xor_0/a_18_88# m1_512_n160# 2 4 495 -413
+n CRA6B_0/m1_n1220_n32# m1_512_n160# CRA6B_0/FullAdder_3/EXC_1/xor_0/a_n36_12# 2 4 463 -489
+n CRA6B_0/FullAdder_3/m1_108_80# gnd CRA6B_0/FullAdder_3/EXC_1/xor_0/a_n36_12# 2 4 495 -489
+p CRA6B_0/FullAdder_3/EXC_1/m1_0_36# m1_512_n160# CRA6B_0/FullAdder_3/EXC_1/xor_0/a_n12_88# 2 4 450 -413
+n CRA6B_0/FullAdder_3/EXC_1/m1_0_36# CRA6B_0/FullAdder_3/EXC_1/xor_0/a_n36_12# m1_512_n160# 2 4 450 -489
+p CRA6B_0/FullAdder_3/m1_108_80# vdd CRA6B_0/FullAdder_3/EXC_1/m1_0_36# 2 4 536 -409
+n CRA6B_0/FullAdder_3/m1_108_80# gnd CRA6B_0/FullAdder_3/EXC_1/m1_0_36# 2 4 536 -493
+p CRA6B_0/FullAdder_4/or_0/m1_40_44# vdd CRA6B_0/m1_n2296_n20# 2 4 45 -289
+n CRA6B_0/FullAdder_4/or_0/m1_40_44# gnd CRA6B_0/m1_n2296_n20# 2 4 45 -373
+p CRA6B_0/FullAdder_4/m1_240_80# vdd CRA6B_0/FullAdder_4/or_0/nor_0/a_14_88# 2 4 1 -293
+p CRA6B_0/FullAdder_4/m1_60_n52# CRA6B_0/FullAdder_4/or_0/nor_0/a_14_88# CRA6B_0/FullAdder_4/or_0/m1_40_44# 2 4 16 -293
+n CRA6B_0/FullAdder_4/m1_240_80# CRA6B_0/FullAdder_4/or_0/m1_40_44# gnd 2 4 1 -369
+n CRA6B_0/FullAdder_4/m1_60_n52# gnd CRA6B_0/FullAdder_4/or_0/m1_40_44# 2 4 16 -369
+p CRA6B_0/FullAdder_4/and_0/m1_36_28# vdd CRA6B_0/FullAdder_4/m1_60_n52# 2 4 -282 -397
+n CRA6B_0/FullAdder_4/and_0/m1_36_28# gnd CRA6B_0/FullAdder_4/m1_60_n52# 2 4 -282 -481
+p a4 vdd CRA6B_0/FullAdder_4/and_0/m1_36_28# 2 4 -326 -401
+n a4 gnd CRA6B_0/FullAdder_4/and_0/nand_0/a_14_12# 2 4 -326 -477
+p b4 CRA6B_0/FullAdder_4/and_0/m1_36_28# vdd 2 4 -314 -401
+n b4 CRA6B_0/FullAdder_4/and_0/nand_0/a_14_12# CRA6B_0/FullAdder_4/and_0/m1_36_28# 2 4 -314 -477
+p CRA6B_0/FullAdder_4/and_1/m1_36_28# vdd CRA6B_0/FullAdder_4/m1_240_80# 2 4 -102 -281
+n CRA6B_0/FullAdder_4/and_1/m1_36_28# gnd CRA6B_0/FullAdder_4/m1_240_80# 2 4 -102 -365
+p CRA6B_0/FullAdder_4/m1_108_80# vdd CRA6B_0/FullAdder_4/and_1/m1_36_28# 2 4 -146 -285
+n CRA6B_0/FullAdder_4/m1_108_80# gnd CRA6B_0/FullAdder_4/and_1/nand_0/a_14_12# 2 4 -146 -361
+p CRA6B_0/m1_n1776_n8# CRA6B_0/FullAdder_4/and_1/m1_36_28# vdd 2 4 -134 -285
+n CRA6B_0/m1_n1776_n8# CRA6B_0/FullAdder_4/and_1/nand_0/a_14_12# CRA6B_0/FullAdder_4/and_1/m1_36_28# 2 4 -134 -361
+p b4 vdd CRA6B_0/FullAdder_4/EXC_0/m1_n12_72# 2 4 -322 -281
+n b4 gnd CRA6B_0/FullAdder_4/EXC_0/m1_n12_72# 2 4 -322 -365
+p CRA6B_0/FullAdder_4/EXC_0/m1_n12_72# vdd CRA6B_0/FullAdder_4/EXC_0/xor_0/a_18_88# 2 4 -250 -285
+n CRA6B_0/FullAdder_4/EXC_0/m1_n12_72# CRA6B_0/FullAdder_4/EXC_0/xor_0/a_n36_12# gnd 2 4 -250 -361
+p b4 CRA6B_0/FullAdder_4/EXC_0/xor_0/a_n12_88# vdd 2 4 -266 -285
+p a4 CRA6B_0/FullAdder_4/EXC_0/xor_0/a_18_88# CRA6B_0/FullAdder_4/m1_108_80# 2 4 -234 -285
+n b4 CRA6B_0/FullAdder_4/m1_108_80# CRA6B_0/FullAdder_4/EXC_0/xor_0/a_n36_12# 2 4 -266 -361
+n a4 gnd CRA6B_0/FullAdder_4/EXC_0/xor_0/a_n36_12# 2 4 -234 -361
+p CRA6B_0/FullAdder_4/EXC_0/m1_0_36# CRA6B_0/FullAdder_4/m1_108_80# CRA6B_0/FullAdder_4/EXC_0/xor_0/a_n12_88# 2 4 -279 -285
+n CRA6B_0/FullAdder_4/EXC_0/m1_0_36# CRA6B_0/FullAdder_4/EXC_0/xor_0/a_n36_12# CRA6B_0/FullAdder_4/m1_108_80# 2 4 -279 -361
+p a4 vdd CRA6B_0/FullAdder_4/EXC_0/m1_0_36# 2 4 -193 -281
+n a4 gnd CRA6B_0/FullAdder_4/EXC_0/m1_0_36# 2 4 -193 -365
+p CRA6B_0/m1_n1776_n8# vdd CRA6B_0/FullAdder_4/EXC_1/m1_n12_72# 2 4 -154 -409
+n CRA6B_0/m1_n1776_n8# gnd CRA6B_0/FullAdder_4/EXC_1/m1_n12_72# 2 4 -154 -493
+p CRA6B_0/FullAdder_4/EXC_1/m1_n12_72# vdd CRA6B_0/FullAdder_4/EXC_1/xor_0/a_18_88# 2 4 -82 -413
+n CRA6B_0/FullAdder_4/EXC_1/m1_n12_72# CRA6B_0/FullAdder_4/EXC_1/xor_0/a_n36_12# gnd 2 4 -82 -489
+p CRA6B_0/m1_n1776_n8# CRA6B_0/FullAdder_4/EXC_1/xor_0/a_n12_88# vdd 2 4 -98 -413
+p CRA6B_0/FullAdder_4/m1_108_80# CRA6B_0/FullAdder_4/EXC_1/xor_0/a_18_88# m1_92_n433# 2 4 -66 -413
+n CRA6B_0/m1_n1776_n8# m1_92_n433# CRA6B_0/FullAdder_4/EXC_1/xor_0/a_n36_12# 2 4 -98 -489
+n CRA6B_0/FullAdder_4/m1_108_80# gnd CRA6B_0/FullAdder_4/EXC_1/xor_0/a_n36_12# 2 4 -66 -489
+p CRA6B_0/FullAdder_4/EXC_1/m1_0_36# m1_92_n433# CRA6B_0/FullAdder_4/EXC_1/xor_0/a_n12_88# 2 4 -111 -413
+n CRA6B_0/FullAdder_4/EXC_1/m1_0_36# CRA6B_0/FullAdder_4/EXC_1/xor_0/a_n36_12# m1_92_n433# 2 4 -111 -489
+p CRA6B_0/FullAdder_4/m1_108_80# vdd CRA6B_0/FullAdder_4/EXC_1/m1_0_36# 2 4 -25 -409
+n CRA6B_0/FullAdder_4/m1_108_80# gnd CRA6B_0/FullAdder_4/EXC_1/m1_0_36# 2 4 -25 -493
+p CRA6B_0/FullAdder_5/or_0/m1_40_44# vdd CoutAdd 2 4 -468 -289
+n CRA6B_0/FullAdder_5/or_0/m1_40_44# gnd CoutAdd 2 4 -468 -373
+p CRA6B_0/FullAdder_5/m1_240_80# vdd CRA6B_0/FullAdder_5/or_0/nor_0/a_14_88# 2 4 -512 -293
+p CRA6B_0/FullAdder_5/m1_60_n52# CRA6B_0/FullAdder_5/or_0/nor_0/a_14_88# CRA6B_0/FullAdder_5/or_0/m1_40_44# 2 4 -497 -293
+n CRA6B_0/FullAdder_5/m1_240_80# CRA6B_0/FullAdder_5/or_0/m1_40_44# gnd 2 4 -512 -369
+n CRA6B_0/FullAdder_5/m1_60_n52# gnd CRA6B_0/FullAdder_5/or_0/m1_40_44# 2 4 -497 -369
+p CRA6B_0/FullAdder_5/and_0/m1_36_28# vdd CRA6B_0/FullAdder_5/m1_60_n52# 2 4 -795 -397
+n CRA6B_0/FullAdder_5/and_0/m1_36_28# gnd CRA6B_0/FullAdder_5/m1_60_n52# 2 4 -795 -481
+p a5 vdd CRA6B_0/FullAdder_5/and_0/m1_36_28# 2 4 -839 -401
+n a5 gnd CRA6B_0/FullAdder_5/and_0/nand_0/a_14_12# 2 4 -839 -477
+p b5 CRA6B_0/FullAdder_5/and_0/m1_36_28# vdd 2 4 -827 -401
+n b5 CRA6B_0/FullAdder_5/and_0/nand_0/a_14_12# CRA6B_0/FullAdder_5/and_0/m1_36_28# 2 4 -827 -477
+p CRA6B_0/FullAdder_5/and_1/m1_36_28# vdd CRA6B_0/FullAdder_5/m1_240_80# 2 4 -615 -281
+n CRA6B_0/FullAdder_5/and_1/m1_36_28# gnd CRA6B_0/FullAdder_5/m1_240_80# 2 4 -615 -365
+p CRA6B_0/FullAdder_5/m1_108_80# vdd CRA6B_0/FullAdder_5/and_1/m1_36_28# 2 4 -659 -285
+n CRA6B_0/FullAdder_5/m1_108_80# gnd CRA6B_0/FullAdder_5/and_1/nand_0/a_14_12# 2 4 -659 -361
+p CRA6B_0/m1_n2296_n20# CRA6B_0/FullAdder_5/and_1/m1_36_28# vdd 2 4 -647 -285
+n CRA6B_0/m1_n2296_n20# CRA6B_0/FullAdder_5/and_1/nand_0/a_14_12# CRA6B_0/FullAdder_5/and_1/m1_36_28# 2 4 -647 -361
+p b5 vdd CRA6B_0/FullAdder_5/EXC_0/m1_n12_72# 2 4 -835 -281
+n b5 gnd CRA6B_0/FullAdder_5/EXC_0/m1_n12_72# 2 4 -835 -365
+p CRA6B_0/FullAdder_5/EXC_0/m1_n12_72# vdd CRA6B_0/FullAdder_5/EXC_0/xor_0/a_18_88# 2 4 -763 -285
+n CRA6B_0/FullAdder_5/EXC_0/m1_n12_72# CRA6B_0/FullAdder_5/EXC_0/xor_0/a_n36_12# gnd 2 4 -763 -361
+p b5 CRA6B_0/FullAdder_5/EXC_0/xor_0/a_n12_88# vdd 2 4 -779 -285
+p a5 CRA6B_0/FullAdder_5/EXC_0/xor_0/a_18_88# CRA6B_0/FullAdder_5/m1_108_80# 2 4 -747 -285
+n b5 CRA6B_0/FullAdder_5/m1_108_80# CRA6B_0/FullAdder_5/EXC_0/xor_0/a_n36_12# 2 4 -779 -361
+n a5 gnd CRA6B_0/FullAdder_5/EXC_0/xor_0/a_n36_12# 2 4 -747 -361
+p CRA6B_0/FullAdder_5/EXC_0/m1_0_36# CRA6B_0/FullAdder_5/m1_108_80# CRA6B_0/FullAdder_5/EXC_0/xor_0/a_n12_88# 2 4 -792 -285
+n CRA6B_0/FullAdder_5/EXC_0/m1_0_36# CRA6B_0/FullAdder_5/EXC_0/xor_0/a_n36_12# CRA6B_0/FullAdder_5/m1_108_80# 2 4 -792 -361
+p a5 vdd CRA6B_0/FullAdder_5/EXC_0/m1_0_36# 2 4 -706 -281
+n a5 gnd CRA6B_0/FullAdder_5/EXC_0/m1_0_36# 2 4 -706 -365
+p CRA6B_0/m1_n2296_n20# vdd CRA6B_0/FullAdder_5/EXC_1/m1_n12_72# 2 4 -667 -409
+n CRA6B_0/m1_n2296_n20# gnd CRA6B_0/FullAdder_5/EXC_1/m1_n12_72# 2 4 -667 -493
+p CRA6B_0/FullAdder_5/EXC_1/m1_n12_72# vdd CRA6B_0/FullAdder_5/EXC_1/xor_0/a_18_88# 2 4 -595 -413
+n CRA6B_0/FullAdder_5/EXC_1/m1_n12_72# CRA6B_0/FullAdder_5/EXC_1/xor_0/a_n36_12# gnd 2 4 -595 -489
+p CRA6B_0/m1_n2296_n20# CRA6B_0/FullAdder_5/EXC_1/xor_0/a_n12_88# vdd 2 4 -611 -413
+p CRA6B_0/FullAdder_5/m1_108_80# CRA6B_0/FullAdder_5/EXC_1/xor_0/a_18_88# m1_n408_n433# 2 4 -579 -413
+n CRA6B_0/m1_n2296_n20# m1_n408_n433# CRA6B_0/FullAdder_5/EXC_1/xor_0/a_n36_12# 2 4 -611 -489
+n CRA6B_0/FullAdder_5/m1_108_80# gnd CRA6B_0/FullAdder_5/EXC_1/xor_0/a_n36_12# 2 4 -579 -489
+p CRA6B_0/FullAdder_5/EXC_1/m1_0_36# m1_n408_n433# CRA6B_0/FullAdder_5/EXC_1/xor_0/a_n12_88# 2 4 -624 -413
+n CRA6B_0/FullAdder_5/EXC_1/m1_0_36# CRA6B_0/FullAdder_5/EXC_1/xor_0/a_n36_12# m1_n408_n433# 2 4 -624 -489
+p CRA6B_0/FullAdder_5/m1_108_80# vdd CRA6B_0/FullAdder_5/EXC_1/m1_0_36# 2 4 -538 -409
+n CRA6B_0/FullAdder_5/m1_108_80# gnd CRA6B_0/FullAdder_5/EXC_1/m1_0_36# 2 4 -538 -493
+p a1 vdd m1_868_240# 2 4 1903 36
+n a1 gnd m1_868_240# 2 4 1903 -48
+p m1_692_228# vdd xor_0/a_18_88# 2 4 696 244
+n m1_692_228# xor_0/a_n36_12# gnd 2 4 696 168
+p m1_672_240# xor_0/a_n12_88# vdd 2 4 680 244
+p a2 xor_0/a_18_88# a_2346_51# 2 4 712 244
+n m1_672_240# a_2346_51# xor_0/a_n36_12# 2 4 680 168
+n a2 gnd xor_0/a_n36_12# 2 4 712 168
+p b2 a_2346_51# xor_0/a_n12_88# 2 4 667 244
+n b2 xor_0/a_n36_12# a_2346_51# 2 4 667 168
+n s1 trans4to1_1/m1_n32_20# o4 2 4 252 20
+p m1_88_n20# trans4to1_1/m1_n32_20# o4 2 4 252 36
+n m1_88_n20# o4 trans4to1_1/m1_56_20# 2 4 284 39
+p s1 o4 trans4to1_1/m1_56_20# 2 4 284 23
+n m2_40_n8# a_2346_286# trans4to1_1/m1_56_20# 2 4 324 47
+p s0 a_2346_286# trans4to1_1/m1_56_20# 2 4 340 47
+n s0 trans4to1_1/m1_56_20# m1_92_n433# 2 4 343 15
+p m2_40_n8# trans4to1_1/m1_56_20# m1_92_n433# 2 4 327 15
+n m2_40_n8# m1_116_540# trans4to1_1/m1_n32_20# 2 4 211 47
+p s0 m1_116_540# trans4to1_1/m1_n32_20# 2 4 195 47
+n s0 trans4to1_1/m1_n32_20# gnd 2 4 192 15
+p m2_40_n8# trans4to1_1/m1_n32_20# gnd 2 4 208 15
+n s1 trans4to1_0/m1_n32_20# o5 2 4 72 20
+p m1_88_n20# trans4to1_0/m1_n32_20# o5 2 4 72 36
+n m1_88_n20# o5 trans4to1_0/m1_56_20# 2 4 104 39
+p s1 o5 trans4to1_0/m1_56_20# 2 4 104 23
+n m2_40_n8# a_2346_301# trans4to1_0/m1_56_20# 2 4 144 47
+p s0 a_2346_301# trans4to1_0/m1_56_20# 2 4 160 47
+n s0 trans4to1_0/m1_56_20# m1_n408_n433# 2 4 163 15
+p m2_40_n8# trans4to1_0/m1_56_20# m1_n408_n433# 2 4 147 15
+n m2_40_n8# m1_n400_548# trans4to1_0/m1_n32_20# 2 4 31 47
+p s0 m1_n400_548# trans4to1_0/m1_n32_20# 2 4 15 47
+n s0 trans4to1_0/m1_n32_20# gnd 2 4 12 15
+p m2_40_n8# trans4to1_0/m1_n32_20# gnd 2 4 28 15
+p a0 vdd m1_1072_240# 2 4 1939 36
+n a0 gnd m1_1072_240# 2 4 1939 -48
+n s1 trans4to1_2/m1_n32_20# o3 2 4 432 20
+p m1_88_n20# trans4to1_2/m1_n32_20# o3 2 4 432 36
+n m1_88_n20# o3 trans4to1_2/m1_56_20# 2 4 464 39
+p s1 o3 trans4to1_2/m1_56_20# 2 4 464 23
+n m2_40_n8# a_2342_239# trans4to1_2/m1_56_20# 2 4 504 47
+p s0 a_2342_239# trans4to1_2/m1_56_20# 2 4 520 47
+n s0 trans4to1_2/m1_56_20# m1_512_n160# 2 4 523 15
+p m2_40_n8# trans4to1_2/m1_56_20# m1_512_n160# 2 4 507 15
+n m2_40_n8# m1_380_56# trans4to1_2/m1_n32_20# 2 4 391 47
+p s0 m1_380_56# trans4to1_2/m1_n32_20# 2 4 375 47
+n s0 trans4to1_2/m1_n32_20# gnd 2 4 372 15
+p m2_40_n8# trans4to1_2/m1_n32_20# gnd 2 4 388 15
+p m1_192_332# vdd xor_1/a_18_88# 2 4 516 244
+n m1_192_332# xor_1/a_n36_12# gnd 2 4 516 168
+p m1_492_240# xor_1/a_n12_88# vdd 2 4 500 244
+p a3 xor_1/a_18_88# a_2342_239# 2 4 532 244
+n m1_492_240# a_2342_239# xor_1/a_n36_12# 2 4 500 168
+n a3 gnd xor_1/a_n36_12# 2 4 532 168
+p b3 a_2342_239# xor_1/a_n12_88# 2 4 487 244
+n b3 xor_1/a_n36_12# a_2342_239# 2 4 487 168
+p a2 vdd m1_672_240# 2 4 1867 36
+n a2 gnd m1_672_240# 2 4 1867 -48
+n s1 trans4to1_3/m1_n32_20# o2 2 4 612 20
+p m1_88_n20# trans4to1_3/m1_n32_20# o2 2 4 612 36
+n m1_88_n20# o2 trans4to1_3/m1_56_20# 2 4 644 39
+p s1 o2 trans4to1_3/m1_56_20# 2 4 644 23
+n m2_40_n8# a_2346_51# trans4to1_3/m1_56_20# 2 4 684 47
+p s0 a_2346_51# trans4to1_3/m1_56_20# 2 4 700 47
+n s0 trans4to1_3/m1_56_20# m1_688_n148# 2 4 703 15
+p m2_40_n8# trans4to1_3/m1_56_20# m1_688_n148# 2 4 687 15
+n m2_40_n8# m1_560_56# trans4to1_3/m1_n32_20# 2 4 571 47
+p s0 m1_560_56# trans4to1_3/m1_n32_20# 2 4 555 47
+n s0 trans4to1_3/m1_n32_20# gnd 2 4 552 15
+p m2_40_n8# trans4to1_3/m1_n32_20# gnd 2 4 568 15
+p m1_n348_340# vdd xor_2/a_18_88# 2 4 348 244
+n m1_n348_340# xor_2/a_n36_12# gnd 2 4 348 168
+p m1_324_240# xor_2/a_n12_88# vdd 2 4 332 244
+p a4 xor_2/a_18_88# a_2346_286# 2 4 364 244
+n m1_324_240# a_2346_286# xor_2/a_n36_12# 2 4 332 168
+n a4 gnd xor_2/a_n36_12# 2 4 364 168
+p b4 a_2346_286# xor_2/a_n12_88# 2 4 319 244
+n b4 xor_2/a_n36_12# a_2346_286# 2 4 319 168
+p a3 vdd m1_492_240# 2 4 1831 36
+n a3 gnd m1_492_240# 2 4 1831 -48
+p a5 vdd m1_128_240# 2 4 1759 36
+n a5 gnd m1_128_240# 2 4 1759 -48
+p m1_n848_332# vdd xor_3/a_18_88# 2 4 152 244
+n m1_n848_332# xor_3/a_n36_12# gnd 2 4 152 168
+p m1_128_240# xor_3/a_n12_88# vdd 2 4 136 244
+p a5 xor_3/a_18_88# a_2346_301# 2 4 168 244
+n m1_128_240# a_2346_301# xor_3/a_n36_12# 2 4 136 168
+n a5 gnd xor_3/a_n36_12# 2 4 168 168
+p b5 a_2346_301# xor_3/a_n12_88# 2 4 123 244
+n b5 xor_3/a_n36_12# a_2346_301# 2 4 123 168
+p a4 vdd m1_324_240# 2 4 1795 36
+n a4 gnd m1_324_240# 2 4 1795 -48
+p s0 vdd m2_40_n8# 2 4 1219 36
+n s0 gnd m2_40_n8# 2 4 1219 -48
+p s1 vdd m1_88_n20# 2 4 1179 36
+n s1 gnd m1_88_n20# 2 4 1179 -48
+n s1 trans4to1_8/m1_n32_20# o1 2 4 792 20
+p m1_88_n20# trans4to1_8/m1_n32_20# o1 2 4 792 36
+n m1_88_n20# o1 trans4to1_8/m1_56_20# 2 4 824 39
+p s1 o1 trans4to1_8/m1_56_20# 2 4 824 23
+n m2_40_n8# a_2342_13# trans4to1_8/m1_56_20# 2 4 864 47
+p s0 a_2342_13# trans4to1_8/m1_56_20# 2 4 880 47
+n s0 trans4to1_8/m1_56_20# m1_872_n136# 2 4 883 15
+p m2_40_n8# trans4to1_8/m1_56_20# m1_872_n136# 2 4 867 15
+n m2_40_n8# m1_740_55# trans4to1_8/m1_n32_20# 2 4 751 47
+p s0 m1_740_55# trans4to1_8/m1_n32_20# 2 4 735 47
+n s0 trans4to1_8/m1_n32_20# gnd 2 4 732 15
+p m2_40_n8# trans4to1_8/m1_n32_20# gnd 2 4 748 15
+n s1 trans4to1_9/m1_n32_20# o0 2 4 972 20
+p m1_88_n20# trans4to1_9/m1_n32_20# o0 2 4 972 36
+n m1_88_n20# o0 trans4to1_9/m1_56_20# 2 4 1004 39
+p s1 o0 trans4to1_9/m1_56_20# 2 4 1004 23
+n m2_40_n8# a_2346_n156# trans4to1_9/m1_56_20# 2 4 1044 47
+p s0 a_2346_n156# trans4to1_9/m1_56_20# 2 4 1060 47
+n s0 trans4to1_9/m1_56_20# m1_1052_n124# 2 4 1063 15
+p m2_40_n8# trans4to1_9/m1_56_20# m1_1052_n124# 2 4 1047 15
+n m2_40_n8# m1_920_56# trans4to1_9/m1_n32_20# 2 4 931 47
+p s0 m1_920_56# trans4to1_9/m1_n32_20# 2 4 915 47
+n s0 trans4to1_9/m1_n32_20# m1_920_n112# 2 4 912 15
+p m2_40_n8# trans4to1_9/m1_n32_20# m1_920_n112# 2 4 928 15
+p m1_1092_228# vdd xor_9/a_18_88# 2 4 1096 244
+n m1_1092_228# xor_9/a_n36_12# gnd 2 4 1096 168
+p m1_1072_240# xor_9/a_n12_88# vdd 2 4 1080 244
+p a0 xor_9/a_18_88# a_2346_n156# 2 4 1112 244
+n m1_1072_240# a_2346_n156# xor_9/a_n36_12# 2 4 1080 168
+n a0 gnd xor_9/a_n36_12# 2 4 1112 168
+p b0 a_2346_n156# xor_9/a_n12_88# 2 4 1067 244
+n b0 xor_9/a_n36_12# a_2346_n156# 2 4 1067 168
+p m1_888_228# vdd xor_8/a_18_88# 2 4 892 244
+n m1_888_228# xor_8/a_n36_12# gnd 2 4 892 168
+p m1_868_240# xor_8/a_n12_88# vdd 2 4 876 244
+p a1 xor_8/a_18_88# a_2342_13# 2 4 908 244
+n m1_868_240# a_2342_13# xor_8/a_n36_12# 2 4 876 168
+n a1 gnd xor_8/a_n36_12# 2 4 908 168
+p b1 a_2342_13# xor_8/a_n12_88# 2 4 863 244
+n b1 xor_8/a_n36_12# a_2342_13# 2 4 863 168
+p b0 vdd m1_1092_228# 2 4 1711 664
+n b0 gnd m1_1092_228# 2 4 1711 748
+p b1 vdd m1_888_228# 2 4 1211 666
+n b1 gnd m1_888_228# 2 4 1211 750
+p b2 vdd m1_692_228# 2 4 711 651
+n b2 gnd m1_692_228# 2 4 711 735
+p b3 vdd m1_192_332# 2 4 163 648
+n b3 gnd m1_192_332# 2 4 163 732
+p b4 vdd m1_n348_340# 2 4 -373 644
+n b4 gnd m1_n348_340# 2 4 -373 728
+p b5 vdd m1_n848_332# 2 4 -869 652
+n b5 gnd m1_n848_332# 2 4 -869 736
+p CRS6B_0/FullAdder_0/or_0/m1_40_44# vdd CRS6B_0/m1_n201_n12# 2 4 2142 579
+n CRS6B_0/FullAdder_0/or_0/m1_40_44# gnd CRS6B_0/m1_n201_n12# 2 4 2142 663
+p CRS6B_0/FullAdder_0/m1_240_80# vdd CRS6B_0/FullAdder_0/or_0/nor_0/a_14_88# 2 4 2098 583
+p CRS6B_0/FullAdder_0/m1_60_n52# CRS6B_0/FullAdder_0/or_0/nor_0/a_14_88# CRS6B_0/FullAdder_0/or_0/m1_40_44# 2 4 2113 583
+n CRS6B_0/FullAdder_0/m1_240_80# CRS6B_0/FullAdder_0/or_0/m1_40_44# gnd 2 4 2098 659
+n CRS6B_0/FullAdder_0/m1_60_n52# gnd CRS6B_0/FullAdder_0/or_0/m1_40_44# 2 4 2113 659
+p CRS6B_0/FullAdder_0/and_0/m1_36_28# vdd CRS6B_0/FullAdder_0/m1_60_n52# 2 4 1815 687
+n CRS6B_0/FullAdder_0/and_0/m1_36_28# gnd CRS6B_0/FullAdder_0/m1_60_n52# 2 4 1815 771
+p a0 vdd CRS6B_0/FullAdder_0/and_0/m1_36_28# 2 4 1771 691
+n a0 gnd CRS6B_0/FullAdder_0/and_0/nand_0/a_14_12# 2 4 1771 767
+p m1_1092_228# CRS6B_0/FullAdder_0/and_0/m1_36_28# vdd 2 4 1783 691
+n m1_1092_228# CRS6B_0/FullAdder_0/and_0/nand_0/a_14_12# CRS6B_0/FullAdder_0/and_0/m1_36_28# 2 4 1783 767
+p CRS6B_0/FullAdder_0/and_1/m1_36_28# vdd CRS6B_0/FullAdder_0/m1_240_80# 2 4 1995 571
+n CRS6B_0/FullAdder_0/and_1/m1_36_28# gnd CRS6B_0/FullAdder_0/m1_240_80# 2 4 1995 655
+p CRS6B_0/FullAdder_0/m1_108_80# vdd CRS6B_0/FullAdder_0/and_1/m1_36_28# 2 4 1951 575
+n CRS6B_0/FullAdder_0/m1_108_80# gnd CRS6B_0/FullAdder_0/and_1/nand_0/a_14_12# 2 4 1951 651
+p vdd CRS6B_0/FullAdder_0/and_1/m1_36_28# vdd 2 4 1963 575
+n vdd CRS6B_0/FullAdder_0/and_1/nand_0/a_14_12# CRS6B_0/FullAdder_0/and_1/m1_36_28# 2 4 1963 651
+p m1_1092_228# vdd CRS6B_0/FullAdder_0/EXC_0/m1_n12_72# 2 4 1775 571
+n m1_1092_228# gnd CRS6B_0/FullAdder_0/EXC_0/m1_n12_72# 2 4 1775 655
+p CRS6B_0/FullAdder_0/EXC_0/m1_n12_72# vdd CRS6B_0/FullAdder_0/EXC_0/xor_0/a_18_88# 2 4 1847 575
+n CRS6B_0/FullAdder_0/EXC_0/m1_n12_72# CRS6B_0/FullAdder_0/EXC_0/xor_0/a_n36_12# gnd 2 4 1847 651
+p m1_1092_228# CRS6B_0/FullAdder_0/EXC_0/xor_0/a_n12_88# vdd 2 4 1831 575
+p a0 CRS6B_0/FullAdder_0/EXC_0/xor_0/a_18_88# CRS6B_0/FullAdder_0/m1_108_80# 2 4 1863 575
+n m1_1092_228# CRS6B_0/FullAdder_0/m1_108_80# CRS6B_0/FullAdder_0/EXC_0/xor_0/a_n36_12# 2 4 1831 651
+n a0 gnd CRS6B_0/FullAdder_0/EXC_0/xor_0/a_n36_12# 2 4 1863 651
+p CRS6B_0/FullAdder_0/EXC_0/m1_0_36# CRS6B_0/FullAdder_0/m1_108_80# CRS6B_0/FullAdder_0/EXC_0/xor_0/a_n12_88# 2 4 1818 575
+n CRS6B_0/FullAdder_0/EXC_0/m1_0_36# CRS6B_0/FullAdder_0/EXC_0/xor_0/a_n36_12# CRS6B_0/FullAdder_0/m1_108_80# 2 4 1818 651
+p a0 vdd CRS6B_0/FullAdder_0/EXC_0/m1_0_36# 2 4 1904 571
+n a0 gnd CRS6B_0/FullAdder_0/EXC_0/m1_0_36# 2 4 1904 655
+p vdd vdd CRS6B_0/FullAdder_0/EXC_1/m1_n12_72# 2 4 1943 699
+n vdd gnd CRS6B_0/FullAdder_0/EXC_1/m1_n12_72# 2 4 1943 783
+p CRS6B_0/FullAdder_0/EXC_1/m1_n12_72# vdd CRS6B_0/FullAdder_0/EXC_1/xor_0/a_18_88# 2 4 2015 703
+n CRS6B_0/FullAdder_0/EXC_1/m1_n12_72# CRS6B_0/FullAdder_0/EXC_1/xor_0/a_n36_12# gnd 2 4 2015 779
+p vdd CRS6B_0/FullAdder_0/EXC_1/xor_0/a_n12_88# vdd 2 4 1999 703
+p CRS6B_0/FullAdder_0/m1_108_80# CRS6B_0/FullAdder_0/EXC_1/xor_0/a_18_88# m1_920_56# 2 4 2031 703
+n vdd m1_920_56# CRS6B_0/FullAdder_0/EXC_1/xor_0/a_n36_12# 2 4 1999 779
+n CRS6B_0/FullAdder_0/m1_108_80# gnd CRS6B_0/FullAdder_0/EXC_1/xor_0/a_n36_12# 2 4 2031 779
+p CRS6B_0/FullAdder_0/EXC_1/m1_0_36# m1_920_56# CRS6B_0/FullAdder_0/EXC_1/xor_0/a_n12_88# 2 4 1986 703
+n CRS6B_0/FullAdder_0/EXC_1/m1_0_36# CRS6B_0/FullAdder_0/EXC_1/xor_0/a_n36_12# m1_920_56# 2 4 1986 779
+p CRS6B_0/FullAdder_0/m1_108_80# vdd CRS6B_0/FullAdder_0/EXC_1/m1_0_36# 2 4 2072 699
+n CRS6B_0/FullAdder_0/m1_108_80# gnd CRS6B_0/FullAdder_0/EXC_1/m1_0_36# 2 4 2072 783
+p CRS6B_0/FullAdder_1/or_0/m1_40_44# vdd CRS6B_0/m1_n689_n24# 2 4 1638 580
+n CRS6B_0/FullAdder_1/or_0/m1_40_44# gnd CRS6B_0/m1_n689_n24# 2 4 1638 664
+p CRS6B_0/FullAdder_1/m1_240_80# vdd CRS6B_0/FullAdder_1/or_0/nor_0/a_14_88# 2 4 1594 584
+p CRS6B_0/FullAdder_1/m1_60_n52# CRS6B_0/FullAdder_1/or_0/nor_0/a_14_88# CRS6B_0/FullAdder_1/or_0/m1_40_44# 2 4 1609 584
+n CRS6B_0/FullAdder_1/m1_240_80# CRS6B_0/FullAdder_1/or_0/m1_40_44# gnd 2 4 1594 660
+n CRS6B_0/FullAdder_1/m1_60_n52# gnd CRS6B_0/FullAdder_1/or_0/m1_40_44# 2 4 1609 660
+p CRS6B_0/FullAdder_1/and_0/m1_36_28# vdd CRS6B_0/FullAdder_1/m1_60_n52# 2 4 1311 688
+n CRS6B_0/FullAdder_1/and_0/m1_36_28# gnd CRS6B_0/FullAdder_1/m1_60_n52# 2 4 1311 772
+p a1 vdd CRS6B_0/FullAdder_1/and_0/m1_36_28# 2 4 1267 692
+n a1 gnd CRS6B_0/FullAdder_1/and_0/nand_0/a_14_12# 2 4 1267 768
+p m1_888_228# CRS6B_0/FullAdder_1/and_0/m1_36_28# vdd 2 4 1279 692
+n m1_888_228# CRS6B_0/FullAdder_1/and_0/nand_0/a_14_12# CRS6B_0/FullAdder_1/and_0/m1_36_28# 2 4 1279 768
+p CRS6B_0/FullAdder_1/and_1/m1_36_28# vdd CRS6B_0/FullAdder_1/m1_240_80# 2 4 1491 572
+n CRS6B_0/FullAdder_1/and_1/m1_36_28# gnd CRS6B_0/FullAdder_1/m1_240_80# 2 4 1491 656
+p CRS6B_0/FullAdder_1/m1_108_80# vdd CRS6B_0/FullAdder_1/and_1/m1_36_28# 2 4 1447 576
+n CRS6B_0/FullAdder_1/m1_108_80# gnd CRS6B_0/FullAdder_1/and_1/nand_0/a_14_12# 2 4 1447 652
+p CRS6B_0/m1_n201_n12# CRS6B_0/FullAdder_1/and_1/m1_36_28# vdd 2 4 1459 576
+n CRS6B_0/m1_n201_n12# CRS6B_0/FullAdder_1/and_1/nand_0/a_14_12# CRS6B_0/FullAdder_1/and_1/m1_36_28# 2 4 1459 652
+p m1_888_228# vdd CRS6B_0/FullAdder_1/EXC_0/m1_n12_72# 2 4 1271 572
+n m1_888_228# gnd CRS6B_0/FullAdder_1/EXC_0/m1_n12_72# 2 4 1271 656
+p CRS6B_0/FullAdder_1/EXC_0/m1_n12_72# vdd CRS6B_0/FullAdder_1/EXC_0/xor_0/a_18_88# 2 4 1343 576
+n CRS6B_0/FullAdder_1/EXC_0/m1_n12_72# CRS6B_0/FullAdder_1/EXC_0/xor_0/a_n36_12# gnd 2 4 1343 652
+p m1_888_228# CRS6B_0/FullAdder_1/EXC_0/xor_0/a_n12_88# vdd 2 4 1327 576
+p a1 CRS6B_0/FullAdder_1/EXC_0/xor_0/a_18_88# CRS6B_0/FullAdder_1/m1_108_80# 2 4 1359 576
+n m1_888_228# CRS6B_0/FullAdder_1/m1_108_80# CRS6B_0/FullAdder_1/EXC_0/xor_0/a_n36_12# 2 4 1327 652
+n a1 gnd CRS6B_0/FullAdder_1/EXC_0/xor_0/a_n36_12# 2 4 1359 652
+p CRS6B_0/FullAdder_1/EXC_0/m1_0_36# CRS6B_0/FullAdder_1/m1_108_80# CRS6B_0/FullAdder_1/EXC_0/xor_0/a_n12_88# 2 4 1314 576
+n CRS6B_0/FullAdder_1/EXC_0/m1_0_36# CRS6B_0/FullAdder_1/EXC_0/xor_0/a_n36_12# CRS6B_0/FullAdder_1/m1_108_80# 2 4 1314 652
+p a1 vdd CRS6B_0/FullAdder_1/EXC_0/m1_0_36# 2 4 1400 572
+n a1 gnd CRS6B_0/FullAdder_1/EXC_0/m1_0_36# 2 4 1400 656
+p CRS6B_0/m1_n201_n12# vdd CRS6B_0/FullAdder_1/EXC_1/m1_n12_72# 2 4 1439 700
+n CRS6B_0/m1_n201_n12# gnd CRS6B_0/FullAdder_1/EXC_1/m1_n12_72# 2 4 1439 784
+p CRS6B_0/FullAdder_1/EXC_1/m1_n12_72# vdd CRS6B_0/FullAdder_1/EXC_1/xor_0/a_18_88# 2 4 1511 704
+n CRS6B_0/FullAdder_1/EXC_1/m1_n12_72# CRS6B_0/FullAdder_1/EXC_1/xor_0/a_n36_12# gnd 2 4 1511 780
+p CRS6B_0/m1_n201_n12# CRS6B_0/FullAdder_1/EXC_1/xor_0/a_n12_88# vdd 2 4 1495 704
+p CRS6B_0/FullAdder_1/m1_108_80# CRS6B_0/FullAdder_1/EXC_1/xor_0/a_18_88# m1_740_55# 2 4 1527 704
+n CRS6B_0/m1_n201_n12# m1_740_55# CRS6B_0/FullAdder_1/EXC_1/xor_0/a_n36_12# 2 4 1495 780
+n CRS6B_0/FullAdder_1/m1_108_80# gnd CRS6B_0/FullAdder_1/EXC_1/xor_0/a_n36_12# 2 4 1527 780
+p CRS6B_0/FullAdder_1/EXC_1/m1_0_36# m1_740_55# CRS6B_0/FullAdder_1/EXC_1/xor_0/a_n12_88# 2 4 1482 704
+n CRS6B_0/FullAdder_1/EXC_1/m1_0_36# CRS6B_0/FullAdder_1/EXC_1/xor_0/a_n36_12# m1_740_55# 2 4 1482 780
+p CRS6B_0/FullAdder_1/m1_108_80# vdd CRS6B_0/FullAdder_1/EXC_1/m1_0_36# 2 4 1568 700
+n CRS6B_0/FullAdder_1/m1_108_80# gnd CRS6B_0/FullAdder_1/EXC_1/m1_0_36# 2 4 1568 784
+p CRS6B_0/FullAdder_2/or_0/m1_40_44# vdd CRS6B_0/m1_n1221_n32# 2 4 1154 580
+n CRS6B_0/FullAdder_2/or_0/m1_40_44# gnd CRS6B_0/m1_n1221_n32# 2 4 1154 664
+p CRS6B_0/FullAdder_2/m1_240_80# vdd CRS6B_0/FullAdder_2/or_0/nor_0/a_14_88# 2 4 1110 584
+p CRS6B_0/FullAdder_2/m1_60_n52# CRS6B_0/FullAdder_2/or_0/nor_0/a_14_88# CRS6B_0/FullAdder_2/or_0/m1_40_44# 2 4 1125 584
+n CRS6B_0/FullAdder_2/m1_240_80# CRS6B_0/FullAdder_2/or_0/m1_40_44# gnd 2 4 1110 660
+n CRS6B_0/FullAdder_2/m1_60_n52# gnd CRS6B_0/FullAdder_2/or_0/m1_40_44# 2 4 1125 660
+p CRS6B_0/FullAdder_2/and_0/m1_36_28# vdd CRS6B_0/FullAdder_2/m1_60_n52# 2 4 827 688
+n CRS6B_0/FullAdder_2/and_0/m1_36_28# gnd CRS6B_0/FullAdder_2/m1_60_n52# 2 4 827 772
+p a2 vdd CRS6B_0/FullAdder_2/and_0/m1_36_28# 2 4 783 692
+n a2 gnd CRS6B_0/FullAdder_2/and_0/nand_0/a_14_12# 2 4 783 768
+p m1_692_228# CRS6B_0/FullAdder_2/and_0/m1_36_28# vdd 2 4 795 692
+n m1_692_228# CRS6B_0/FullAdder_2/and_0/nand_0/a_14_12# CRS6B_0/FullAdder_2/and_0/m1_36_28# 2 4 795 768
+p CRS6B_0/FullAdder_2/and_1/m1_36_28# vdd CRS6B_0/FullAdder_2/m1_240_80# 2 4 1007 572
+n CRS6B_0/FullAdder_2/and_1/m1_36_28# gnd CRS6B_0/FullAdder_2/m1_240_80# 2 4 1007 656
+p CRS6B_0/FullAdder_2/m1_108_80# vdd CRS6B_0/FullAdder_2/and_1/m1_36_28# 2 4 963 576
+n CRS6B_0/FullAdder_2/m1_108_80# gnd CRS6B_0/FullAdder_2/and_1/nand_0/a_14_12# 2 4 963 652
+p CRS6B_0/m1_n689_n24# CRS6B_0/FullAdder_2/and_1/m1_36_28# vdd 2 4 975 576
+n CRS6B_0/m1_n689_n24# CRS6B_0/FullAdder_2/and_1/nand_0/a_14_12# CRS6B_0/FullAdder_2/and_1/m1_36_28# 2 4 975 652
+p m1_692_228# vdd CRS6B_0/FullAdder_2/EXC_0/m1_n12_72# 2 4 787 572
+n m1_692_228# gnd CRS6B_0/FullAdder_2/EXC_0/m1_n12_72# 2 4 787 656
+p CRS6B_0/FullAdder_2/EXC_0/m1_n12_72# vdd CRS6B_0/FullAdder_2/EXC_0/xor_0/a_18_88# 2 4 859 576
+n CRS6B_0/FullAdder_2/EXC_0/m1_n12_72# CRS6B_0/FullAdder_2/EXC_0/xor_0/a_n36_12# gnd 2 4 859 652
+p m1_692_228# CRS6B_0/FullAdder_2/EXC_0/xor_0/a_n12_88# vdd 2 4 843 576
+p a2 CRS6B_0/FullAdder_2/EXC_0/xor_0/a_18_88# CRS6B_0/FullAdder_2/m1_108_80# 2 4 875 576
+n m1_692_228# CRS6B_0/FullAdder_2/m1_108_80# CRS6B_0/FullAdder_2/EXC_0/xor_0/a_n36_12# 2 4 843 652
+n a2 gnd CRS6B_0/FullAdder_2/EXC_0/xor_0/a_n36_12# 2 4 875 652
+p CRS6B_0/FullAdder_2/EXC_0/m1_0_36# CRS6B_0/FullAdder_2/m1_108_80# CRS6B_0/FullAdder_2/EXC_0/xor_0/a_n12_88# 2 4 830 576
+n CRS6B_0/FullAdder_2/EXC_0/m1_0_36# CRS6B_0/FullAdder_2/EXC_0/xor_0/a_n36_12# CRS6B_0/FullAdder_2/m1_108_80# 2 4 830 652
+p a2 vdd CRS6B_0/FullAdder_2/EXC_0/m1_0_36# 2 4 916 572
+n a2 gnd CRS6B_0/FullAdder_2/EXC_0/m1_0_36# 2 4 916 656
+p CRS6B_0/m1_n689_n24# vdd CRS6B_0/FullAdder_2/EXC_1/m1_n12_72# 2 4 955 700
+n CRS6B_0/m1_n689_n24# gnd CRS6B_0/FullAdder_2/EXC_1/m1_n12_72# 2 4 955 784
+p CRS6B_0/FullAdder_2/EXC_1/m1_n12_72# vdd CRS6B_0/FullAdder_2/EXC_1/xor_0/a_18_88# 2 4 1027 704
+n CRS6B_0/FullAdder_2/EXC_1/m1_n12_72# CRS6B_0/FullAdder_2/EXC_1/xor_0/a_n36_12# gnd 2 4 1027 780
+p CRS6B_0/m1_n689_n24# CRS6B_0/FullAdder_2/EXC_1/xor_0/a_n12_88# vdd 2 4 1011 704
+p CRS6B_0/FullAdder_2/m1_108_80# CRS6B_0/FullAdder_2/EXC_1/xor_0/a_18_88# m1_560_56# 2 4 1043 704
+n CRS6B_0/m1_n689_n24# m1_560_56# CRS6B_0/FullAdder_2/EXC_1/xor_0/a_n36_12# 2 4 1011 780
+n CRS6B_0/FullAdder_2/m1_108_80# gnd CRS6B_0/FullAdder_2/EXC_1/xor_0/a_n36_12# 2 4 1043 780
+p CRS6B_0/FullAdder_2/EXC_1/m1_0_36# m1_560_56# CRS6B_0/FullAdder_2/EXC_1/xor_0/a_n12_88# 2 4 998 704
+n CRS6B_0/FullAdder_2/EXC_1/m1_0_36# CRS6B_0/FullAdder_2/EXC_1/xor_0/a_n36_12# m1_560_56# 2 4 998 780
+p CRS6B_0/FullAdder_2/m1_108_80# vdd CRS6B_0/FullAdder_2/EXC_1/m1_0_36# 2 4 1084 700
+n CRS6B_0/FullAdder_2/m1_108_80# gnd CRS6B_0/FullAdder_2/EXC_1/m1_0_36# 2 4 1084 784
+p CRS6B_0/FullAdder_3/or_0/m1_40_44# vdd CRS6B_0/m1_n1777_n8# 2 4 628 580
+n CRS6B_0/FullAdder_3/or_0/m1_40_44# gnd CRS6B_0/m1_n1777_n8# 2 4 628 664
+p CRS6B_0/FullAdder_3/m1_240_80# vdd CRS6B_0/FullAdder_3/or_0/nor_0/a_14_88# 2 4 584 584
+p CRS6B_0/FullAdder_3/m1_60_n52# CRS6B_0/FullAdder_3/or_0/nor_0/a_14_88# CRS6B_0/FullAdder_3/or_0/m1_40_44# 2 4 599 584
+n CRS6B_0/FullAdder_3/m1_240_80# CRS6B_0/FullAdder_3/or_0/m1_40_44# gnd 2 4 584 660
+n CRS6B_0/FullAdder_3/m1_60_n52# gnd CRS6B_0/FullAdder_3/or_0/m1_40_44# 2 4 599 660
+p CRS6B_0/FullAdder_3/and_0/m1_36_28# vdd CRS6B_0/FullAdder_3/m1_60_n52# 2 4 301 688
+n CRS6B_0/FullAdder_3/and_0/m1_36_28# gnd CRS6B_0/FullAdder_3/m1_60_n52# 2 4 301 772
+p a3 vdd CRS6B_0/FullAdder_3/and_0/m1_36_28# 2 4 257 692
+n a3 gnd CRS6B_0/FullAdder_3/and_0/nand_0/a_14_12# 2 4 257 768
+p m1_192_332# CRS6B_0/FullAdder_3/and_0/m1_36_28# vdd 2 4 269 692
+n m1_192_332# CRS6B_0/FullAdder_3/and_0/nand_0/a_14_12# CRS6B_0/FullAdder_3/and_0/m1_36_28# 2 4 269 768
+p CRS6B_0/FullAdder_3/and_1/m1_36_28# vdd CRS6B_0/FullAdder_3/m1_240_80# 2 4 481 572
+n CRS6B_0/FullAdder_3/and_1/m1_36_28# gnd CRS6B_0/FullAdder_3/m1_240_80# 2 4 481 656
+p CRS6B_0/FullAdder_3/m1_108_80# vdd CRS6B_0/FullAdder_3/and_1/m1_36_28# 2 4 437 576
+n CRS6B_0/FullAdder_3/m1_108_80# gnd CRS6B_0/FullAdder_3/and_1/nand_0/a_14_12# 2 4 437 652
+p CRS6B_0/m1_n1221_n32# CRS6B_0/FullAdder_3/and_1/m1_36_28# vdd 2 4 449 576
+n CRS6B_0/m1_n1221_n32# CRS6B_0/FullAdder_3/and_1/nand_0/a_14_12# CRS6B_0/FullAdder_3/and_1/m1_36_28# 2 4 449 652
+p m1_192_332# vdd CRS6B_0/FullAdder_3/EXC_0/m1_n12_72# 2 4 261 572
+n m1_192_332# gnd CRS6B_0/FullAdder_3/EXC_0/m1_n12_72# 2 4 261 656
+p CRS6B_0/FullAdder_3/EXC_0/m1_n12_72# vdd CRS6B_0/FullAdder_3/EXC_0/xor_0/a_18_88# 2 4 333 576
+n CRS6B_0/FullAdder_3/EXC_0/m1_n12_72# CRS6B_0/FullAdder_3/EXC_0/xor_0/a_n36_12# gnd 2 4 333 652
+p m1_192_332# CRS6B_0/FullAdder_3/EXC_0/xor_0/a_n12_88# vdd 2 4 317 576
+p a3 CRS6B_0/FullAdder_3/EXC_0/xor_0/a_18_88# CRS6B_0/FullAdder_3/m1_108_80# 2 4 349 576
+n m1_192_332# CRS6B_0/FullAdder_3/m1_108_80# CRS6B_0/FullAdder_3/EXC_0/xor_0/a_n36_12# 2 4 317 652
+n a3 gnd CRS6B_0/FullAdder_3/EXC_0/xor_0/a_n36_12# 2 4 349 652
+p CRS6B_0/FullAdder_3/EXC_0/m1_0_36# CRS6B_0/FullAdder_3/m1_108_80# CRS6B_0/FullAdder_3/EXC_0/xor_0/a_n12_88# 2 4 304 576
+n CRS6B_0/FullAdder_3/EXC_0/m1_0_36# CRS6B_0/FullAdder_3/EXC_0/xor_0/a_n36_12# CRS6B_0/FullAdder_3/m1_108_80# 2 4 304 652
+p a3 vdd CRS6B_0/FullAdder_3/EXC_0/m1_0_36# 2 4 390 572
+n a3 gnd CRS6B_0/FullAdder_3/EXC_0/m1_0_36# 2 4 390 656
+p CRS6B_0/m1_n1221_n32# vdd CRS6B_0/FullAdder_3/EXC_1/m1_n12_72# 2 4 429 700
+n CRS6B_0/m1_n1221_n32# gnd CRS6B_0/FullAdder_3/EXC_1/m1_n12_72# 2 4 429 784
+p CRS6B_0/FullAdder_3/EXC_1/m1_n12_72# vdd CRS6B_0/FullAdder_3/EXC_1/xor_0/a_18_88# 2 4 501 704
+n CRS6B_0/FullAdder_3/EXC_1/m1_n12_72# CRS6B_0/FullAdder_3/EXC_1/xor_0/a_n36_12# gnd 2 4 501 780
+p CRS6B_0/m1_n1221_n32# CRS6B_0/FullAdder_3/EXC_1/xor_0/a_n12_88# vdd 2 4 485 704
+p CRS6B_0/FullAdder_3/m1_108_80# CRS6B_0/FullAdder_3/EXC_1/xor_0/a_18_88# m1_380_56# 2 4 517 704
+n CRS6B_0/m1_n1221_n32# m1_380_56# CRS6B_0/FullAdder_3/EXC_1/xor_0/a_n36_12# 2 4 485 780
+n CRS6B_0/FullAdder_3/m1_108_80# gnd CRS6B_0/FullAdder_3/EXC_1/xor_0/a_n36_12# 2 4 517 780
+p CRS6B_0/FullAdder_3/EXC_1/m1_0_36# m1_380_56# CRS6B_0/FullAdder_3/EXC_1/xor_0/a_n12_88# 2 4 472 704
+n CRS6B_0/FullAdder_3/EXC_1/m1_0_36# CRS6B_0/FullAdder_3/EXC_1/xor_0/a_n36_12# m1_380_56# 2 4 472 780
+p CRS6B_0/FullAdder_3/m1_108_80# vdd CRS6B_0/FullAdder_3/EXC_1/m1_0_36# 2 4 558 700
+n CRS6B_0/FullAdder_3/m1_108_80# gnd CRS6B_0/FullAdder_3/EXC_1/m1_0_36# 2 4 558 784
+p CRS6B_0/FullAdder_4/or_0/m1_40_44# vdd CRS6B_0/m1_n2297_n20# 2 4 67 580
+n CRS6B_0/FullAdder_4/or_0/m1_40_44# gnd CRS6B_0/m1_n2297_n20# 2 4 67 664
+p CRS6B_0/FullAdder_4/m1_240_80# vdd CRS6B_0/FullAdder_4/or_0/nor_0/a_14_88# 2 4 23 584
+p CRS6B_0/FullAdder_4/m1_60_n52# CRS6B_0/FullAdder_4/or_0/nor_0/a_14_88# CRS6B_0/FullAdder_4/or_0/m1_40_44# 2 4 38 584
+n CRS6B_0/FullAdder_4/m1_240_80# CRS6B_0/FullAdder_4/or_0/m1_40_44# gnd 2 4 23 660
+n CRS6B_0/FullAdder_4/m1_60_n52# gnd CRS6B_0/FullAdder_4/or_0/m1_40_44# 2 4 38 660
+p CRS6B_0/FullAdder_4/and_0/m1_36_28# vdd CRS6B_0/FullAdder_4/m1_60_n52# 2 4 -260 688
+n CRS6B_0/FullAdder_4/and_0/m1_36_28# gnd CRS6B_0/FullAdder_4/m1_60_n52# 2 4 -260 772
+p a4 vdd CRS6B_0/FullAdder_4/and_0/m1_36_28# 2 4 -304 692
+n a4 gnd CRS6B_0/FullAdder_4/and_0/nand_0/a_14_12# 2 4 -304 768
+p m1_n348_340# CRS6B_0/FullAdder_4/and_0/m1_36_28# vdd 2 4 -292 692
+n m1_n348_340# CRS6B_0/FullAdder_4/and_0/nand_0/a_14_12# CRS6B_0/FullAdder_4/and_0/m1_36_28# 2 4 -292 768
+p CRS6B_0/FullAdder_4/and_1/m1_36_28# vdd CRS6B_0/FullAdder_4/m1_240_80# 2 4 -80 572
+n CRS6B_0/FullAdder_4/and_1/m1_36_28# gnd CRS6B_0/FullAdder_4/m1_240_80# 2 4 -80 656
+p CRS6B_0/FullAdder_4/m1_108_80# vdd CRS6B_0/FullAdder_4/and_1/m1_36_28# 2 4 -124 576
+n CRS6B_0/FullAdder_4/m1_108_80# gnd CRS6B_0/FullAdder_4/and_1/nand_0/a_14_12# 2 4 -124 652
+p CRS6B_0/m1_n1777_n8# CRS6B_0/FullAdder_4/and_1/m1_36_28# vdd 2 4 -112 576
+n CRS6B_0/m1_n1777_n8# CRS6B_0/FullAdder_4/and_1/nand_0/a_14_12# CRS6B_0/FullAdder_4/and_1/m1_36_28# 2 4 -112 652
+p m1_n348_340# vdd CRS6B_0/FullAdder_4/EXC_0/m1_n12_72# 2 4 -300 572
+n m1_n348_340# gnd CRS6B_0/FullAdder_4/EXC_0/m1_n12_72# 2 4 -300 656
+p CRS6B_0/FullAdder_4/EXC_0/m1_n12_72# vdd CRS6B_0/FullAdder_4/EXC_0/xor_0/a_18_88# 2 4 -228 576
+n CRS6B_0/FullAdder_4/EXC_0/m1_n12_72# CRS6B_0/FullAdder_4/EXC_0/xor_0/a_n36_12# gnd 2 4 -228 652
+p m1_n348_340# CRS6B_0/FullAdder_4/EXC_0/xor_0/a_n12_88# vdd 2 4 -244 576
+p a4 CRS6B_0/FullAdder_4/EXC_0/xor_0/a_18_88# CRS6B_0/FullAdder_4/m1_108_80# 2 4 -212 576
+n m1_n348_340# CRS6B_0/FullAdder_4/m1_108_80# CRS6B_0/FullAdder_4/EXC_0/xor_0/a_n36_12# 2 4 -244 652
+n a4 gnd CRS6B_0/FullAdder_4/EXC_0/xor_0/a_n36_12# 2 4 -212 652
+p CRS6B_0/FullAdder_4/EXC_0/m1_0_36# CRS6B_0/FullAdder_4/m1_108_80# CRS6B_0/FullAdder_4/EXC_0/xor_0/a_n12_88# 2 4 -257 576
+n CRS6B_0/FullAdder_4/EXC_0/m1_0_36# CRS6B_0/FullAdder_4/EXC_0/xor_0/a_n36_12# CRS6B_0/FullAdder_4/m1_108_80# 2 4 -257 652
+p a4 vdd CRS6B_0/FullAdder_4/EXC_0/m1_0_36# 2 4 -171 572
+n a4 gnd CRS6B_0/FullAdder_4/EXC_0/m1_0_36# 2 4 -171 656
+p CRS6B_0/m1_n1777_n8# vdd CRS6B_0/FullAdder_4/EXC_1/m1_n12_72# 2 4 -132 700
+n CRS6B_0/m1_n1777_n8# gnd CRS6B_0/FullAdder_4/EXC_1/m1_n12_72# 2 4 -132 784
+p CRS6B_0/FullAdder_4/EXC_1/m1_n12_72# vdd CRS6B_0/FullAdder_4/EXC_1/xor_0/a_18_88# 2 4 -60 704
+n CRS6B_0/FullAdder_4/EXC_1/m1_n12_72# CRS6B_0/FullAdder_4/EXC_1/xor_0/a_n36_12# gnd 2 4 -60 780
+p CRS6B_0/m1_n1777_n8# CRS6B_0/FullAdder_4/EXC_1/xor_0/a_n12_88# vdd 2 4 -76 704
+p CRS6B_0/FullAdder_4/m1_108_80# CRS6B_0/FullAdder_4/EXC_1/xor_0/a_18_88# m1_116_540# 2 4 -44 704
+n CRS6B_0/m1_n1777_n8# m1_116_540# CRS6B_0/FullAdder_4/EXC_1/xor_0/a_n36_12# 2 4 -76 780
+n CRS6B_0/FullAdder_4/m1_108_80# gnd CRS6B_0/FullAdder_4/EXC_1/xor_0/a_n36_12# 2 4 -44 780
+p CRS6B_0/FullAdder_4/EXC_1/m1_0_36# m1_116_540# CRS6B_0/FullAdder_4/EXC_1/xor_0/a_n12_88# 2 4 -89 704
+n CRS6B_0/FullAdder_4/EXC_1/m1_0_36# CRS6B_0/FullAdder_4/EXC_1/xor_0/a_n36_12# m1_116_540# 2 4 -89 780
+p CRS6B_0/FullAdder_4/m1_108_80# vdd CRS6B_0/FullAdder_4/EXC_1/m1_0_36# 2 4 -3 700
+n CRS6B_0/FullAdder_4/m1_108_80# gnd CRS6B_0/FullAdder_4/EXC_1/m1_0_36# 2 4 -3 784
+p CRS6B_0/FullAdder_5/or_0/m1_40_44# vdd CoutSub 2 4 -446 580
+n CRS6B_0/FullAdder_5/or_0/m1_40_44# gnd CoutSub 2 4 -446 664
+p CRS6B_0/FullAdder_5/m1_240_80# vdd CRS6B_0/FullAdder_5/or_0/nor_0/a_14_88# 2 4 -490 584
+p CRS6B_0/FullAdder_5/m1_60_n52# CRS6B_0/FullAdder_5/or_0/nor_0/a_14_88# CRS6B_0/FullAdder_5/or_0/m1_40_44# 2 4 -475 584
+n CRS6B_0/FullAdder_5/m1_240_80# CRS6B_0/FullAdder_5/or_0/m1_40_44# gnd 2 4 -490 660
+n CRS6B_0/FullAdder_5/m1_60_n52# gnd CRS6B_0/FullAdder_5/or_0/m1_40_44# 2 4 -475 660
+p CRS6B_0/FullAdder_5/and_0/m1_36_28# vdd CRS6B_0/FullAdder_5/m1_60_n52# 2 4 -773 688
+n CRS6B_0/FullAdder_5/and_0/m1_36_28# gnd CRS6B_0/FullAdder_5/m1_60_n52# 2 4 -773 772
+p a5 vdd CRS6B_0/FullAdder_5/and_0/m1_36_28# 2 4 -817 692
+n a5 gnd CRS6B_0/FullAdder_5/and_0/nand_0/a_14_12# 2 4 -817 768
+p m1_n848_332# CRS6B_0/FullAdder_5/and_0/m1_36_28# vdd 2 4 -805 692
+n m1_n848_332# CRS6B_0/FullAdder_5/and_0/nand_0/a_14_12# CRS6B_0/FullAdder_5/and_0/m1_36_28# 2 4 -805 768
+p CRS6B_0/FullAdder_5/and_1/m1_36_28# vdd CRS6B_0/FullAdder_5/m1_240_80# 2 4 -593 572
+n CRS6B_0/FullAdder_5/and_1/m1_36_28# gnd CRS6B_0/FullAdder_5/m1_240_80# 2 4 -593 656
+p CRS6B_0/FullAdder_5/m1_108_80# vdd CRS6B_0/FullAdder_5/and_1/m1_36_28# 2 4 -637 576
+n CRS6B_0/FullAdder_5/m1_108_80# gnd CRS6B_0/FullAdder_5/and_1/nand_0/a_14_12# 2 4 -637 652
+p CRS6B_0/m1_n2297_n20# CRS6B_0/FullAdder_5/and_1/m1_36_28# vdd 2 4 -625 576
+n CRS6B_0/m1_n2297_n20# CRS6B_0/FullAdder_5/and_1/nand_0/a_14_12# CRS6B_0/FullAdder_5/and_1/m1_36_28# 2 4 -625 652
+p m1_n848_332# vdd CRS6B_0/FullAdder_5/EXC_0/m1_n12_72# 2 4 -813 572
+n m1_n848_332# gnd CRS6B_0/FullAdder_5/EXC_0/m1_n12_72# 2 4 -813 656
+p CRS6B_0/FullAdder_5/EXC_0/m1_n12_72# vdd CRS6B_0/FullAdder_5/EXC_0/xor_0/a_18_88# 2 4 -741 576
+n CRS6B_0/FullAdder_5/EXC_0/m1_n12_72# CRS6B_0/FullAdder_5/EXC_0/xor_0/a_n36_12# gnd 2 4 -741 652
+p m1_n848_332# CRS6B_0/FullAdder_5/EXC_0/xor_0/a_n12_88# vdd 2 4 -757 576
+p a5 CRS6B_0/FullAdder_5/EXC_0/xor_0/a_18_88# CRS6B_0/FullAdder_5/m1_108_80# 2 4 -725 576
+n m1_n848_332# CRS6B_0/FullAdder_5/m1_108_80# CRS6B_0/FullAdder_5/EXC_0/xor_0/a_n36_12# 2 4 -757 652
+n a5 gnd CRS6B_0/FullAdder_5/EXC_0/xor_0/a_n36_12# 2 4 -725 652
+p CRS6B_0/FullAdder_5/EXC_0/m1_0_36# CRS6B_0/FullAdder_5/m1_108_80# CRS6B_0/FullAdder_5/EXC_0/xor_0/a_n12_88# 2 4 -770 576
+n CRS6B_0/FullAdder_5/EXC_0/m1_0_36# CRS6B_0/FullAdder_5/EXC_0/xor_0/a_n36_12# CRS6B_0/FullAdder_5/m1_108_80# 2 4 -770 652
+p a5 vdd CRS6B_0/FullAdder_5/EXC_0/m1_0_36# 2 4 -684 572
+n a5 gnd CRS6B_0/FullAdder_5/EXC_0/m1_0_36# 2 4 -684 656
+p CRS6B_0/m1_n2297_n20# vdd CRS6B_0/FullAdder_5/EXC_1/m1_n12_72# 2 4 -645 700
+n CRS6B_0/m1_n2297_n20# gnd CRS6B_0/FullAdder_5/EXC_1/m1_n12_72# 2 4 -645 784
+p CRS6B_0/FullAdder_5/EXC_1/m1_n12_72# vdd CRS6B_0/FullAdder_5/EXC_1/xor_0/a_18_88# 2 4 -573 704
+n CRS6B_0/FullAdder_5/EXC_1/m1_n12_72# CRS6B_0/FullAdder_5/EXC_1/xor_0/a_n36_12# gnd 2 4 -573 780
+p CRS6B_0/m1_n2297_n20# CRS6B_0/FullAdder_5/EXC_1/xor_0/a_n12_88# vdd 2 4 -589 704
+p CRS6B_0/FullAdder_5/m1_108_80# CRS6B_0/FullAdder_5/EXC_1/xor_0/a_18_88# m1_n400_548# 2 4 -557 704
+n CRS6B_0/m1_n2297_n20# m1_n400_548# CRS6B_0/FullAdder_5/EXC_1/xor_0/a_n36_12# 2 4 -589 780
+n CRS6B_0/FullAdder_5/m1_108_80# gnd CRS6B_0/FullAdder_5/EXC_1/xor_0/a_n36_12# 2 4 -557 780
+p CRS6B_0/FullAdder_5/EXC_1/m1_0_36# m1_n400_548# CRS6B_0/FullAdder_5/EXC_1/xor_0/a_n12_88# 2 4 -602 704
+n CRS6B_0/FullAdder_5/EXC_1/m1_0_36# CRS6B_0/FullAdder_5/EXC_1/xor_0/a_n36_12# m1_n400_548# 2 4 -602 780
+p CRS6B_0/FullAdder_5/m1_108_80# vdd CRS6B_0/FullAdder_5/EXC_1/m1_0_36# 2 4 -516 700
+n CRS6B_0/FullAdder_5/m1_108_80# gnd CRS6B_0/FullAdder_5/EXC_1/m1_0_36# 2 4 -516 784
+p a_2346_n156# a_2348_n167# a_2348_n154# 2 4 2348 -155
+p a_2346_51# a_2346_n22# a_2348_53# 2 4 2348 51
+n a_2346_301# gnd a_2346_182# 2 4 2424 301
+p a_2342_13# a_2344_n1# vdd 2 4 2344 13
+p a_2346_182# vdd a_2342_150# 2 4 2348 182
+p a_2346_286# a_2346_182# a_2348_288# 2 4 2348 286
+n a_2342_n66# a_2342_n104# gnd 2 4 2428 -65
+p a_2344_n1# vdd a_2342_n66# 2 4 2348 -33
+n a_2342_n104# a_2344_n118# gnd 2 4 2428 -103
+p a_2342_n66# a_2342_n104# vdd 2 4 2344 -65
+n a_2342_13# a_2344_n1# gnd 2 4 2428 13
+n a_2346_n22# a_2424_n32# gnd 2 4 2424 -21
+n a_2346_n156# a_2348_n167# gnd 2 4 2424 -155
+n a_2342_107# a_2344_93# gnd 2 4 2428 107
+p a_2344_93# a_2348_53# vdd 2 4 2348 66
+p a_2344_225# a_2342_150# vdd 2 4 2348 194
+n a_2342_150# a_2342_107# gnd 2 4 2428 150
+p a_2342_107# a_2344_93# vdd 2 4 2344 107
+n a_2346_51# a_2346_n22# gnd 2 4 2424 51
+p a_2346_301# a_2348_288# vdd 2 4 2348 301
+n a_2346_182# a_2342_150# a_2424_184# 2 4 2424 182
+n a_2346_286# a_2346_182# gnd 2 4 2424 286
+p a_2342_150# a_2342_107# vdd 2 4 2344 150
+p a_2344_n118# a_2348_n154# vdd 2 4 2348 -140
+n a_2344_n1# a_2342_n66# a_2424_n32# 2 4 2424 -33
+p a_2346_n22# a_2342_n66# vdd 2 4 2348 -21
+n a_2342_239# a_2344_225# gnd 2 4 2428 239
+p a_2342_n104# a_2344_n118# vdd 2 4 2344 -103
+n a_2344_93# gnd a_2346_n22# 2 4 2424 66
+n a_2344_225# a_2424_184# gnd 2 4 2424 194
+n a_2344_n118# gnd a_2348_n167# 2 4 2424 -140
+p a_2342_239# a_2344_225# vdd 2 4 2344 239
+C vdd m1_512_n160# 2.16
+C s1 m1_88_n20# 8.64
+C vdd m1_920_56# 3.84
+C CRS6B_0/FullAdder_4/EXC_1/m1_0_36# m1_116_540# 2.40
+C gnd a_2342_239# 2.16
+C b3 a5 2.88
+C vdd m1_192_332# 2.19
+C gnd a2 2.16
+C gnd vdd 19.44
+C gnd CRA6B_0/m1_n1776_n8# 2.16
+C gnd CRS6B_0/m1_n201_n12# 2.16
+C CRA6B_0/FullAdder_1/EXC_0/m1_0_36# CRA6B_0/FullAdder_1/m1_108_80# 2.40
+C b3 b4 2.16
+C gnd m2_40_n8# 3.60
+C vdd a_2346_301# 2.35
+C b0 m1_1072_240# 2.16
+C CRA6B_0/FullAdder_4/EXC_0/m1_0_36# CRA6B_0/FullAdder_4/m1_108_80# 2.40
+C CRS6B_0/FullAdder_1/EXC_0/m1_0_36# CRS6B_0/FullAdder_1/m1_108_80# 2.40
+C vdd m1_688_n148# 2.16
+C b2 a5 2.88
+C b3 a4 2.88
+C vdd m1_692_228# 2.19
+C a1 gnd 2.16
+C gnd a_2346_51# 2.16
+C CRS6B_0/FullAdder_4/EXC_0/m1_0_36# CRS6B_0/FullAdder_4/m1_108_80# 2.40
+C b0 a5 2.88
+C gnd CRA6B_0/m1_n1220_n32# 2.16
+C CRA6B_0/FullAdder_0/EXC_0/m1_0_36# CRA6B_0/FullAdder_0/m1_108_80# 2.40
+C vdd m1_n400_548# 2.35
+C gnd a_2346_n156# 2.16
+C vdd CRS6B_0/FullAdder_0/m1_108_80# 3.21
+C m1_88_n20# m2_40_n8# 4.32
+C b1 m1_1072_240# 2.16
+C vdd a5 4.32
+C CRA6B_0/FullAdder_3/EXC_1/m1_0_36# m1_512_n160# 2.40
+C CRS6B_0/FullAdder_0/EXC_1/m1_0_36# m1_920_56# 2.40
+C m1_872_n136# vdd 2.16
+C CRS6B_0/FullAdder_3/EXC_1/m1_0_36# m1_380_56# 2.40
+C b2 a4 2.88
+C b1 a5 2.88
+C vdd b4 2.88
+C vdd m1_888_228# 2.19
+C b0 a4 2.88
+C gnd CRA6B_0/m1_n688_n24# 2.16
+C vdd m1_116_540# 3.60
+C vdd a_2342_13# 2.16
+C gnd a_2346_301# 2.16
+C b1 m1_888_228# 2.88
+C vdd a4 4.32
+C gnd CRS6B_0/m1_n2297_n20# 2.16
+C b0 m1_1092_228# 2.16
+C CRA6B_0/FullAdder_3/EXC_0/m1_0_36# CRA6B_0/FullAdder_3/m1_108_80# 2.40
+C CRS6B_0/FullAdder_0/EXC_0/m1_0_36# CRS6B_0/FullAdder_0/m1_108_80# 2.40
+C gnd m1_88_n20# 3.60
+C b0 a0 2.49
+C vdd b3 2.88
+C b1 a4 2.88
+C b2 a3 2.88
+C vdd m1_1092_228# 2.19
+C CRS6B_0/FullAdder_3/EXC_0/m1_0_36# CRS6B_0/FullAdder_3/m1_108_80# 2.40
+C b0 a3 2.88
+C vdd CRS6B_0/FullAdder_0/m1_60_n52# 2.16
+C CRA6B_0/m1_n200_n12# gnd 2.16
+C vdd m1_380_56# 3.60
+C CRA6B_0/FullAdder_0/EXC_1/m1_0_36# m1_1052_n124# 2.40
+C a0 vdd 4.32
+C gnd a5 2.16
+C b1 m1_1092_228# 2.16
+C vdd a3 4.32
+C gnd CRS6B_0/m1_n1777_n8# 2.16
+C CRA6B_0/FullAdder_2/EXC_1/m1_0_36# m1_688_n148# 2.40
+C a0 b1 2.16
+C s1 m2_40_n8# 3.75
+C CRA6B_0/FullAdder_5/EXC_1/m1_0_36# m1_n408_n433# 2.40
+C CRS6B_0/FullAdder_2/EXC_1/m1_0_36# m1_560_56# 2.40
+C b2 vdd 2.88
+C b1 a3 2.88
+C b0 a2 2.88
+C gnd a_2342_13# 2.16
+C b0 vdd 3.25
+C vdd a_2346_286# 2.16
+C vdd m1_n408_n433# 2.16
+C vdd m1_560_56# 3.60
+C CRS6B_0/FullAdder_5/EXC_1/m1_0_36# m1_n400_548# 2.40
+C vdd m1_n848_332# 2.19
+C gnd a4 2.16
+C vdd a_2342_239# 2.16
+C a2 vdd 4.32
+C gnd CRS6B_0/m1_n1221_n32# 2.16
+C b0 b1 2.16
+C CRA6B_0/FullAdder_2/EXC_0/m1_0_36# CRA6B_0/FullAdder_2/m1_108_80# 2.40
+C b4 b5 2.16
+C b1 a2 2.88
+C b1 vdd 2.88
+C CRA6B_0/FullAdder_5/EXC_0/m1_0_36# CRA6B_0/FullAdder_5/m1_108_80# 2.40
+C CRS6B_0/FullAdder_2/EXC_0/m1_0_36# CRS6B_0/FullAdder_2/m1_108_80# 2.40
+C b0 a1 2.88
+C a0 gnd 2.16
+C vdd m1_92_n433# 2.16
+C vdd m1_740_55# 3.60
+C gnd s1 3.60
+C b4 a5 2.88
+C vdd m1_n348_340# 2.19
+C gnd a3 2.16
+C CRS6B_0/FullAdder_5/EXC_0/m1_0_36# CRS6B_0/FullAdder_5/m1_108_80# 2.40
+C gnd CRA6B_0/m1_n2296_n20# 2.16
+C a1 vdd 4.32
+C gnd CRS6B_0/m1_n689_n24# 2.16
+C CRA6B_0/FullAdder_1/EXC_1/m1_0_36# m1_872_n136# 2.40
+C vdd a_2346_51# 2.16
+C vdd a_2346_n156# 2.16
+C CRA6B_0/FullAdder_4/EXC_1/m1_0_36# m1_92_n433# 2.40
+C CRS6B_0/FullAdder_1/EXC_1/m1_0_36# m1_740_55# 2.40
+C b1 m1_868_240# 2.16
+C b1 a1 2.49
+C gnd a_2346_286# 2.16
+R a_2348_n154# 194
+C a_2344_n118# GND 40.57
+R a_2344_n118# 1400
+C a_2342_n104# GND 45.12
+R a_2342_n104# 1544
+R a_2424_n32# 67
+C a_2342_n66# GND 43.62
+R a_2342_n66# 1484
+C a_2344_n1# GND 42.33
+R a_2344_n1# 1305
+R a_2348_53# 194
+C a_2346_n22# GND 54.69
+R a_2346_n22# 1439
+C a_2344_93# GND 41.32
+R a_2344_93# 1400
+C a_2342_107# GND 45.31
+R a_2342_107# 1544
+R a_2424_184# 67
+C a_2342_150# GND 43.62
+R a_2342_150# 1484
+C a_2344_225# GND 45.08
+R a_2344_225# 1354
+R a_2348_288# 194
+C a_2346_182# GND 55.24
+R a_2346_182# 1390
+C CRS6B_0/FullAdder_5/EXC_1/xor_0/a_n36_12# GND 20.49
+R CRS6B_0/FullAdder_5/EXC_1/xor_0/a_n36_12# 491
+R CRS6B_0/FullAdder_5/EXC_1/xor_0/a_18_88# 208
+R CRS6B_0/FullAdder_5/EXC_1/xor_0/a_n12_88# 179
+C m1_n400_548# GND 446.78
+R m1_n400_548# 2218
+= m1_n400_548# ZeroDetection_0/m1_n4_76#
+= m1_n400_548# ZeroDetection_0/nor_0/a_4_72#
+= m1_n400_548# trans4to1_0/trans2to1_2/tansGate_0/a_4_8#
+= m1_n400_548# CRS6B_0/m2_n2071_76#
+= m1_n400_548# CRS6B_0/FullAdder_5/m1_276_n52#
+= m1_n400_548# CRS6B_0/FullAdder_5/EXC_1/xor_0/a_n36_88#
+C CRS6B_0/FullAdder_5/m1_108_80# GND 118.61
+R CRS6B_0/FullAdder_5/m1_108_80# 4221
+= CRS6B_0/FullAdder_5/m1_108_80# CRS6B_0/FullAdder_5/EXC_0/xor_0/a_n36_88#
+= CRS6B_0/FullAdder_5/m1_108_80# CRS6B_0/FullAdder_5/and_1/nand_0/a_4_80#
+= CRS6B_0/FullAdder_5/m1_108_80# CRS6B_0/FullAdder_5/EXC_1/m1_60_40#
+= CRS6B_0/FullAdder_5/m1_108_80# CRS6B_0/FullAdder_5/EXC_1/not_1/a_8_28#
+= CRS6B_0/FullAdder_5/m1_108_80# CRS6B_0/FullAdder_5/EXC_1/xor_0/a_24_40#
+C CRS6B_0/FullAdder_5/EXC_1/m1_n12_72# GND 43.18
+R CRS6B_0/FullAdder_5/EXC_1/m1_n12_72# 1448
+= CRS6B_0/FullAdder_5/EXC_1/m1_n12_72# CRS6B_0/FullAdder_5/EXC_1/not_0/a_22_8#
+= CRS6B_0/FullAdder_5/EXC_1/m1_n12_72# CRS6B_0/FullAdder_5/EXC_1/xor_0/a_8_76#
+C CRS6B_0/m1_n2297_n20# GND 327.50
+R CRS6B_0/m1_n2297_n20# 3791
+= CRS6B_0/m1_n2297_n20# CRS6B_0/FullAdder_4/m1_391_56#
+= CRS6B_0/m1_n2297_n20# CRS6B_0/FullAdder_4/or_0/not_0/a_22_8#
+= CRS6B_0/m1_n2297_n20# CRS6B_0/FullAdder_5/m1_160_n64#
+= CRS6B_0/m1_n2297_n20# CRS6B_0/FullAdder_5/and_1/nand_0/a_24_10#
+= CRS6B_0/m1_n2297_n20# CRS6B_0/FullAdder_5/EXC_1/m1_n32_48#
+= CRS6B_0/m1_n2297_n20# CRS6B_0/FullAdder_5/EXC_1/not_0/a_8_28#
+= CRS6B_0/m1_n2297_n20# CRS6B_0/FullAdder_5/EXC_1/xor_0/a_n8_80#
+C CRS6B_0/FullAdder_5/EXC_1/m1_0_36# GND 57.31
+R CRS6B_0/FullAdder_5/EXC_1/m1_0_36# 1509
+= CRS6B_0/FullAdder_5/EXC_1/m1_0_36# CRS6B_0/FullAdder_5/EXC_1/not_1/a_22_8#
+= CRS6B_0/FullAdder_5/EXC_1/m1_0_36# CRS6B_0/FullAdder_5/EXC_1/xor_0/a_n28_36#
+C CRS6B_0/FullAdder_5/EXC_0/xor_0/a_n36_12# GND 20.49
+R CRS6B_0/FullAdder_5/EXC_0/xor_0/a_n36_12# 491
+R CRS6B_0/FullAdder_5/EXC_0/xor_0/a_18_88# 208
+R CRS6B_0/FullAdder_5/EXC_0/xor_0/a_n12_88# 179
+C CRS6B_0/FullAdder_5/EXC_0/m1_n12_72# GND 43.18
+R CRS6B_0/FullAdder_5/EXC_0/m1_n12_72# 1448
+= CRS6B_0/FullAdder_5/EXC_0/m1_n12_72# CRS6B_0/FullAdder_5/EXC_0/not_0/a_22_8#
+= CRS6B_0/FullAdder_5/EXC_0/m1_n12_72# CRS6B_0/FullAdder_5/EXC_0/xor_0/a_8_76#
+C m1_n848_332# GND 278.78
+R m1_n848_332# 4982
+= m1_n848_332# xor_3/a_8_76#
+= m1_n848_332# CRS6B_0/m1_n2472_104#
+= m1_n848_332# CRS6B_0/not_5/a_22_8#
+= m1_n848_332# CRS6B_0/FullAdder_5/m1_n12_n72#
+= m1_n848_332# CRS6B_0/FullAdder_5/and_0/nand_0/a_24_10#
+= m1_n848_332# CRS6B_0/FullAdder_5/EXC_0/m1_n32_48#
+= m1_n848_332# CRS6B_0/FullAdder_5/EXC_0/not_0/a_8_28#
+= m1_n848_332# CRS6B_0/FullAdder_5/EXC_0/xor_0/a_n8_80#
+C CRS6B_0/FullAdder_5/EXC_0/m1_0_36# GND 57.31
+R CRS6B_0/FullAdder_5/EXC_0/m1_0_36# 1509
+= CRS6B_0/FullAdder_5/EXC_0/m1_0_36# CRS6B_0/FullAdder_5/EXC_0/not_1/a_22_8#
+= CRS6B_0/FullAdder_5/EXC_0/m1_0_36# CRS6B_0/FullAdder_5/EXC_0/xor_0/a_n28_36#
+R CRS6B_0/FullAdder_5/and_1/nand_0/a_14_12# 67
+C CRS6B_0/FullAdder_5/and_1/m1_36_28# GND 43.62
+R CRS6B_0/FullAdder_5/and_1/m1_36_28# 1484
+= CRS6B_0/FullAdder_5/and_1/m1_36_28# CRS6B_0/FullAdder_5/and_1/not_0/a_8_28#
+= CRS6B_0/FullAdder_5/and_1/m1_36_28# CRS6B_0/FullAdder_5/and_1/nand_0/a_14_88#
+C CRS6B_0/FullAdder_5/m1_240_80# GND 43.07
+R CRS6B_0/FullAdder_5/m1_240_80# 1400
+= CRS6B_0/FullAdder_5/m1_240_80# CRS6B_0/FullAdder_5/or_0/nor_0/a_4_72#
+= CRS6B_0/FullAdder_5/m1_240_80# CRS6B_0/FullAdder_5/and_1/not_0/a_22_8#
+R CRS6B_0/FullAdder_5/and_0/nand_0/a_14_12# 67
+C CRS6B_0/FullAdder_5/and_0/m1_36_28# GND 43.62
+R CRS6B_0/FullAdder_5/and_0/m1_36_28# 1484
+= CRS6B_0/FullAdder_5/and_0/m1_36_28# CRS6B_0/FullAdder_5/and_0/not_0/a_8_28#
+= CRS6B_0/FullAdder_5/and_0/m1_36_28# CRS6B_0/FullAdder_5/and_0/nand_0/a_14_88#
+C CRS6B_0/FullAdder_5/m1_60_n52# GND 67.44
+R CRS6B_0/FullAdder_5/m1_60_n52# 1390
+= CRS6B_0/FullAdder_5/m1_60_n52# CRS6B_0/FullAdder_5/or_0/nor_0/a_20_56#
+= CRS6B_0/FullAdder_5/m1_60_n52# CRS6B_0/FullAdder_5/and_0/not_0/a_22_8#
+R CRS6B_0/FullAdder_5/or_0/nor_0/a_14_88# 194
+R CoutSub 303
+= CoutSub CRS6B_0/m1_n2028_184#
+= CoutSub CRS6B_0/FullAdder_5/m1_391_56#
+= CoutSub CRS6B_0/FullAdder_5/or_0/not_0/a_22_8#
+C CRS6B_0/FullAdder_5/or_0/m1_40_44# GND 52.26
+R CRS6B_0/FullAdder_5/or_0/m1_40_44# 1628
+= CRS6B_0/FullAdder_5/or_0/m1_40_44# CRS6B_0/FullAdder_5/or_0/nor_0/a_0_12#
+= CRS6B_0/FullAdder_5/or_0/m1_40_44# CRS6B_0/FullAdder_5/or_0/not_0/a_8_28#
+C CRS6B_0/FullAdder_4/EXC_1/xor_0/a_n36_12# GND 20.49
+R CRS6B_0/FullAdder_4/EXC_1/xor_0/a_n36_12# 491
+R CRS6B_0/FullAdder_4/EXC_1/xor_0/a_18_88# 208
+R CRS6B_0/FullAdder_4/EXC_1/xor_0/a_n12_88# 179
+C m1_116_540# GND 401.53
+R m1_116_540# 2202
+= m1_116_540# ZeroDetection_0/m1_n4_60#
+= m1_116_540# ZeroDetection_0/nor_0/a_20_56#
+= m1_116_540# trans4to1_1/trans2to1_2/tansGate_0/a_4_8#
+= m1_116_540# CRS6B_0/m2_n1558_76#
+= m1_116_540# CRS6B_0/FullAdder_4/m1_276_n52#
+= m1_116_540# CRS6B_0/FullAdder_4/EXC_1/xor_0/a_n36_88#
+C CRS6B_0/FullAdder_4/m1_108_80# GND 118.61
+R CRS6B_0/FullAdder_4/m1_108_80# 4221
+= CRS6B_0/FullAdder_4/m1_108_80# CRS6B_0/FullAdder_4/EXC_0/xor_0/a_n36_88#
+= CRS6B_0/FullAdder_4/m1_108_80# CRS6B_0/FullAdder_4/and_1/nand_0/a_4_80#
+= CRS6B_0/FullAdder_4/m1_108_80# CRS6B_0/FullAdder_4/EXC_1/m1_60_40#
+= CRS6B_0/FullAdder_4/m1_108_80# CRS6B_0/FullAdder_4/EXC_1/not_1/a_8_28#
+= CRS6B_0/FullAdder_4/m1_108_80# CRS6B_0/FullAdder_4/EXC_1/xor_0/a_24_40#
+C CRS6B_0/FullAdder_4/EXC_1/m1_n12_72# GND 43.18
+R CRS6B_0/FullAdder_4/EXC_1/m1_n12_72# 1448
+= CRS6B_0/FullAdder_4/EXC_1/m1_n12_72# CRS6B_0/FullAdder_4/EXC_1/not_0/a_22_8#
+= CRS6B_0/FullAdder_4/EXC_1/m1_n12_72# CRS6B_0/FullAdder_4/EXC_1/xor_0/a_8_76#
+C CRS6B_0/m1_n1777_n8# GND 212.35
+R CRS6B_0/m1_n1777_n8# 3785
+= CRS6B_0/m1_n1777_n8# CRS6B_0/FullAdder_3/m1_391_56#
+= CRS6B_0/m1_n1777_n8# CRS6B_0/FullAdder_3/or_0/not_0/a_22_8#
+= CRS6B_0/m1_n1777_n8# CRS6B_0/FullAdder_4/m1_160_n64#
+= CRS6B_0/m1_n1777_n8# CRS6B_0/FullAdder_4/and_1/nand_0/a_24_10#
+= CRS6B_0/m1_n1777_n8# CRS6B_0/FullAdder_4/EXC_1/m1_n32_48#
+= CRS6B_0/m1_n1777_n8# CRS6B_0/FullAdder_4/EXC_1/not_0/a_8_28#
+= CRS6B_0/m1_n1777_n8# CRS6B_0/FullAdder_4/EXC_1/xor_0/a_n8_80#
+C CRS6B_0/FullAdder_4/EXC_1/m1_0_36# GND 57.31
+R CRS6B_0/FullAdder_4/EXC_1/m1_0_36# 1509
+= CRS6B_0/FullAdder_4/EXC_1/m1_0_36# CRS6B_0/FullAdder_4/EXC_1/not_1/a_22_8#
+= CRS6B_0/FullAdder_4/EXC_1/m1_0_36# CRS6B_0/FullAdder_4/EXC_1/xor_0/a_n28_36#
+C CRS6B_0/FullAdder_4/EXC_0/xor_0/a_n36_12# GND 20.49
+R CRS6B_0/FullAdder_4/EXC_0/xor_0/a_n36_12# 491
+R CRS6B_0/FullAdder_4/EXC_0/xor_0/a_18_88# 208
+R CRS6B_0/FullAdder_4/EXC_0/xor_0/a_n12_88# 179
+C CRS6B_0/FullAdder_4/EXC_0/m1_n12_72# GND 43.18
+R CRS6B_0/FullAdder_4/EXC_0/m1_n12_72# 1448
+= CRS6B_0/FullAdder_4/EXC_0/m1_n12_72# CRS6B_0/FullAdder_4/EXC_0/not_0/a_22_8#
+= CRS6B_0/FullAdder_4/EXC_0/m1_n12_72# CRS6B_0/FullAdder_4/EXC_0/xor_0/a_8_76#
+C m1_n348_340# GND 256.52
+R m1_n348_340# 4980
+= m1_n348_340# xor_2/a_8_76#
+= m1_n348_340# CRS6B_0/m1_n1976_108#
+= m1_n348_340# CRS6B_0/not_4/a_22_8#
+= m1_n348_340# CRS6B_0/FullAdder_4/m1_n12_n72#
+= m1_n348_340# CRS6B_0/FullAdder_4/and_0/nand_0/a_24_10#
+= m1_n348_340# CRS6B_0/FullAdder_4/EXC_0/m1_n32_48#
+= m1_n348_340# CRS6B_0/FullAdder_4/EXC_0/not_0/a_8_28#
+= m1_n348_340# CRS6B_0/FullAdder_4/EXC_0/xor_0/a_n8_80#
+C CRS6B_0/FullAdder_4/EXC_0/m1_0_36# GND 57.31
+R CRS6B_0/FullAdder_4/EXC_0/m1_0_36# 1509
+= CRS6B_0/FullAdder_4/EXC_0/m1_0_36# CRS6B_0/FullAdder_4/EXC_0/not_1/a_22_8#
+= CRS6B_0/FullAdder_4/EXC_0/m1_0_36# CRS6B_0/FullAdder_4/EXC_0/xor_0/a_n28_36#
+R CRS6B_0/FullAdder_4/and_1/nand_0/a_14_12# 67
+C CRS6B_0/FullAdder_4/and_1/m1_36_28# GND 43.62
+R CRS6B_0/FullAdder_4/and_1/m1_36_28# 1484
+= CRS6B_0/FullAdder_4/and_1/m1_36_28# CRS6B_0/FullAdder_4/and_1/not_0/a_8_28#
+= CRS6B_0/FullAdder_4/and_1/m1_36_28# CRS6B_0/FullAdder_4/and_1/nand_0/a_14_88#
+C CRS6B_0/FullAdder_4/m1_240_80# GND 43.07
+R CRS6B_0/FullAdder_4/m1_240_80# 1400
+= CRS6B_0/FullAdder_4/m1_240_80# CRS6B_0/FullAdder_4/or_0/nor_0/a_4_72#
+= CRS6B_0/FullAdder_4/m1_240_80# CRS6B_0/FullAdder_4/and_1/not_0/a_22_8#
+R CRS6B_0/FullAdder_4/and_0/nand_0/a_14_12# 67
+C CRS6B_0/FullAdder_4/and_0/m1_36_28# GND 43.62
+R CRS6B_0/FullAdder_4/and_0/m1_36_28# 1484
+= CRS6B_0/FullAdder_4/and_0/m1_36_28# CRS6B_0/FullAdder_4/and_0/not_0/a_8_28#
+= CRS6B_0/FullAdder_4/and_0/m1_36_28# CRS6B_0/FullAdder_4/and_0/nand_0/a_14_88#
+C CRS6B_0/FullAdder_4/m1_60_n52# GND 67.44
+R CRS6B_0/FullAdder_4/m1_60_n52# 1390
+= CRS6B_0/FullAdder_4/m1_60_n52# CRS6B_0/FullAdder_4/or_0/nor_0/a_20_56#
+= CRS6B_0/FullAdder_4/m1_60_n52# CRS6B_0/FullAdder_4/and_0/not_0/a_22_8#
+R CRS6B_0/FullAdder_4/or_0/nor_0/a_14_88# 194
+C CRS6B_0/FullAdder_4/or_0/m1_40_44# GND 52.26
+R CRS6B_0/FullAdder_4/or_0/m1_40_44# 1628
+= CRS6B_0/FullAdder_4/or_0/m1_40_44# CRS6B_0/FullAdder_4/or_0/nor_0/a_0_12#
+= CRS6B_0/FullAdder_4/or_0/m1_40_44# CRS6B_0/FullAdder_4/or_0/not_0/a_8_28#
+C CRS6B_0/FullAdder_3/EXC_1/xor_0/a_n36_12# GND 20.49
+R CRS6B_0/FullAdder_3/EXC_1/xor_0/a_n36_12# 491
+R CRS6B_0/FullAdder_3/EXC_1/xor_0/a_18_88# 208
+R CRS6B_0/FullAdder_3/EXC_1/xor_0/a_n12_88# 179
+C m1_380_56# GND 388.88
+R m1_380_56# 2356
+= m1_380_56# ZeroDetection_0/m1_61_32#
+= m1_380_56# ZeroDetection_0/not_0/a_8_28#
+= m1_380_56# trans4to1_2/trans2to1_2/tansGate_0/a_4_8#
+= m1_380_56# CRS6B_0/m2_n997_76#
+= m1_380_56# CRS6B_0/FullAdder_3/m1_276_n52#
+= m1_380_56# CRS6B_0/FullAdder_3/EXC_1/xor_0/a_n36_88#
+C CRS6B_0/FullAdder_3/m1_108_80# GND 118.61
+R CRS6B_0/FullAdder_3/m1_108_80# 4221
+= CRS6B_0/FullAdder_3/m1_108_80# CRS6B_0/FullAdder_3/EXC_0/xor_0/a_n36_88#
+= CRS6B_0/FullAdder_3/m1_108_80# CRS6B_0/FullAdder_3/and_1/nand_0/a_4_80#
+= CRS6B_0/FullAdder_3/m1_108_80# CRS6B_0/FullAdder_3/EXC_1/m1_60_40#
+= CRS6B_0/FullAdder_3/m1_108_80# CRS6B_0/FullAdder_3/EXC_1/not_1/a_8_28#
+= CRS6B_0/FullAdder_3/m1_108_80# CRS6B_0/FullAdder_3/EXC_1/xor_0/a_24_40#
+C CRS6B_0/FullAdder_3/EXC_1/m1_n12_72# GND 43.18
+R CRS6B_0/FullAdder_3/EXC_1/m1_n12_72# 1448
+= CRS6B_0/FullAdder_3/EXC_1/m1_n12_72# CRS6B_0/FullAdder_3/EXC_1/not_0/a_22_8#
+= CRS6B_0/FullAdder_3/EXC_1/m1_n12_72# CRS6B_0/FullAdder_3/EXC_1/xor_0/a_8_76#
+C CRS6B_0/m1_n1221_n32# GND 298.74
+R CRS6B_0/m1_n1221_n32# 3789
+= CRS6B_0/m1_n1221_n32# CRS6B_0/FullAdder_2/m1_391_56#
+= CRS6B_0/m1_n1221_n32# CRS6B_0/FullAdder_2/or_0/not_0/a_22_8#
+= CRS6B_0/m1_n1221_n32# CRS6B_0/FullAdder_3/m1_160_n64#
+= CRS6B_0/m1_n1221_n32# CRS6B_0/FullAdder_3/and_1/nand_0/a_24_10#
+= CRS6B_0/m1_n1221_n32# CRS6B_0/FullAdder_3/EXC_1/m1_n32_48#
+= CRS6B_0/m1_n1221_n32# CRS6B_0/FullAdder_3/EXC_1/not_0/a_8_28#
+= CRS6B_0/m1_n1221_n32# CRS6B_0/FullAdder_3/EXC_1/xor_0/a_n8_80#
+C CRS6B_0/FullAdder_3/EXC_1/m1_0_36# GND 57.31
+R CRS6B_0/FullAdder_3/EXC_1/m1_0_36# 1509
+= CRS6B_0/FullAdder_3/EXC_1/m1_0_36# CRS6B_0/FullAdder_3/EXC_1/not_1/a_22_8#
+= CRS6B_0/FullAdder_3/EXC_1/m1_0_36# CRS6B_0/FullAdder_3/EXC_1/xor_0/a_n28_36#
+C CRS6B_0/FullAdder_3/EXC_0/xor_0/a_n36_12# GND 20.49
+R CRS6B_0/FullAdder_3/EXC_0/xor_0/a_n36_12# 491
+R CRS6B_0/FullAdder_3/EXC_0/xor_0/a_18_88# 208
+R CRS6B_0/FullAdder_3/EXC_0/xor_0/a_n12_88# 179
+C CRS6B_0/FullAdder_3/EXC_0/m1_n12_72# GND 43.18
+R CRS6B_0/FullAdder_3/EXC_0/m1_n12_72# 1448
+= CRS6B_0/FullAdder_3/EXC_0/m1_n12_72# CRS6B_0/FullAdder_3/EXC_0/not_0/a_22_8#
+= CRS6B_0/FullAdder_3/EXC_0/m1_n12_72# CRS6B_0/FullAdder_3/EXC_0/xor_0/a_8_76#
+C m1_192_332# GND 230.90
+R m1_192_332# 4978
+= m1_192_332# xor_1/a_8_76#
+= m1_192_332# CRS6B_0/m1_n1440_100#
+= m1_192_332# CRS6B_0/not_3/a_22_8#
+= m1_192_332# CRS6B_0/FullAdder_3/m1_n12_n72#
+= m1_192_332# CRS6B_0/FullAdder_3/and_0/nand_0/a_24_10#
+= m1_192_332# CRS6B_0/FullAdder_3/EXC_0/m1_n32_48#
+= m1_192_332# CRS6B_0/FullAdder_3/EXC_0/not_0/a_8_28#
+= m1_192_332# CRS6B_0/FullAdder_3/EXC_0/xor_0/a_n8_80#
+C CRS6B_0/FullAdder_3/EXC_0/m1_0_36# GND 57.31
+R CRS6B_0/FullAdder_3/EXC_0/m1_0_36# 1509
+= CRS6B_0/FullAdder_3/EXC_0/m1_0_36# CRS6B_0/FullAdder_3/EXC_0/not_1/a_22_8#
+= CRS6B_0/FullAdder_3/EXC_0/m1_0_36# CRS6B_0/FullAdder_3/EXC_0/xor_0/a_n28_36#
+R CRS6B_0/FullAdder_3/and_1/nand_0/a_14_12# 67
+C CRS6B_0/FullAdder_3/and_1/m1_36_28# GND 43.62
+R CRS6B_0/FullAdder_3/and_1/m1_36_28# 1484
+= CRS6B_0/FullAdder_3/and_1/m1_36_28# CRS6B_0/FullAdder_3/and_1/not_0/a_8_28#
+= CRS6B_0/FullAdder_3/and_1/m1_36_28# CRS6B_0/FullAdder_3/and_1/nand_0/a_14_88#
+C CRS6B_0/FullAdder_3/m1_240_80# GND 43.07
+R CRS6B_0/FullAdder_3/m1_240_80# 1400
+= CRS6B_0/FullAdder_3/m1_240_80# CRS6B_0/FullAdder_3/or_0/nor_0/a_4_72#
+= CRS6B_0/FullAdder_3/m1_240_80# CRS6B_0/FullAdder_3/and_1/not_0/a_22_8#
+R CRS6B_0/FullAdder_3/and_0/nand_0/a_14_12# 67
+C CRS6B_0/FullAdder_3/and_0/m1_36_28# GND 43.62
+R CRS6B_0/FullAdder_3/and_0/m1_36_28# 1484
+= CRS6B_0/FullAdder_3/and_0/m1_36_28# CRS6B_0/FullAdder_3/and_0/not_0/a_8_28#
+= CRS6B_0/FullAdder_3/and_0/m1_36_28# CRS6B_0/FullAdder_3/and_0/nand_0/a_14_88#
+C CRS6B_0/FullAdder_3/m1_60_n52# GND 67.44
+R CRS6B_0/FullAdder_3/m1_60_n52# 1390
+= CRS6B_0/FullAdder_3/m1_60_n52# CRS6B_0/FullAdder_3/or_0/nor_0/a_20_56#
+= CRS6B_0/FullAdder_3/m1_60_n52# CRS6B_0/FullAdder_3/and_0/not_0/a_22_8#
+R CRS6B_0/FullAdder_3/or_0/nor_0/a_14_88# 194
+C CRS6B_0/FullAdder_3/or_0/m1_40_44# GND 52.26
+R CRS6B_0/FullAdder_3/or_0/m1_40_44# 1628
+= CRS6B_0/FullAdder_3/or_0/m1_40_44# CRS6B_0/FullAdder_3/or_0/nor_0/a_0_12#
+= CRS6B_0/FullAdder_3/or_0/m1_40_44# CRS6B_0/FullAdder_3/or_0/not_0/a_8_28#
+C CRS6B_0/FullAdder_2/EXC_1/xor_0/a_n36_12# GND 20.49
+R CRS6B_0/FullAdder_2/EXC_1/xor_0/a_n36_12# 491
+R CRS6B_0/FullAdder_2/EXC_1/xor_0/a_18_88# 208
+R CRS6B_0/FullAdder_2/EXC_1/xor_0/a_n12_88# 179
+C m1_560_56# GND 334.39
+R m1_560_56# 2197
+= m1_560_56# ZeroDetection_0/m1_232_60#
+= m1_560_56# ZeroDetection_0/nor_1/a_20_56#
+= m1_560_56# trans4to1_3/trans2to1_2/tansGate_0/a_4_8#
+= m1_560_56# CRS6B_0/m2_n471_76#
+= m1_560_56# CRS6B_0/FullAdder_2/m1_276_n52#
+= m1_560_56# CRS6B_0/FullAdder_2/EXC_1/xor_0/a_n36_88#
+C CRS6B_0/FullAdder_2/m1_108_80# GND 118.61
+R CRS6B_0/FullAdder_2/m1_108_80# 4221
+= CRS6B_0/FullAdder_2/m1_108_80# CRS6B_0/FullAdder_2/EXC_0/xor_0/a_n36_88#
+= CRS6B_0/FullAdder_2/m1_108_80# CRS6B_0/FullAdder_2/and_1/nand_0/a_4_80#
+= CRS6B_0/FullAdder_2/m1_108_80# CRS6B_0/FullAdder_2/EXC_1/m1_60_40#
+= CRS6B_0/FullAdder_2/m1_108_80# CRS6B_0/FullAdder_2/EXC_1/not_1/a_8_28#
+= CRS6B_0/FullAdder_2/m1_108_80# CRS6B_0/FullAdder_2/EXC_1/xor_0/a_24_40#
+C CRS6B_0/FullAdder_2/EXC_1/m1_n12_72# GND 43.18
+R CRS6B_0/FullAdder_2/EXC_1/m1_n12_72# 1448
+= CRS6B_0/FullAdder_2/EXC_1/m1_n12_72# CRS6B_0/FullAdder_2/EXC_1/not_0/a_22_8#
+= CRS6B_0/FullAdder_2/EXC_1/m1_n12_72# CRS6B_0/FullAdder_2/EXC_1/xor_0/a_8_76#
+C CRS6B_0/m1_n689_n24# GND 202.00
+R CRS6B_0/m1_n689_n24# 3784
+= CRS6B_0/m1_n689_n24# CRS6B_0/FullAdder_1/m1_391_56#
+= CRS6B_0/m1_n689_n24# CRS6B_0/FullAdder_1/or_0/not_0/a_22_8#
+= CRS6B_0/m1_n689_n24# CRS6B_0/FullAdder_2/m1_160_n64#
+= CRS6B_0/m1_n689_n24# CRS6B_0/FullAdder_2/and_1/nand_0/a_24_10#
+= CRS6B_0/m1_n689_n24# CRS6B_0/FullAdder_2/EXC_1/m1_n32_48#
+= CRS6B_0/m1_n689_n24# CRS6B_0/FullAdder_2/EXC_1/not_0/a_8_28#
+= CRS6B_0/m1_n689_n24# CRS6B_0/FullAdder_2/EXC_1/xor_0/a_n8_80#
+C CRS6B_0/FullAdder_2/EXC_1/m1_0_36# GND 57.31
+R CRS6B_0/FullAdder_2/EXC_1/m1_0_36# 1509
+= CRS6B_0/FullAdder_2/EXC_1/m1_0_36# CRS6B_0/FullAdder_2/EXC_1/not_1/a_22_8#
+= CRS6B_0/FullAdder_2/EXC_1/m1_0_36# CRS6B_0/FullAdder_2/EXC_1/xor_0/a_n28_36#
+C CRS6B_0/FullAdder_2/EXC_0/xor_0/a_n36_12# GND 20.49
+R CRS6B_0/FullAdder_2/EXC_0/xor_0/a_n36_12# 491
+R CRS6B_0/FullAdder_2/EXC_0/xor_0/a_18_88# 208
+R CRS6B_0/FullAdder_2/EXC_0/xor_0/a_n12_88# 179
+C CRS6B_0/FullAdder_2/EXC_0/m1_n12_72# GND 43.18
+R CRS6B_0/FullAdder_2/EXC_0/m1_n12_72# 1448
+= CRS6B_0/FullAdder_2/EXC_0/m1_n12_72# CRS6B_0/FullAdder_2/EXC_0/not_0/a_22_8#
+= CRS6B_0/FullAdder_2/EXC_0/m1_n12_72# CRS6B_0/FullAdder_2/EXC_0/xor_0/a_8_76#
+C m1_692_228# GND 197.83
+R m1_692_228# 4975
+= m1_692_228# xor_0/a_8_76#
+= m1_692_228# CRS6B_0/m1_n892_100#
+= m1_692_228# CRS6B_0/not_2/a_22_8#
+= m1_692_228# CRS6B_0/FullAdder_2/m1_n12_n72#
+= m1_692_228# CRS6B_0/FullAdder_2/and_0/nand_0/a_24_10#
+= m1_692_228# CRS6B_0/FullAdder_2/EXC_0/m1_n32_48#
+= m1_692_228# CRS6B_0/FullAdder_2/EXC_0/not_0/a_8_28#
+= m1_692_228# CRS6B_0/FullAdder_2/EXC_0/xor_0/a_n8_80#
+C CRS6B_0/FullAdder_2/EXC_0/m1_0_36# GND 57.31
+R CRS6B_0/FullAdder_2/EXC_0/m1_0_36# 1509
+= CRS6B_0/FullAdder_2/EXC_0/m1_0_36# CRS6B_0/FullAdder_2/EXC_0/not_1/a_22_8#
+= CRS6B_0/FullAdder_2/EXC_0/m1_0_36# CRS6B_0/FullAdder_2/EXC_0/xor_0/a_n28_36#
+R CRS6B_0/FullAdder_2/and_1/nand_0/a_14_12# 67
+C CRS6B_0/FullAdder_2/and_1/m1_36_28# GND 43.62
+R CRS6B_0/FullAdder_2/and_1/m1_36_28# 1484
+= CRS6B_0/FullAdder_2/and_1/m1_36_28# CRS6B_0/FullAdder_2/and_1/not_0/a_8_28#
+= CRS6B_0/FullAdder_2/and_1/m1_36_28# CRS6B_0/FullAdder_2/and_1/nand_0/a_14_88#
+C CRS6B_0/FullAdder_2/m1_240_80# GND 43.07
+R CRS6B_0/FullAdder_2/m1_240_80# 1400
+= CRS6B_0/FullAdder_2/m1_240_80# CRS6B_0/FullAdder_2/or_0/nor_0/a_4_72#
+= CRS6B_0/FullAdder_2/m1_240_80# CRS6B_0/FullAdder_2/and_1/not_0/a_22_8#
+R CRS6B_0/FullAdder_2/and_0/nand_0/a_14_12# 67
+C CRS6B_0/FullAdder_2/and_0/m1_36_28# GND 43.62
+R CRS6B_0/FullAdder_2/and_0/m1_36_28# 1484
+= CRS6B_0/FullAdder_2/and_0/m1_36_28# CRS6B_0/FullAdder_2/and_0/not_0/a_8_28#
+= CRS6B_0/FullAdder_2/and_0/m1_36_28# CRS6B_0/FullAdder_2/and_0/nand_0/a_14_88#
+C CRS6B_0/FullAdder_2/m1_60_n52# GND 67.44
+R CRS6B_0/FullAdder_2/m1_60_n52# 1390
+= CRS6B_0/FullAdder_2/m1_60_n52# CRS6B_0/FullAdder_2/or_0/nor_0/a_20_56#
+= CRS6B_0/FullAdder_2/m1_60_n52# CRS6B_0/FullAdder_2/and_0/not_0/a_22_8#
+R CRS6B_0/FullAdder_2/or_0/nor_0/a_14_88# 194
+C CRS6B_0/FullAdder_2/or_0/m1_40_44# GND 52.26
+R CRS6B_0/FullAdder_2/or_0/m1_40_44# 1628
+= CRS6B_0/FullAdder_2/or_0/m1_40_44# CRS6B_0/FullAdder_2/or_0/nor_0/a_0_12#
+= CRS6B_0/FullAdder_2/or_0/m1_40_44# CRS6B_0/FullAdder_2/or_0/not_0/a_8_28#
+C CRS6B_0/FullAdder_1/EXC_1/xor_0/a_n36_12# GND 20.49
+R CRS6B_0/FullAdder_1/EXC_1/xor_0/a_n36_12# 491
+R CRS6B_0/FullAdder_1/EXC_1/xor_0/a_18_88# 208
+R CRS6B_0/FullAdder_1/EXC_1/xor_0/a_n12_88# 179
+C m1_740_55# GND 310.21
+R m1_740_55# 2350
+= m1_740_55# ZeroDetection_0/m1_287_32#
+= m1_740_55# ZeroDetection_0/not_2/a_8_28#
+= m1_740_55# trans4to1_8/trans2to1_2/tansGate_0/a_4_8#
+= m1_740_55# CRS6B_0/m2_13_76#
+= m1_740_55# CRS6B_0/FullAdder_1/m1_276_n52#
+= m1_740_55# CRS6B_0/FullAdder_1/EXC_1/xor_0/a_n36_88#
+C CRS6B_0/FullAdder_1/m1_108_80# GND 118.61
+R CRS6B_0/FullAdder_1/m1_108_80# 4221
+= CRS6B_0/FullAdder_1/m1_108_80# CRS6B_0/FullAdder_1/EXC_0/xor_0/a_n36_88#
+= CRS6B_0/FullAdder_1/m1_108_80# CRS6B_0/FullAdder_1/and_1/nand_0/a_4_80#
+= CRS6B_0/FullAdder_1/m1_108_80# CRS6B_0/FullAdder_1/EXC_1/m1_60_40#
+= CRS6B_0/FullAdder_1/m1_108_80# CRS6B_0/FullAdder_1/EXC_1/not_1/a_8_28#
+= CRS6B_0/FullAdder_1/m1_108_80# CRS6B_0/FullAdder_1/EXC_1/xor_0/a_24_40#
+C CRS6B_0/FullAdder_1/EXC_1/m1_n12_72# GND 43.18
+R CRS6B_0/FullAdder_1/EXC_1/m1_n12_72# 1448
+= CRS6B_0/FullAdder_1/EXC_1/m1_n12_72# CRS6B_0/FullAdder_1/EXC_1/not_0/a_22_8#
+= CRS6B_0/FullAdder_1/EXC_1/m1_n12_72# CRS6B_0/FullAdder_1/EXC_1/xor_0/a_8_76#
+C CRS6B_0/m1_n201_n12# GND 314.86
+R CRS6B_0/m1_n201_n12# 3788
+= CRS6B_0/m1_n201_n12# CRS6B_0/FullAdder_0/m1_391_56#
+= CRS6B_0/m1_n201_n12# CRS6B_0/FullAdder_0/or_0/not_0/a_22_8#
+= CRS6B_0/m1_n201_n12# CRS6B_0/FullAdder_1/m1_160_n64#
+= CRS6B_0/m1_n201_n12# CRS6B_0/FullAdder_1/and_1/nand_0/a_24_10#
+= CRS6B_0/m1_n201_n12# CRS6B_0/FullAdder_1/EXC_1/m1_n32_48#
+= CRS6B_0/m1_n201_n12# CRS6B_0/FullAdder_1/EXC_1/not_0/a_8_28#
+= CRS6B_0/m1_n201_n12# CRS6B_0/FullAdder_1/EXC_1/xor_0/a_n8_80#
+C CRS6B_0/FullAdder_1/EXC_1/m1_0_36# GND 57.31
+R CRS6B_0/FullAdder_1/EXC_1/m1_0_36# 1509
+= CRS6B_0/FullAdder_1/EXC_1/m1_0_36# CRS6B_0/FullAdder_1/EXC_1/not_1/a_22_8#
+= CRS6B_0/FullAdder_1/EXC_1/m1_0_36# CRS6B_0/FullAdder_1/EXC_1/xor_0/a_n28_36#
+C CRS6B_0/FullAdder_1/EXC_0/xor_0/a_n36_12# GND 20.49
+R CRS6B_0/FullAdder_1/EXC_0/xor_0/a_n36_12# 491
+R CRS6B_0/FullAdder_1/EXC_0/xor_0/a_18_88# 208
+R CRS6B_0/FullAdder_1/EXC_0/xor_0/a_n12_88# 179
+C CRS6B_0/FullAdder_1/EXC_0/m1_n12_72# GND 43.18
+R CRS6B_0/FullAdder_1/EXC_0/m1_n12_72# 1448
+= CRS6B_0/FullAdder_1/EXC_0/m1_n12_72# CRS6B_0/FullAdder_1/EXC_0/not_0/a_22_8#
+= CRS6B_0/FullAdder_1/EXC_0/m1_n12_72# CRS6B_0/FullAdder_1/EXC_0/xor_0/a_8_76#
+C m1_888_228# GND 233.44
+R m1_888_228# 4978
+= m1_888_228# xor_8/a_8_76#
+= m1_888_228# CRS6B_0/m1_n392_80#
+= m1_888_228# CRS6B_0/not_1/a_22_8#
+= m1_888_228# CRS6B_0/FullAdder_1/m1_n12_n72#
+= m1_888_228# CRS6B_0/FullAdder_1/and_0/nand_0/a_24_10#
+= m1_888_228# CRS6B_0/FullAdder_1/EXC_0/m1_n32_48#
+= m1_888_228# CRS6B_0/FullAdder_1/EXC_0/not_0/a_8_28#
+= m1_888_228# CRS6B_0/FullAdder_1/EXC_0/xor_0/a_n8_80#
+C CRS6B_0/FullAdder_1/EXC_0/m1_0_36# GND 57.31
+R CRS6B_0/FullAdder_1/EXC_0/m1_0_36# 1509
+= CRS6B_0/FullAdder_1/EXC_0/m1_0_36# CRS6B_0/FullAdder_1/EXC_0/not_1/a_22_8#
+= CRS6B_0/FullAdder_1/EXC_0/m1_0_36# CRS6B_0/FullAdder_1/EXC_0/xor_0/a_n28_36#
+R CRS6B_0/FullAdder_1/and_1/nand_0/a_14_12# 67
+C CRS6B_0/FullAdder_1/and_1/m1_36_28# GND 43.62
+R CRS6B_0/FullAdder_1/and_1/m1_36_28# 1484
+= CRS6B_0/FullAdder_1/and_1/m1_36_28# CRS6B_0/FullAdder_1/and_1/not_0/a_8_28#
+= CRS6B_0/FullAdder_1/and_1/m1_36_28# CRS6B_0/FullAdder_1/and_1/nand_0/a_14_88#
+C CRS6B_0/FullAdder_1/m1_240_80# GND 43.07
+R CRS6B_0/FullAdder_1/m1_240_80# 1400
+= CRS6B_0/FullAdder_1/m1_240_80# CRS6B_0/FullAdder_1/or_0/nor_0/a_4_72#
+= CRS6B_0/FullAdder_1/m1_240_80# CRS6B_0/FullAdder_1/and_1/not_0/a_22_8#
+R CRS6B_0/FullAdder_1/and_0/nand_0/a_14_12# 67
+C CRS6B_0/FullAdder_1/and_0/m1_36_28# GND 43.62
+R CRS6B_0/FullAdder_1/and_0/m1_36_28# 1484
+= CRS6B_0/FullAdder_1/and_0/m1_36_28# CRS6B_0/FullAdder_1/and_0/not_0/a_8_28#
+= CRS6B_0/FullAdder_1/and_0/m1_36_28# CRS6B_0/FullAdder_1/and_0/nand_0/a_14_88#
+C CRS6B_0/FullAdder_1/m1_60_n52# GND 67.44
+R CRS6B_0/FullAdder_1/m1_60_n52# 1390
+= CRS6B_0/FullAdder_1/m1_60_n52# CRS6B_0/FullAdder_1/or_0/nor_0/a_20_56#
+= CRS6B_0/FullAdder_1/m1_60_n52# CRS6B_0/FullAdder_1/and_0/not_0/a_22_8#
+R CRS6B_0/FullAdder_1/or_0/nor_0/a_14_88# 194
+C CRS6B_0/FullAdder_1/or_0/m1_40_44# GND 52.26
+R CRS6B_0/FullAdder_1/or_0/m1_40_44# 1628
+= CRS6B_0/FullAdder_1/or_0/m1_40_44# CRS6B_0/FullAdder_1/or_0/nor_0/a_0_12#
+= CRS6B_0/FullAdder_1/or_0/m1_40_44# CRS6B_0/FullAdder_1/or_0/not_0/a_8_28#
+C CRS6B_0/FullAdder_0/EXC_1/xor_0/a_n36_12# GND 20.49
+R CRS6B_0/FullAdder_0/EXC_1/xor_0/a_n36_12# 491
+R CRS6B_0/FullAdder_0/EXC_1/xor_0/a_18_88# 208
+R CRS6B_0/FullAdder_0/EXC_1/xor_0/a_n12_88# 179
+C m1_920_56# GND 302.93
+R m1_920_56# 2195
+= m1_920_56# ZeroDetection_0/nor_2/a_20_56#
+= m1_920_56# trans4to1_9/trans2to1_2/tansGate_0/a_4_8#
+= m1_920_56# CRS6B_0/m2_516_77#
+= m1_920_56# CRS6B_0/FullAdder_0/m1_276_n52#
+= m1_920_56# CRS6B_0/FullAdder_0/EXC_1/xor_0/a_n36_88#
+C CRS6B_0/FullAdder_0/m1_108_80# GND 118.61
+R CRS6B_0/FullAdder_0/m1_108_80# 4221
+= CRS6B_0/FullAdder_0/m1_108_80# CRS6B_0/FullAdder_0/EXC_0/xor_0/a_n36_88#
+= CRS6B_0/FullAdder_0/m1_108_80# CRS6B_0/FullAdder_0/and_1/nand_0/a_4_80#
+= CRS6B_0/FullAdder_0/m1_108_80# CRS6B_0/FullAdder_0/EXC_1/m1_60_40#
+= CRS6B_0/FullAdder_0/m1_108_80# CRS6B_0/FullAdder_0/EXC_1/not_1/a_8_28#
+= CRS6B_0/FullAdder_0/m1_108_80# CRS6B_0/FullAdder_0/EXC_1/xor_0/a_24_40#
+C CRS6B_0/FullAdder_0/EXC_1/m1_n12_72# GND 43.18
+R CRS6B_0/FullAdder_0/EXC_1/m1_n12_72# 1448
+= CRS6B_0/FullAdder_0/EXC_1/m1_n12_72# CRS6B_0/FullAdder_0/EXC_1/not_0/a_22_8#
+= CRS6B_0/FullAdder_0/EXC_1/m1_n12_72# CRS6B_0/FullAdder_0/EXC_1/xor_0/a_8_76#
+C CRS6B_0/FullAdder_0/EXC_1/m1_0_36# GND 57.31
+R CRS6B_0/FullAdder_0/EXC_1/m1_0_36# 1509
+= CRS6B_0/FullAdder_0/EXC_1/m1_0_36# CRS6B_0/FullAdder_0/EXC_1/not_1/a_22_8#
+= CRS6B_0/FullAdder_0/EXC_1/m1_0_36# CRS6B_0/FullAdder_0/EXC_1/xor_0/a_n28_36#
+C CRS6B_0/FullAdder_0/EXC_0/xor_0/a_n36_12# GND 20.49
+R CRS6B_0/FullAdder_0/EXC_0/xor_0/a_n36_12# 491
+R CRS6B_0/FullAdder_0/EXC_0/xor_0/a_18_88# 208
+R CRS6B_0/FullAdder_0/EXC_0/xor_0/a_n12_88# 179
+C CRS6B_0/FullAdder_0/EXC_0/m1_n12_72# GND 43.18
+R CRS6B_0/FullAdder_0/EXC_0/m1_n12_72# 1448
+= CRS6B_0/FullAdder_0/EXC_0/m1_n12_72# CRS6B_0/FullAdder_0/EXC_0/not_0/a_22_8#
+= CRS6B_0/FullAdder_0/EXC_0/m1_n12_72# CRS6B_0/FullAdder_0/EXC_0/xor_0/a_8_76#
+C m1_1092_228# GND 240.39
+R m1_1092_228# 4979
+= m1_1092_228# xor_9/a_8_76#
+= m1_1092_228# CRS6B_0/m1_108_84#
+= m1_1092_228# CRS6B_0/not_0/a_22_8#
+= m1_1092_228# CRS6B_0/FullAdder_0/m1_n12_n72#
+= m1_1092_228# CRS6B_0/FullAdder_0/and_0/nand_0/a_24_10#
+= m1_1092_228# CRS6B_0/FullAdder_0/EXC_0/m1_n32_48#
+= m1_1092_228# CRS6B_0/FullAdder_0/EXC_0/not_0/a_8_28#
+= m1_1092_228# CRS6B_0/FullAdder_0/EXC_0/xor_0/a_n8_80#
+C CRS6B_0/FullAdder_0/EXC_0/m1_0_36# GND 57.31
+R CRS6B_0/FullAdder_0/EXC_0/m1_0_36# 1509
+= CRS6B_0/FullAdder_0/EXC_0/m1_0_36# CRS6B_0/FullAdder_0/EXC_0/not_1/a_22_8#
+= CRS6B_0/FullAdder_0/EXC_0/m1_0_36# CRS6B_0/FullAdder_0/EXC_0/xor_0/a_n28_36#
+R CRS6B_0/FullAdder_0/and_1/nand_0/a_14_12# 67
+C CRS6B_0/FullAdder_0/and_1/m1_36_28# GND 43.62
+R CRS6B_0/FullAdder_0/and_1/m1_36_28# 1484
+= CRS6B_0/FullAdder_0/and_1/m1_36_28# CRS6B_0/FullAdder_0/and_1/not_0/a_8_28#
+= CRS6B_0/FullAdder_0/and_1/m1_36_28# CRS6B_0/FullAdder_0/and_1/nand_0/a_14_88#
+C CRS6B_0/FullAdder_0/m1_240_80# GND 43.07
+R CRS6B_0/FullAdder_0/m1_240_80# 1400
+= CRS6B_0/FullAdder_0/m1_240_80# CRS6B_0/FullAdder_0/or_0/nor_0/a_4_72#
+= CRS6B_0/FullAdder_0/m1_240_80# CRS6B_0/FullAdder_0/and_1/not_0/a_22_8#
+R CRS6B_0/FullAdder_0/and_0/nand_0/a_14_12# 67
+C CRS6B_0/FullAdder_0/and_0/m1_36_28# GND 43.62
+R CRS6B_0/FullAdder_0/and_0/m1_36_28# 1484
+= CRS6B_0/FullAdder_0/and_0/m1_36_28# CRS6B_0/FullAdder_0/and_0/not_0/a_8_28#
+= CRS6B_0/FullAdder_0/and_0/m1_36_28# CRS6B_0/FullAdder_0/and_0/nand_0/a_14_88#
+C CRS6B_0/FullAdder_0/m1_60_n52# GND 67.44
+R CRS6B_0/FullAdder_0/m1_60_n52# 1390
+= CRS6B_0/FullAdder_0/m1_60_n52# CRS6B_0/FullAdder_0/or_0/nor_0/a_20_56#
+= CRS6B_0/FullAdder_0/m1_60_n52# CRS6B_0/FullAdder_0/and_0/not_0/a_22_8#
+R CRS6B_0/FullAdder_0/or_0/nor_0/a_14_88# 194
+C CRS6B_0/FullAdder_0/or_0/m1_40_44# GND 52.26
+R CRS6B_0/FullAdder_0/or_0/m1_40_44# 1628
+= CRS6B_0/FullAdder_0/or_0/m1_40_44# CRS6B_0/FullAdder_0/or_0/nor_0/a_0_12#
+= CRS6B_0/FullAdder_0/or_0/m1_40_44# CRS6B_0/FullAdder_0/or_0/not_0/a_8_28#
+C xor_8/a_n36_12# GND 20.49
+R xor_8/a_n36_12# 491
+R xor_8/a_18_88# 208
+R xor_8/a_n12_88# 179
+C xor_9/a_n36_12# GND 20.49
+R xor_9/a_n36_12# 491
+R xor_9/a_18_88# 208
+R xor_9/a_n12_88# 179
+C trans4to1_9/m1_n32_20# GND 15.20
+R trans4to1_9/m1_n32_20# 1019
+= trans4to1_9/m1_n32_20# trans4to1_9/trans2to1_0/tansGate_0/a_4_8#
+= trans4to1_9/m1_n32_20# trans4to1_9/trans2to1_2/m1_20_20#
+= trans4to1_9/m1_n32_20# trans4to1_9/trans2to1_2/tansGate_0/a_14_8#
+= trans4to1_9/m1_n32_20# trans4to1_9/trans2to1_2/tansGate_1/a_4_8#
+C trans4to1_9/m1_56_20# GND 14.90
+R trans4to1_9/m1_56_20# 1054
+= trans4to1_9/m1_56_20# trans4to1_9/trans2to1_0/tansGate_1/a_14_8#
+= trans4to1_9/m1_56_20# trans4to1_9/trans2to1_1/m1_20_20#
+= trans4to1_9/m1_56_20# trans4to1_9/trans2to1_1/tansGate_0/a_14_8#
+= trans4to1_9/m1_56_20# trans4to1_9/trans2to1_1/tansGate_1/a_4_8#
+C a_2346_n156# GND 216.31
+R a_2346_n156# 2189
+= a_2346_n156# xor_9/a_n36_88#
+= a_2346_n156# trans4to1_9/trans2to1_1/tansGate_0/a_4_8#
+C o0 GND 5.12
+R o0 626
+= o0 trans4to1_9/trans2to1_0/m1_20_20#
+= o0 trans4to1_9/trans2to1_0/tansGate_0/a_14_8#
+= o0 trans4to1_9/trans2to1_0/tansGate_1/a_4_8#
+C trans4to1_8/m1_n32_20# GND 15.20
+R trans4to1_8/m1_n32_20# 1019
+= trans4to1_8/m1_n32_20# trans4to1_8/trans2to1_0/tansGate_0/a_4_8#
+= trans4to1_8/m1_n32_20# trans4to1_8/trans2to1_2/m1_20_20#
+= trans4to1_8/m1_n32_20# trans4to1_8/trans2to1_2/tansGate_0/a_14_8#
+= trans4to1_8/m1_n32_20# trans4to1_8/trans2to1_2/tansGate_1/a_4_8#
+C trans4to1_8/m1_56_20# GND 14.90
+R trans4to1_8/m1_56_20# 1054
+= trans4to1_8/m1_56_20# trans4to1_8/trans2to1_0/tansGate_1/a_14_8#
+= trans4to1_8/m1_56_20# trans4to1_8/trans2to1_1/m1_20_20#
+= trans4to1_8/m1_56_20# trans4to1_8/trans2to1_1/tansGate_0/a_14_8#
+= trans4to1_8/m1_56_20# trans4to1_8/trans2to1_1/tansGate_1/a_4_8#
+C a_2342_13# GND 191.80
+R a_2342_13# 2342
+= a_2342_13# xor_8/a_n36_88#
+= a_2342_13# trans4to1_8/trans2to1_1/tansGate_0/a_4_8#
+C o1 GND 5.42
+R o1 626
+= o1 trans4to1_8/trans2to1_0/m1_20_20#
+= o1 trans4to1_8/trans2to1_0/tansGate_0/a_14_8#
+= o1 trans4to1_8/trans2to1_0/tansGate_1/a_4_8#
+C m1_324_240# GND 195.95
+R m1_324_240# 1449
+= m1_324_240# xor_2/a_n8_80#
+= m1_324_240# not_5/a_22_8#
+C xor_3/a_n36_12# GND 20.49
+R xor_3/a_n36_12# 491
+R xor_3/a_18_88# 208
+R xor_3/a_n12_88# 179
+C m1_128_240# GND 203.89
+R m1_128_240# 1450
+= m1_128_240# xor_3/a_n8_80#
+= m1_128_240# not_4/a_22_8#
+C m1_492_240# GND 190.15
+R m1_492_240# 1448
+= m1_492_240# xor_1/a_n8_80#
+= m1_492_240# not_3/a_22_8#
+C xor_2/a_n36_12# GND 20.49
+R xor_2/a_n36_12# 491
+R xor_2/a_18_88# 208
+R xor_2/a_n12_88# 179
+C trans4to1_3/m1_n32_20# GND 15.20
+R trans4to1_3/m1_n32_20# 1019
+= trans4to1_3/m1_n32_20# trans4to1_3/trans2to1_0/tansGate_0/a_4_8#
+= trans4to1_3/m1_n32_20# trans4to1_3/trans2to1_2/m1_20_20#
+= trans4to1_3/m1_n32_20# trans4to1_3/trans2to1_2/tansGate_0/a_14_8#
+= trans4to1_3/m1_n32_20# trans4to1_3/trans2to1_2/tansGate_1/a_4_8#
+C trans4to1_3/m1_56_20# GND 14.90
+R trans4to1_3/m1_56_20# 1054
+= trans4to1_3/m1_56_20# trans4to1_3/trans2to1_0/tansGate_1/a_14_8#
+= trans4to1_3/m1_56_20# trans4to1_3/trans2to1_1/m1_20_20#
+= trans4to1_3/m1_56_20# trans4to1_3/trans2to1_1/tansGate_0/a_14_8#
+= trans4to1_3/m1_56_20# trans4to1_3/trans2to1_1/tansGate_1/a_4_8#
+C a_2346_51# GND 182.06
+R a_2346_51# 2186
+= a_2346_51# xor_0/a_n36_88#
+= a_2346_51# trans4to1_3/trans2to1_1/tansGate_0/a_4_8#
+C o2 GND 5.12
+R o2 626
+= o2 trans4to1_3/trans2to1_0/m1_20_20#
+= o2 trans4to1_3/trans2to1_0/tansGate_0/a_14_8#
+= o2 trans4to1_3/trans2to1_0/tansGate_1/a_4_8#
+C m1_672_240# GND 183.43
+R m1_672_240# 1448
+= m1_672_240# xor_0/a_n8_80#
+= m1_672_240# not_2/a_22_8#
+C xor_1/a_n36_12# GND 20.49
+R xor_1/a_n36_12# 491
+R xor_1/a_18_88# 208
+R xor_1/a_n12_88# 179
+C trans4to1_2/m1_n32_20# GND 15.20
+R trans4to1_2/m1_n32_20# 1019
+= trans4to1_2/m1_n32_20# trans4to1_2/trans2to1_0/tansGate_0/a_4_8#
+= trans4to1_2/m1_n32_20# trans4to1_2/trans2to1_2/m1_20_20#
+= trans4to1_2/m1_n32_20# trans4to1_2/trans2to1_2/tansGate_0/a_14_8#
+= trans4to1_2/m1_n32_20# trans4to1_2/trans2to1_2/tansGate_1/a_4_8#
+C trans4to1_2/m1_56_20# GND 14.90
+R trans4to1_2/m1_56_20# 1054
+= trans4to1_2/m1_56_20# trans4to1_2/trans2to1_0/tansGate_1/a_14_8#
+= trans4to1_2/m1_56_20# trans4to1_2/trans2to1_1/m1_20_20#
+= trans4to1_2/m1_56_20# trans4to1_2/trans2to1_1/tansGate_0/a_14_8#
+= trans4to1_2/m1_56_20# trans4to1_2/trans2to1_1/tansGate_1/a_4_8#
+C a_2342_239# GND 223.60
+R a_2342_239# 2344
+= a_2342_239# xor_1/a_n36_88#
+= a_2342_239# trans4to1_2/trans2to1_1/tansGate_0/a_4_8#
+C o3 GND 5.12
+R o3 626
+= o3 trans4to1_2/trans2to1_0/m1_20_20#
+= o3 trans4to1_2/trans2to1_0/tansGate_0/a_14_8#
+= o3 trans4to1_2/trans2to1_0/tansGate_1/a_4_8#
+C m1_1072_240# GND 166.34
+R m1_1072_240# 1446
+= m1_1072_240# xor_9/a_n8_80#
+= m1_1072_240# not_1/a_22_8#
+C s0 GND 275.77
+R s0 6412
+= s0 not_6/a_8_28#
+= s0 trans4to1_9/m2_n56_56#
+= s0 trans4to1_9/trans2to1_1/m2_n4_40#
+= s0 trans4to1_9/trans2to1_1/tansGate_0/a_12_22#
+= s0 trans4to1_9/trans2to1_1/m2_28_40#
+= s0 trans4to1_9/trans2to1_1/tansGate_1/a_12_0#
+= s0 trans4to1_9/m1_n56_n4#
+= s0 trans4to1_9/trans2to1_2/m2_n4_40#
+= s0 trans4to1_9/trans2to1_2/tansGate_0/a_12_22#
+= s0 trans4to1_9/trans2to1_2/m2_28_40#
+= s0 trans4to1_9/trans2to1_2/tansGate_1/a_12_0#
+= s0 m2_172_68#
+= s0 trans4to1_8/m2_n56_56#
+= s0 trans4to1_8/trans2to1_1/m2_n4_40#
+= s0 trans4to1_8/trans2to1_1/tansGate_0/a_12_22#
+= s0 trans4to1_8/trans2to1_1/m2_28_40#
+= s0 trans4to1_8/trans2to1_1/tansGate_1/a_12_0#
+= s0 trans4to1_8/m1_n56_n4#
+= s0 trans4to1_8/trans2to1_2/m2_n4_40#
+= s0 trans4to1_8/trans2to1_2/tansGate_0/a_12_22#
+= s0 trans4to1_8/trans2to1_2/m2_28_40#
+= s0 trans4to1_8/trans2to1_2/tansGate_1/a_12_0#
+= s0 trans4to1_3/m2_n56_56#
+= s0 trans4to1_3/trans2to1_1/m2_n4_40#
+= s0 trans4to1_3/trans2to1_1/tansGate_0/a_12_22#
+= s0 trans4to1_3/trans2to1_1/m2_28_40#
+= s0 trans4to1_3/trans2to1_1/tansGate_1/a_12_0#
+= s0 trans4to1_3/m1_n56_n4#
+= s0 trans4to1_3/trans2to1_2/m2_n4_40#
+= s0 trans4to1_3/trans2to1_2/tansGate_0/a_12_22#
+= s0 trans4to1_3/trans2to1_2/m2_28_40#
+= s0 trans4to1_3/trans2to1_2/tansGate_1/a_12_0#
+= s0 trans4to1_2/m2_n56_56#
+= s0 trans4to1_2/trans2to1_1/m2_n4_40#
+= s0 trans4to1_2/trans2to1_1/tansGate_0/a_12_22#
+= s0 trans4to1_2/trans2to1_1/m2_28_40#
+= s0 trans4to1_2/trans2to1_1/tansGate_1/a_12_0#
+= s0 trans4to1_2/m1_n56_n4#
+= s0 trans4to1_2/trans2to1_2/m2_n4_40#
+= s0 trans4to1_2/trans2to1_2/tansGate_0/a_12_22#
+= s0 trans4to1_2/trans2to1_2/m2_28_40#
+= s0 trans4to1_2/trans2to1_2/tansGate_1/a_12_0#
+= s0 trans4to1_1/m2_n56_56#
+= s0 trans4to1_1/trans2to1_1/m2_n4_40#
+= s0 trans4to1_1/trans2to1_1/tansGate_0/a_12_22#
+= s0 trans4to1_1/trans2to1_1/m2_28_40#
+= s0 trans4to1_1/trans2to1_1/tansGate_1/a_12_0#
+= s0 trans4to1_1/m1_n56_n4#
+= s0 trans4to1_1/trans2to1_2/m2_n4_40#
+= s0 trans4to1_1/trans2to1_2/tansGate_0/a_12_22#
+= s0 trans4to1_1/trans2to1_2/m2_28_40#
+= s0 trans4to1_1/trans2to1_2/tansGate_1/a_12_0#
+= s0 trans4to1_0/m2_n56_56#
+= s0 trans4to1_0/trans2to1_1/m2_n4_40#
+= s0 trans4to1_0/trans2to1_1/tansGate_0/a_12_22#
+= s0 trans4to1_0/trans2to1_1/m2_28_40#
+= s0 trans4to1_0/trans2to1_1/tansGate_1/a_12_0#
+= s0 trans4to1_0/m1_n56_n4#
+= s0 trans4to1_0/trans2to1_2/m2_n4_40#
+= s0 trans4to1_0/trans2to1_2/tansGate_0/a_12_22#
+= s0 trans4to1_0/trans2to1_2/m2_28_40#
+= s0 trans4to1_0/trans2to1_2/tansGate_1/a_12_0#
+C trans4to1_0/m1_n32_20# GND 15.20
+R trans4to1_0/m1_n32_20# 1019
+= trans4to1_0/m1_n32_20# trans4to1_0/trans2to1_0/tansGate_0/a_4_8#
+= trans4to1_0/m1_n32_20# trans4to1_0/trans2to1_2/m1_20_20#
+= trans4to1_0/m1_n32_20# trans4to1_0/trans2to1_2/tansGate_0/a_14_8#
+= trans4to1_0/m1_n32_20# trans4to1_0/trans2to1_2/tansGate_1/a_4_8#
+C m2_40_n8# GND 318.18
+R m2_40_n8# 5432
+= m2_40_n8# m1_1208_n8#
+= m2_40_n8# not_6/a_22_8#
+= m2_40_n8# trans4to1_9/m2_n16_52#
+= m2_40_n8# trans4to1_9/trans2to1_1/m2_n4_0#
+= m2_40_n8# trans4to1_9/trans2to1_1/tansGate_0/a_12_0#
+= m2_40_n8# trans4to1_9/trans2to1_1/m2_28_0#
+= m2_40_n8# trans4to1_9/trans2to1_1/tansGate_1/a_12_22#
+= m2_40_n8# trans4to1_9/m1_n16_n4#
+= m2_40_n8# trans4to1_9/trans2to1_2/m2_n4_0#
+= m2_40_n8# trans4to1_9/trans2to1_2/tansGate_0/a_12_0#
+= m2_40_n8# trans4to1_9/trans2to1_2/m2_28_0#
+= m2_40_n8# trans4to1_9/trans2to1_2/tansGate_1/a_12_22#
+= m2_40_n8# trans4to1_8/m2_n16_52#
+= m2_40_n8# trans4to1_8/trans2to1_1/m2_n4_0#
+= m2_40_n8# trans4to1_8/trans2to1_1/tansGate_0/a_12_0#
+= m2_40_n8# trans4to1_8/trans2to1_1/m2_28_0#
+= m2_40_n8# trans4to1_8/trans2to1_1/tansGate_1/a_12_22#
+= m2_40_n8# trans4to1_8/m1_n16_n4#
+= m2_40_n8# trans4to1_8/trans2to1_2/m2_n4_0#
+= m2_40_n8# trans4to1_8/trans2to1_2/tansGate_0/a_12_0#
+= m2_40_n8# trans4to1_8/trans2to1_2/m2_28_0#
+= m2_40_n8# trans4to1_8/trans2to1_2/tansGate_1/a_12_22#
+= m2_40_n8# trans4to1_3/m2_n16_52#
+= m2_40_n8# trans4to1_3/trans2to1_1/m2_n4_0#
+= m2_40_n8# trans4to1_3/trans2to1_1/tansGate_0/a_12_0#
+= m2_40_n8# trans4to1_3/trans2to1_1/m2_28_0#
+= m2_40_n8# trans4to1_3/trans2to1_1/tansGate_1/a_12_22#
+= m2_40_n8# trans4to1_3/m1_n16_n4#
+= m2_40_n8# trans4to1_3/trans2to1_2/m2_n4_0#
+= m2_40_n8# trans4to1_3/trans2to1_2/tansGate_0/a_12_0#
+= m2_40_n8# trans4to1_3/trans2to1_2/m2_28_0#
+= m2_40_n8# trans4to1_3/trans2to1_2/tansGate_1/a_12_22#
+= m2_40_n8# trans4to1_2/m2_n16_52#
+= m2_40_n8# trans4to1_2/trans2to1_1/m2_n4_0#
+= m2_40_n8# trans4to1_2/trans2to1_1/tansGate_0/a_12_0#
+= m2_40_n8# trans4to1_2/trans2to1_1/m2_28_0#
+= m2_40_n8# trans4to1_2/trans2to1_1/tansGate_1/a_12_22#
+= m2_40_n8# trans4to1_2/m1_n16_n4#
+= m2_40_n8# trans4to1_2/trans2to1_2/m2_n4_0#
+= m2_40_n8# trans4to1_2/trans2to1_2/tansGate_0/a_12_0#
+= m2_40_n8# trans4to1_2/trans2to1_2/m2_28_0#
+= m2_40_n8# trans4to1_2/trans2to1_2/tansGate_1/a_12_22#
+= m2_40_n8# trans4to1_1/m2_n16_52#
+= m2_40_n8# trans4to1_1/trans2to1_1/m2_n4_0#
+= m2_40_n8# trans4to1_1/trans2to1_1/tansGate_0/a_12_0#
+= m2_40_n8# trans4to1_1/trans2to1_1/m2_28_0#
+= m2_40_n8# trans4to1_1/trans2to1_1/tansGate_1/a_12_22#
+= m2_40_n8# trans4to1_1/m1_n16_n4#
+= m2_40_n8# trans4to1_1/trans2to1_2/m2_n4_0#
+= m2_40_n8# trans4to1_1/trans2to1_2/tansGate_0/a_12_0#
+= m2_40_n8# trans4to1_1/trans2to1_2/m2_28_0#
+= m2_40_n8# trans4to1_1/trans2to1_2/tansGate_1/a_12_22#
+= m2_40_n8# trans4to1_0/m2_n16_52#
+= m2_40_n8# trans4to1_0/trans2to1_1/m2_n4_0#
+= m2_40_n8# trans4to1_0/trans2to1_1/tansGate_0/a_12_0#
+= m2_40_n8# trans4to1_0/trans2to1_1/m2_28_0#
+= m2_40_n8# trans4to1_0/trans2to1_1/tansGate_1/a_12_22#
+= m2_40_n8# trans4to1_0/m1_n16_n4#
+= m2_40_n8# trans4to1_0/trans2to1_2/m2_n4_0#
+= m2_40_n8# trans4to1_0/trans2to1_2/tansGate_0/a_12_0#
+= m2_40_n8# trans4to1_0/trans2to1_2/m2_28_0#
+= m2_40_n8# trans4to1_0/trans2to1_2/tansGate_1/a_12_22#
+C trans4to1_0/m1_56_20# GND 14.90
+R trans4to1_0/m1_56_20# 1054
+= trans4to1_0/m1_56_20# trans4to1_0/trans2to1_0/tansGate_1/a_14_8#
+= trans4to1_0/m1_56_20# trans4to1_0/trans2to1_1/m1_20_20#
+= trans4to1_0/m1_56_20# trans4to1_0/trans2to1_1/tansGate_0/a_14_8#
+= trans4to1_0/m1_56_20# trans4to1_0/trans2to1_1/tansGate_1/a_4_8#
+C a_2346_301# GND 218.86
+R a_2346_301# 2201
+= a_2346_301# xor_3/a_n36_88#
+= a_2346_301# trans4to1_0/trans2to1_1/tansGate_0/a_4_8#
+C m1_88_n20# GND 265.95
+R m1_88_n20# 2851
+= m1_88_n20# not_7/a_22_8#
+= m1_88_n20# trans4to1_9/m2_0_40#
+= m1_88_n20# trans4to1_9/trans2to1_0/m2_n4_40#
+= m1_88_n20# trans4to1_9/trans2to1_0/tansGate_0/a_12_22#
+= m1_88_n20# trans4to1_9/trans2to1_0/m2_28_40#
+= m1_88_n20# trans4to1_9/trans2to1_0/tansGate_1/a_12_0#
+= m1_88_n20# trans4to1_8/m2_0_40#
+= m1_88_n20# trans4to1_8/trans2to1_0/m2_n4_40#
+= m1_88_n20# trans4to1_8/trans2to1_0/tansGate_0/a_12_22#
+= m1_88_n20# trans4to1_8/trans2to1_0/m2_28_40#
+= m1_88_n20# trans4to1_8/trans2to1_0/tansGate_1/a_12_0#
+= m1_88_n20# trans4to1_3/m2_0_40#
+= m1_88_n20# trans4to1_3/trans2to1_0/m2_n4_40#
+= m1_88_n20# trans4to1_3/trans2to1_0/tansGate_0/a_12_22#
+= m1_88_n20# trans4to1_3/trans2to1_0/m2_28_40#
+= m1_88_n20# trans4to1_3/trans2to1_0/tansGate_1/a_12_0#
+= m1_88_n20# trans4to1_2/m2_0_40#
+= m1_88_n20# trans4to1_2/trans2to1_0/m2_n4_40#
+= m1_88_n20# trans4to1_2/trans2to1_0/tansGate_0/a_12_22#
+= m1_88_n20# trans4to1_2/trans2to1_0/m2_28_40#
+= m1_88_n20# trans4to1_2/trans2to1_0/tansGate_1/a_12_0#
+= m1_88_n20# trans4to1_1/m2_0_40#
+= m1_88_n20# trans4to1_1/trans2to1_0/m2_n4_40#
+= m1_88_n20# trans4to1_1/trans2to1_0/tansGate_0/a_12_22#
+= m1_88_n20# trans4to1_1/trans2to1_0/m2_28_40#
+= m1_88_n20# trans4to1_1/trans2to1_0/tansGate_1/a_12_0#
+= m1_88_n20# trans4to1_0/m2_0_40#
+= m1_88_n20# trans4to1_0/trans2to1_0/m2_n4_40#
+= m1_88_n20# trans4to1_0/trans2to1_0/tansGate_0/a_12_22#
+= m1_88_n20# trans4to1_0/trans2to1_0/m2_28_40#
+= m1_88_n20# trans4to1_0/trans2to1_0/tansGate_1/a_12_0#
+C o5 GND 5.12
+R o5 626
+= o5 trans4to1_0/trans2to1_0/m1_20_20#
+= o5 trans4to1_0/trans2to1_0/tansGate_0/a_14_8#
+= o5 trans4to1_0/trans2to1_0/tansGate_1/a_4_8#
+C s1 GND 244.34
+R s1 3834
+= s1 not_7/a_8_28#
+= s1 m1_1012_8#
+= s1 trans4to1_9/m1_56_0#
+= s1 trans4to1_9/trans2to1_0/m2_n4_0#
+= s1 trans4to1_9/trans2to1_0/tansGate_0/a_12_0#
+= s1 trans4to1_9/trans2to1_0/m2_28_0#
+= s1 trans4to1_9/trans2to1_0/tansGate_1/a_12_22#
+= s1 trans4to1_8/m1_56_0#
+= s1 trans4to1_8/trans2to1_0/m2_n4_0#
+= s1 trans4to1_8/trans2to1_0/tansGate_0/a_12_0#
+= s1 trans4to1_8/trans2to1_0/m2_28_0#
+= s1 trans4to1_8/trans2to1_0/tansGate_1/a_12_22#
+= s1 trans4to1_3/m1_56_0#
+= s1 trans4to1_3/trans2to1_0/m2_n4_0#
+= s1 trans4to1_3/trans2to1_0/tansGate_0/a_12_0#
+= s1 trans4to1_3/trans2to1_0/m2_28_0#
+= s1 trans4to1_3/trans2to1_0/tansGate_1/a_12_22#
+= s1 trans4to1_2/m1_56_0#
+= s1 trans4to1_2/trans2to1_0/m2_n4_0#
+= s1 trans4to1_2/trans2to1_0/tansGate_0/a_12_0#
+= s1 trans4to1_2/trans2to1_0/m2_28_0#
+= s1 trans4to1_2/trans2to1_0/tansGate_1/a_12_22#
+= s1 trans4to1_1/m1_56_0#
+= s1 trans4to1_1/trans2to1_0/m2_n4_0#
+= s1 trans4to1_1/trans2to1_0/tansGate_0/a_12_0#
+= s1 trans4to1_1/trans2to1_0/m2_28_0#
+= s1 trans4to1_1/trans2to1_0/tansGate_1/a_12_22#
+= s1 trans4to1_0/m1_56_0#
+= s1 trans4to1_0/trans2to1_0/m2_n4_0#
+= s1 trans4to1_0/trans2to1_0/tansGate_0/a_12_0#
+= s1 trans4to1_0/trans2to1_0/m2_28_0#
+= s1 trans4to1_0/trans2to1_0/tansGate_1/a_12_22#
+C trans4to1_1/m1_n32_20# GND 15.20
+R trans4to1_1/m1_n32_20# 1019
+= trans4to1_1/m1_n32_20# trans4to1_1/trans2to1_0/tansGate_0/a_4_8#
+= trans4to1_1/m1_n32_20# trans4to1_1/trans2to1_2/m1_20_20#
+= trans4to1_1/m1_n32_20# trans4to1_1/trans2to1_2/tansGate_0/a_14_8#
+= trans4to1_1/m1_n32_20# trans4to1_1/trans2to1_2/tansGate_1/a_4_8#
+C trans4to1_1/m1_56_20# GND 14.90
+R trans4to1_1/m1_56_20# 1054
+= trans4to1_1/m1_56_20# trans4to1_1/trans2to1_0/tansGate_1/a_14_8#
+= trans4to1_1/m1_56_20# trans4to1_1/trans2to1_1/m1_20_20#
+= trans4to1_1/m1_56_20# trans4to1_1/trans2to1_1/tansGate_0/a_14_8#
+= trans4to1_1/m1_56_20# trans4to1_1/trans2to1_1/tansGate_1/a_4_8#
+C a_2346_286# GND 221.95
+R a_2346_286# 2189
+= a_2346_286# xor_2/a_n36_88#
+= a_2346_286# trans4to1_1/trans2to1_1/tansGate_0/a_4_8#
+C o4 GND 5.12
+R o4 626
+= o4 trans4to1_1/trans2to1_0/m1_20_20#
+= o4 trans4to1_1/trans2to1_0/tansGate_0/a_14_8#
+= o4 trans4to1_1/trans2to1_0/tansGate_1/a_4_8#
+C xor_0/a_n36_12# GND 20.49
+R xor_0/a_n36_12# 491
+R xor_0/a_18_88# 208
+R xor_0/a_n12_88# 179
+C m1_868_240# GND 175.19
+R m1_868_240# 1447
+= m1_868_240# xor_8/a_n8_80#
+= m1_868_240# not_0/a_22_8#
+C CRA6B_0/FullAdder_5/EXC_1/xor_0/a_n36_12# GND 20.49
+R CRA6B_0/FullAdder_5/EXC_1/xor_0/a_n36_12# 491
+R CRA6B_0/FullAdder_5/EXC_1/xor_0/a_18_88# 208
+R CRA6B_0/FullAdder_5/EXC_1/xor_0/a_n12_88# 179
+C m1_n408_n433# GND 436.69
+R m1_n408_n433# 2244
+= m1_n408_n433# trans4to1_0/trans2to1_1/tansGate_1/a_14_8#
+= m1_n408_n433# ZeroDetection_1/nor_2/a_20_56#
+= m1_n408_n433# CRA6B_0/m2_n2070_76#
+= m1_n408_n433# CRA6B_0/FullAdder_5/m1_276_n52#
+= m1_n408_n433# CRA6B_0/FullAdder_5/EXC_1/xor_0/a_n36_88#
+C CRA6B_0/FullAdder_5/m1_108_80# GND 118.61
+R CRA6B_0/FullAdder_5/m1_108_80# 4221
+= CRA6B_0/FullAdder_5/m1_108_80# CRA6B_0/FullAdder_5/EXC_0/xor_0/a_n36_88#
+= CRA6B_0/FullAdder_5/m1_108_80# CRA6B_0/FullAdder_5/and_1/nand_0/a_4_80#
+= CRA6B_0/FullAdder_5/m1_108_80# CRA6B_0/FullAdder_5/EXC_1/m1_60_40#
+= CRA6B_0/FullAdder_5/m1_108_80# CRA6B_0/FullAdder_5/EXC_1/not_1/a_8_28#
+= CRA6B_0/FullAdder_5/m1_108_80# CRA6B_0/FullAdder_5/EXC_1/xor_0/a_24_40#
+C CRA6B_0/FullAdder_5/EXC_1/m1_n12_72# GND 43.18
+R CRA6B_0/FullAdder_5/EXC_1/m1_n12_72# 1448
+= CRA6B_0/FullAdder_5/EXC_1/m1_n12_72# CRA6B_0/FullAdder_5/EXC_1/not_0/a_22_8#
+= CRA6B_0/FullAdder_5/EXC_1/m1_n12_72# CRA6B_0/FullAdder_5/EXC_1/xor_0/a_8_76#
+C CRA6B_0/m1_n2296_n20# GND 327.50
+R CRA6B_0/m1_n2296_n20# 3791
+= CRA6B_0/m1_n2296_n20# CRA6B_0/FullAdder_4/m1_391_56#
+= CRA6B_0/m1_n2296_n20# CRA6B_0/FullAdder_4/or_0/not_0/a_22_8#
+= CRA6B_0/m1_n2296_n20# CRA6B_0/FullAdder_5/m1_160_n64#
+= CRA6B_0/m1_n2296_n20# CRA6B_0/FullAdder_5/and_1/nand_0/a_24_10#
+= CRA6B_0/m1_n2296_n20# CRA6B_0/FullAdder_5/EXC_1/m1_n32_48#
+= CRA6B_0/m1_n2296_n20# CRA6B_0/FullAdder_5/EXC_1/not_0/a_8_28#
+= CRA6B_0/m1_n2296_n20# CRA6B_0/FullAdder_5/EXC_1/xor_0/a_n8_80#
+C CRA6B_0/FullAdder_5/EXC_1/m1_0_36# GND 57.31
+R CRA6B_0/FullAdder_5/EXC_1/m1_0_36# 1509
+= CRA6B_0/FullAdder_5/EXC_1/m1_0_36# CRA6B_0/FullAdder_5/EXC_1/not_1/a_22_8#
+= CRA6B_0/FullAdder_5/EXC_1/m1_0_36# CRA6B_0/FullAdder_5/EXC_1/xor_0/a_n28_36#
+C CRA6B_0/FullAdder_5/EXC_0/xor_0/a_n36_12# GND 20.49
+R CRA6B_0/FullAdder_5/EXC_0/xor_0/a_n36_12# 491
+R CRA6B_0/FullAdder_5/EXC_0/xor_0/a_18_88# 208
+R CRA6B_0/FullAdder_5/EXC_0/xor_0/a_n12_88# 179
+C a5 GND 906.07
+R a5 9616
+= a5 CRS6B_0/FullAdder_5/m1_0_n40#
+= a5 CRS6B_0/FullAdder_5/and_0/nand_0/a_4_80#
+= a5 CRS6B_0/FullAdder_5/EXC_0/m1_60_40#
+= a5 CRS6B_0/FullAdder_5/EXC_0/not_1/a_8_28#
+= a5 CRS6B_0/FullAdder_5/EXC_0/xor_0/a_24_40#
+= a5 xor_3/a_24_40#
+= a5 not_4/a_8_28#
+= a5 CRA6B_0/FullAdder_5/m1_0_n40#
+= a5 CRA6B_0/FullAdder_5/and_0/nand_0/a_4_80#
+= a5 CRA6B_0/FullAdder_5/EXC_0/m1_60_40#
+= a5 CRA6B_0/FullAdder_5/EXC_0/not_1/a_8_28#
+= a5 CRA6B_0/FullAdder_5/EXC_0/xor_0/a_24_40#
+C CRA6B_0/FullAdder_5/EXC_0/m1_n12_72# GND 43.18
+R CRA6B_0/FullAdder_5/EXC_0/m1_n12_72# 1448
+= CRA6B_0/FullAdder_5/EXC_0/m1_n12_72# CRA6B_0/FullAdder_5/EXC_0/not_0/a_22_8#
+= CRA6B_0/FullAdder_5/EXC_0/m1_n12_72# CRA6B_0/FullAdder_5/EXC_0/xor_0/a_8_76#
+C b5 GND 774.74
+R b5 6065
+= b5 CRS6B_0/not_5/a_8_28#
+= b5 xor_3/a_n28_36#
+= b5 CRA6B_0/m2_n2452_96#
+= b5 CRA6B_0/FullAdder_5/m1_n12_n72#
+= b5 CRA6B_0/FullAdder_5/and_0/nand_0/a_24_10#
+= b5 CRA6B_0/FullAdder_5/EXC_0/m1_n32_48#
+= b5 CRA6B_0/FullAdder_5/EXC_0/not_0/a_8_28#
+= b5 CRA6B_0/FullAdder_5/EXC_0/xor_0/a_n8_80#
+C CRA6B_0/FullAdder_5/EXC_0/m1_0_36# GND 57.31
+R CRA6B_0/FullAdder_5/EXC_0/m1_0_36# 1509
+= CRA6B_0/FullAdder_5/EXC_0/m1_0_36# CRA6B_0/FullAdder_5/EXC_0/not_1/a_22_8#
+= CRA6B_0/FullAdder_5/EXC_0/m1_0_36# CRA6B_0/FullAdder_5/EXC_0/xor_0/a_n28_36#
+R CRA6B_0/FullAdder_5/and_1/nand_0/a_14_12# 67
+C CRA6B_0/FullAdder_5/and_1/m1_36_28# GND 43.62
+R CRA6B_0/FullAdder_5/and_1/m1_36_28# 1484
+= CRA6B_0/FullAdder_5/and_1/m1_36_28# CRA6B_0/FullAdder_5/and_1/not_0/a_8_28#
+= CRA6B_0/FullAdder_5/and_1/m1_36_28# CRA6B_0/FullAdder_5/and_1/nand_0/a_14_88#
+C CRA6B_0/FullAdder_5/m1_240_80# GND 43.07
+R CRA6B_0/FullAdder_5/m1_240_80# 1400
+= CRA6B_0/FullAdder_5/m1_240_80# CRA6B_0/FullAdder_5/or_0/nor_0/a_4_72#
+= CRA6B_0/FullAdder_5/m1_240_80# CRA6B_0/FullAdder_5/and_1/not_0/a_22_8#
+R CRA6B_0/FullAdder_5/and_0/nand_0/a_14_12# 67
+C CRA6B_0/FullAdder_5/and_0/m1_36_28# GND 43.62
+R CRA6B_0/FullAdder_5/and_0/m1_36_28# 1484
+= CRA6B_0/FullAdder_5/and_0/m1_36_28# CRA6B_0/FullAdder_5/and_0/not_0/a_8_28#
+= CRA6B_0/FullAdder_5/and_0/m1_36_28# CRA6B_0/FullAdder_5/and_0/nand_0/a_14_88#
+C CRA6B_0/FullAdder_5/m1_60_n52# GND 67.44
+R CRA6B_0/FullAdder_5/m1_60_n52# 1390
+= CRA6B_0/FullAdder_5/m1_60_n52# CRA6B_0/FullAdder_5/or_0/nor_0/a_20_56#
+= CRA6B_0/FullAdder_5/m1_60_n52# CRA6B_0/FullAdder_5/and_0/not_0/a_22_8#
+R CRA6B_0/FullAdder_5/or_0/nor_0/a_14_88# 194
+R CoutAdd 303
+= CoutAdd CRA6B_0/m1_n2027_184#
+= CoutAdd CRA6B_0/FullAdder_5/m1_391_56#
+= CoutAdd CRA6B_0/FullAdder_5/or_0/not_0/a_22_8#
+C CRA6B_0/FullAdder_5/or_0/m1_40_44# GND 52.26
+R CRA6B_0/FullAdder_5/or_0/m1_40_44# 1628
+= CRA6B_0/FullAdder_5/or_0/m1_40_44# CRA6B_0/FullAdder_5/or_0/nor_0/a_0_12#
+= CRA6B_0/FullAdder_5/or_0/m1_40_44# CRA6B_0/FullAdder_5/or_0/not_0/a_8_28#
+C CRA6B_0/FullAdder_4/EXC_1/xor_0/a_n36_12# GND 20.49
+R CRA6B_0/FullAdder_4/EXC_1/xor_0/a_n36_12# 491
+R CRA6B_0/FullAdder_4/EXC_1/xor_0/a_18_88# 208
+R CRA6B_0/FullAdder_4/EXC_1/xor_0/a_n12_88# 179
+C m1_92_n433# GND 366.58
+R m1_92_n433# 2394
+= m1_92_n433# trans4to1_1/trans2to1_1/tansGate_1/a_14_8#
+= m1_92_n433# ZeroDetection_1/m1_287_32#
+= m1_92_n433# ZeroDetection_1/not_2/a_8_28#
+= m1_92_n433# CRA6B_0/m2_n1557_76#
+= m1_92_n433# CRA6B_0/FullAdder_4/m1_276_n52#
+= m1_92_n433# CRA6B_0/FullAdder_4/EXC_1/xor_0/a_n36_88#
+C CRA6B_0/FullAdder_4/m1_108_80# GND 118.61
+R CRA6B_0/FullAdder_4/m1_108_80# 4221
+= CRA6B_0/FullAdder_4/m1_108_80# CRA6B_0/FullAdder_4/EXC_0/xor_0/a_n36_88#
+= CRA6B_0/FullAdder_4/m1_108_80# CRA6B_0/FullAdder_4/and_1/nand_0/a_4_80#
+= CRA6B_0/FullAdder_4/m1_108_80# CRA6B_0/FullAdder_4/EXC_1/m1_60_40#
+= CRA6B_0/FullAdder_4/m1_108_80# CRA6B_0/FullAdder_4/EXC_1/not_1/a_8_28#
+= CRA6B_0/FullAdder_4/m1_108_80# CRA6B_0/FullAdder_4/EXC_1/xor_0/a_24_40#
+C CRA6B_0/FullAdder_4/EXC_1/m1_n12_72# GND 43.18
+R CRA6B_0/FullAdder_4/EXC_1/m1_n12_72# 1448
+= CRA6B_0/FullAdder_4/EXC_1/m1_n12_72# CRA6B_0/FullAdder_4/EXC_1/not_0/a_22_8#
+= CRA6B_0/FullAdder_4/EXC_1/m1_n12_72# CRA6B_0/FullAdder_4/EXC_1/xor_0/a_8_76#
+C CRA6B_0/m1_n1776_n8# GND 215.32
+R CRA6B_0/m1_n1776_n8# 3786
+= CRA6B_0/m1_n1776_n8# CRA6B_0/FullAdder_3/m1_391_56#
+= CRA6B_0/m1_n1776_n8# CRA6B_0/FullAdder_3/or_0/not_0/a_22_8#
+= CRA6B_0/m1_n1776_n8# CRA6B_0/FullAdder_4/m1_160_n64#
+= CRA6B_0/m1_n1776_n8# CRA6B_0/FullAdder_4/and_1/nand_0/a_24_10#
+= CRA6B_0/m1_n1776_n8# CRA6B_0/FullAdder_4/EXC_1/m1_n32_48#
+= CRA6B_0/m1_n1776_n8# CRA6B_0/FullAdder_4/EXC_1/not_0/a_8_28#
+= CRA6B_0/m1_n1776_n8# CRA6B_0/FullAdder_4/EXC_1/xor_0/a_n8_80#
+C CRA6B_0/FullAdder_4/EXC_1/m1_0_36# GND 57.31
+R CRA6B_0/FullAdder_4/EXC_1/m1_0_36# 1509
+= CRA6B_0/FullAdder_4/EXC_1/m1_0_36# CRA6B_0/FullAdder_4/EXC_1/not_1/a_22_8#
+= CRA6B_0/FullAdder_4/EXC_1/m1_0_36# CRA6B_0/FullAdder_4/EXC_1/xor_0/a_n28_36#
+C CRA6B_0/FullAdder_4/EXC_0/xor_0/a_n36_12# GND 20.49
+R CRA6B_0/FullAdder_4/EXC_0/xor_0/a_n36_12# 491
+R CRA6B_0/FullAdder_4/EXC_0/xor_0/a_18_88# 208
+R CRA6B_0/FullAdder_4/EXC_0/xor_0/a_n12_88# 179
+C a4 GND 824.51
+R a4 9608
+= a4 CRS6B_0/FullAdder_4/m1_0_n40#
+= a4 CRS6B_0/FullAdder_4/and_0/nand_0/a_4_80#
+= a4 CRS6B_0/FullAdder_4/EXC_0/m1_60_40#
+= a4 CRS6B_0/FullAdder_4/EXC_0/not_1/a_8_28#
+= a4 CRS6B_0/FullAdder_4/EXC_0/xor_0/a_24_40#
+= a4 xor_2/a_24_40#
+= a4 not_5/a_8_28#
+= a4 CRA6B_0/FullAdder_4/m1_0_n40#
+= a4 CRA6B_0/FullAdder_4/and_0/nand_0/a_4_80#
+= a4 CRA6B_0/FullAdder_4/EXC_0/m1_60_40#
+= a4 CRA6B_0/FullAdder_4/EXC_0/not_1/a_8_28#
+= a4 CRA6B_0/FullAdder_4/EXC_0/xor_0/a_24_40#
+C CRA6B_0/FullAdder_4/EXC_0/m1_n12_72# GND 43.18
+R CRA6B_0/FullAdder_4/EXC_0/m1_n12_72# 1448
+= CRA6B_0/FullAdder_4/EXC_0/m1_n12_72# CRA6B_0/FullAdder_4/EXC_0/not_0/a_22_8#
+= CRA6B_0/FullAdder_4/EXC_0/m1_n12_72# CRA6B_0/FullAdder_4/EXC_0/xor_0/a_8_76#
+C b4 GND 663.33
+R b4 6055
+= b4 CRS6B_0/not_4/a_8_28#
+= b4 xor_2/a_n28_36#
+= b4 CRA6B_0/m2_n1940_108#
+= b4 CRA6B_0/FullAdder_4/m1_n12_n72#
+= b4 CRA6B_0/FullAdder_4/and_0/nand_0/a_24_10#
+= b4 CRA6B_0/FullAdder_4/EXC_0/m1_n32_48#
+= b4 CRA6B_0/FullAdder_4/EXC_0/not_0/a_8_28#
+= b4 CRA6B_0/FullAdder_4/EXC_0/xor_0/a_n8_80#
+C CRA6B_0/FullAdder_4/EXC_0/m1_0_36# GND 57.31
+R CRA6B_0/FullAdder_4/EXC_0/m1_0_36# 1509
+= CRA6B_0/FullAdder_4/EXC_0/m1_0_36# CRA6B_0/FullAdder_4/EXC_0/not_1/a_22_8#
+= CRA6B_0/FullAdder_4/EXC_0/m1_0_36# CRA6B_0/FullAdder_4/EXC_0/xor_0/a_n28_36#
+R CRA6B_0/FullAdder_4/and_1/nand_0/a_14_12# 67
+C CRA6B_0/FullAdder_4/and_1/m1_36_28# GND 43.62
+R CRA6B_0/FullAdder_4/and_1/m1_36_28# 1484
+= CRA6B_0/FullAdder_4/and_1/m1_36_28# CRA6B_0/FullAdder_4/and_1/not_0/a_8_28#
+= CRA6B_0/FullAdder_4/and_1/m1_36_28# CRA6B_0/FullAdder_4/and_1/nand_0/a_14_88#
+C CRA6B_0/FullAdder_4/m1_240_80# GND 43.07
+R CRA6B_0/FullAdder_4/m1_240_80# 1400
+= CRA6B_0/FullAdder_4/m1_240_80# CRA6B_0/FullAdder_4/or_0/nor_0/a_4_72#
+= CRA6B_0/FullAdder_4/m1_240_80# CRA6B_0/FullAdder_4/and_1/not_0/a_22_8#
+R CRA6B_0/FullAdder_4/and_0/nand_0/a_14_12# 67
+C CRA6B_0/FullAdder_4/and_0/m1_36_28# GND 43.62
+R CRA6B_0/FullAdder_4/and_0/m1_36_28# 1484
+= CRA6B_0/FullAdder_4/and_0/m1_36_28# CRA6B_0/FullAdder_4/and_0/not_0/a_8_28#
+= CRA6B_0/FullAdder_4/and_0/m1_36_28# CRA6B_0/FullAdder_4/and_0/nand_0/a_14_88#
+C CRA6B_0/FullAdder_4/m1_60_n52# GND 67.44
+R CRA6B_0/FullAdder_4/m1_60_n52# 1390
+= CRA6B_0/FullAdder_4/m1_60_n52# CRA6B_0/FullAdder_4/or_0/nor_0/a_20_56#
+= CRA6B_0/FullAdder_4/m1_60_n52# CRA6B_0/FullAdder_4/and_0/not_0/a_22_8#
+R CRA6B_0/FullAdder_4/or_0/nor_0/a_14_88# 194
+C CRA6B_0/FullAdder_4/or_0/m1_40_44# GND 52.26
+R CRA6B_0/FullAdder_4/or_0/m1_40_44# 1628
+= CRA6B_0/FullAdder_4/or_0/m1_40_44# CRA6B_0/FullAdder_4/or_0/nor_0/a_0_12#
+= CRA6B_0/FullAdder_4/or_0/m1_40_44# CRA6B_0/FullAdder_4/or_0/not_0/a_8_28#
+C CRA6B_0/FullAdder_3/EXC_1/xor_0/a_n36_12# GND 20.49
+R CRA6B_0/FullAdder_3/EXC_1/xor_0/a_n36_12# 491
+R CRA6B_0/FullAdder_3/EXC_1/xor_0/a_18_88# 208
+R CRA6B_0/FullAdder_3/EXC_1/xor_0/a_n12_88# 179
+C m1_512_n160# GND 318.64
+R m1_512_n160# 2235
+= m1_512_n160# trans4to1_2/trans2to1_1/tansGate_1/a_14_8#
+= m1_512_n160# ZeroDetection_1/m1_232_60#
+= m1_512_n160# ZeroDetection_1/nor_1/a_20_56#
+= m1_512_n160# CRA6B_0/FullAdder_3/m1_276_n52#
+= m1_512_n160# CRA6B_0/FullAdder_3/EXC_1/xor_0/a_n36_88#
+C CRA6B_0/FullAdder_3/m1_108_80# GND 118.61
+R CRA6B_0/FullAdder_3/m1_108_80# 4221
+= CRA6B_0/FullAdder_3/m1_108_80# CRA6B_0/FullAdder_3/EXC_0/xor_0/a_n36_88#
+= CRA6B_0/FullAdder_3/m1_108_80# CRA6B_0/FullAdder_3/and_1/nand_0/a_4_80#
+= CRA6B_0/FullAdder_3/m1_108_80# CRA6B_0/FullAdder_3/EXC_1/m1_60_40#
+= CRA6B_0/FullAdder_3/m1_108_80# CRA6B_0/FullAdder_3/EXC_1/not_1/a_8_28#
+= CRA6B_0/FullAdder_3/m1_108_80# CRA6B_0/FullAdder_3/EXC_1/xor_0/a_24_40#
+C CRA6B_0/FullAdder_3/EXC_1/m1_n12_72# GND 43.18
+R CRA6B_0/FullAdder_3/EXC_1/m1_n12_72# 1448
+= CRA6B_0/FullAdder_3/EXC_1/m1_n12_72# CRA6B_0/FullAdder_3/EXC_1/not_0/a_22_8#
+= CRA6B_0/FullAdder_3/EXC_1/m1_n12_72# CRA6B_0/FullAdder_3/EXC_1/xor_0/a_8_76#
+C CRA6B_0/m1_n1220_n32# GND 296.86
+R CRA6B_0/m1_n1220_n32# 3789
+= CRA6B_0/m1_n1220_n32# CRA6B_0/FullAdder_2/m1_391_56#
+= CRA6B_0/m1_n1220_n32# CRA6B_0/FullAdder_2/or_0/not_0/a_22_8#
+= CRA6B_0/m1_n1220_n32# CRA6B_0/FullAdder_3/m1_160_n64#
+= CRA6B_0/m1_n1220_n32# CRA6B_0/FullAdder_3/and_1/nand_0/a_24_10#
+= CRA6B_0/m1_n1220_n32# CRA6B_0/FullAdder_3/EXC_1/m1_n32_48#
+= CRA6B_0/m1_n1220_n32# CRA6B_0/FullAdder_3/EXC_1/not_0/a_8_28#
+= CRA6B_0/m1_n1220_n32# CRA6B_0/FullAdder_3/EXC_1/xor_0/a_n8_80#
+C CRA6B_0/FullAdder_3/EXC_1/m1_0_36# GND 57.31
+R CRA6B_0/FullAdder_3/EXC_1/m1_0_36# 1509
+= CRA6B_0/FullAdder_3/EXC_1/m1_0_36# CRA6B_0/FullAdder_3/EXC_1/not_1/a_22_8#
+= CRA6B_0/FullAdder_3/EXC_1/m1_0_36# CRA6B_0/FullAdder_3/EXC_1/xor_0/a_n28_36#
+C CRA6B_0/FullAdder_3/EXC_0/xor_0/a_n36_12# GND 20.49
+R CRA6B_0/FullAdder_3/EXC_0/xor_0/a_n36_12# 491
+R CRA6B_0/FullAdder_3/EXC_0/xor_0/a_18_88# 208
+R CRA6B_0/FullAdder_3/EXC_0/xor_0/a_n12_88# 179
+C a3 GND 738.91
+R a3 9602
+= a3 CRS6B_0/FullAdder_3/m1_0_n40#
+= a3 CRS6B_0/FullAdder_3/and_0/nand_0/a_4_80#
+= a3 CRS6B_0/FullAdder_3/EXC_0/m1_60_40#
+= a3 CRS6B_0/FullAdder_3/EXC_0/not_1/a_8_28#
+= a3 CRS6B_0/FullAdder_3/EXC_0/xor_0/a_24_40#
+= a3 xor_1/a_24_40#
+= a3 not_3/a_8_28#
+= a3 CRA6B_0/FullAdder_3/m1_0_n40#
+= a3 CRA6B_0/FullAdder_3/and_0/nand_0/a_4_80#
+= a3 CRA6B_0/FullAdder_3/EXC_0/m1_60_40#
+= a3 CRA6B_0/FullAdder_3/EXC_0/not_1/a_8_28#
+= a3 CRA6B_0/FullAdder_3/EXC_0/xor_0/a_24_40#
+C CRA6B_0/FullAdder_3/EXC_0/m1_n12_72# GND 43.18
+R CRA6B_0/FullAdder_3/EXC_0/m1_n12_72# 1448
+= CRA6B_0/FullAdder_3/EXC_0/m1_n12_72# CRA6B_0/FullAdder_3/EXC_0/not_0/a_22_8#
+= CRA6B_0/FullAdder_3/EXC_0/m1_n12_72# CRA6B_0/FullAdder_3/EXC_0/xor_0/a_8_76#
+C b3 GND 583.44
+R b3 6048
+= b3 CRS6B_0/not_3/a_8_28#
+= b3 xor_1/a_n28_36#
+= b3 CRA6B_0/m2_n1380_100#
+= b3 CRA6B_0/FullAdder_3/m1_n12_n72#
+= b3 CRA6B_0/FullAdder_3/and_0/nand_0/a_24_10#
+= b3 CRA6B_0/FullAdder_3/EXC_0/m1_n32_48#
+= b3 CRA6B_0/FullAdder_3/EXC_0/not_0/a_8_28#
+= b3 CRA6B_0/FullAdder_3/EXC_0/xor_0/a_n8_80#
+C CRA6B_0/FullAdder_3/EXC_0/m1_0_36# GND 57.31
+R CRA6B_0/FullAdder_3/EXC_0/m1_0_36# 1509
+= CRA6B_0/FullAdder_3/EXC_0/m1_0_36# CRA6B_0/FullAdder_3/EXC_0/not_1/a_22_8#
+= CRA6B_0/FullAdder_3/EXC_0/m1_0_36# CRA6B_0/FullAdder_3/EXC_0/xor_0/a_n28_36#
+R CRA6B_0/FullAdder_3/and_1/nand_0/a_14_12# 67
+C CRA6B_0/FullAdder_3/and_1/m1_36_28# GND 43.62
+R CRA6B_0/FullAdder_3/and_1/m1_36_28# 1484
+= CRA6B_0/FullAdder_3/and_1/m1_36_28# CRA6B_0/FullAdder_3/and_1/not_0/a_8_28#
+= CRA6B_0/FullAdder_3/and_1/m1_36_28# CRA6B_0/FullAdder_3/and_1/nand_0/a_14_88#
+C CRA6B_0/FullAdder_3/m1_240_80# GND 43.07
+R CRA6B_0/FullAdder_3/m1_240_80# 1400
+= CRA6B_0/FullAdder_3/m1_240_80# CRA6B_0/FullAdder_3/or_0/nor_0/a_4_72#
+= CRA6B_0/FullAdder_3/m1_240_80# CRA6B_0/FullAdder_3/and_1/not_0/a_22_8#
+R CRA6B_0/FullAdder_3/and_0/nand_0/a_14_12# 67
+C CRA6B_0/FullAdder_3/and_0/m1_36_28# GND 43.62
+R CRA6B_0/FullAdder_3/and_0/m1_36_28# 1484
+= CRA6B_0/FullAdder_3/and_0/m1_36_28# CRA6B_0/FullAdder_3/and_0/not_0/a_8_28#
+= CRA6B_0/FullAdder_3/and_0/m1_36_28# CRA6B_0/FullAdder_3/and_0/nand_0/a_14_88#
+C CRA6B_0/FullAdder_3/m1_60_n52# GND 67.44
+R CRA6B_0/FullAdder_3/m1_60_n52# 1390
+= CRA6B_0/FullAdder_3/m1_60_n52# CRA6B_0/FullAdder_3/or_0/nor_0/a_20_56#
+= CRA6B_0/FullAdder_3/m1_60_n52# CRA6B_0/FullAdder_3/and_0/not_0/a_22_8#
+R CRA6B_0/FullAdder_3/or_0/nor_0/a_14_88# 194
+C CRA6B_0/FullAdder_3/or_0/m1_40_44# GND 52.26
+R CRA6B_0/FullAdder_3/or_0/m1_40_44# 1628
+= CRA6B_0/FullAdder_3/or_0/m1_40_44# CRA6B_0/FullAdder_3/or_0/nor_0/a_0_12#
+= CRA6B_0/FullAdder_3/or_0/m1_40_44# CRA6B_0/FullAdder_3/or_0/not_0/a_8_28#
+C CRA6B_0/FullAdder_2/EXC_1/xor_0/a_n36_12# GND 20.49
+R CRA6B_0/FullAdder_2/EXC_1/xor_0/a_n36_12# 491
+R CRA6B_0/FullAdder_2/EXC_1/xor_0/a_18_88# 208
+R CRA6B_0/FullAdder_2/EXC_1/xor_0/a_n12_88# 179
+C m1_688_n148# GND 281.19
+R m1_688_n148# 2387
+= m1_688_n148# trans4to1_3/trans2to1_1/tansGate_1/a_14_8#
+= m1_688_n148# ZeroDetection_1/m1_61_32#
+= m1_688_n148# ZeroDetection_1/not_0/a_8_28#
+= m1_688_n148# CRA6B_0/m2_n470_76#
+= m1_688_n148# CRA6B_0/FullAdder_2/m1_276_n52#
+= m1_688_n148# CRA6B_0/FullAdder_2/EXC_1/xor_0/a_n36_88#
+C CRA6B_0/FullAdder_2/m1_108_80# GND 118.61
+R CRA6B_0/FullAdder_2/m1_108_80# 4221
+= CRA6B_0/FullAdder_2/m1_108_80# CRA6B_0/FullAdder_2/EXC_0/xor_0/a_n36_88#
+= CRA6B_0/FullAdder_2/m1_108_80# CRA6B_0/FullAdder_2/and_1/nand_0/a_4_80#
+= CRA6B_0/FullAdder_2/m1_108_80# CRA6B_0/FullAdder_2/EXC_1/m1_60_40#
+= CRA6B_0/FullAdder_2/m1_108_80# CRA6B_0/FullAdder_2/EXC_1/not_1/a_8_28#
+= CRA6B_0/FullAdder_2/m1_108_80# CRA6B_0/FullAdder_2/EXC_1/xor_0/a_24_40#
+C CRA6B_0/FullAdder_2/EXC_1/m1_n12_72# GND 43.18
+R CRA6B_0/FullAdder_2/EXC_1/m1_n12_72# 1448
+= CRA6B_0/FullAdder_2/EXC_1/m1_n12_72# CRA6B_0/FullAdder_2/EXC_1/not_0/a_22_8#
+= CRA6B_0/FullAdder_2/EXC_1/m1_n12_72# CRA6B_0/FullAdder_2/EXC_1/xor_0/a_8_76#
+C CRA6B_0/m1_n688_n24# GND 201.02
+R CRA6B_0/m1_n688_n24# 3784
+= CRA6B_0/m1_n688_n24# CRA6B_0/FullAdder_1/m1_391_56#
+= CRA6B_0/m1_n688_n24# CRA6B_0/FullAdder_1/or_0/not_0/a_22_8#
+= CRA6B_0/m1_n688_n24# CRA6B_0/FullAdder_2/m1_160_n64#
+= CRA6B_0/m1_n688_n24# CRA6B_0/FullAdder_2/and_1/nand_0/a_24_10#
+= CRA6B_0/m1_n688_n24# CRA6B_0/FullAdder_2/EXC_1/m1_n32_48#
+= CRA6B_0/m1_n688_n24# CRA6B_0/FullAdder_2/EXC_1/not_0/a_8_28#
+= CRA6B_0/m1_n688_n24# CRA6B_0/FullAdder_2/EXC_1/xor_0/a_n8_80#
+C CRA6B_0/FullAdder_2/EXC_1/m1_0_36# GND 57.31
+R CRA6B_0/FullAdder_2/EXC_1/m1_0_36# 1509
+= CRA6B_0/FullAdder_2/EXC_1/m1_0_36# CRA6B_0/FullAdder_2/EXC_1/not_1/a_22_8#
+= CRA6B_0/FullAdder_2/EXC_1/m1_0_36# CRA6B_0/FullAdder_2/EXC_1/xor_0/a_n28_36#
+C vdd GND 2073.67
+R vdd 76914
+= vdd a_2344_n102#
+= vdd or_0/not_0/a_8_92#
+= vdd or_0/nor_0/a_0_88#
+= vdd or_1/not_0/a_8_92#
+= vdd or_1/nor_0/a_0_88#
+= vdd m2_2336_n759#
+= vdd m2_2336_n677#
+= vdd ZeroDetection_0/m2_93_100#
+= vdd ZeroDetection_0/m2_436_100#
+= vdd ZeroDetection_0/and_1/not_0/a_8_92#
+= vdd ZeroDetection_0/and_1/nand_0/a_4_88#
+= vdd ZeroDetection_0/nor_2/a_0_88#
+= vdd ZeroDetection_0/not_3/a_8_92#
+= vdd ZeroDetection_0/m2_398_100#
+= vdd ZeroDetection_0/nor_1/a_0_88#
+= vdd ZeroDetection_0/m2_319_100#
+= vdd ZeroDetection_0/not_2/a_8_92#
+= vdd ZeroDetection_0/m2_278_100#
+= vdd ZeroDetection_0/and_0/not_0/a_8_92#
+= vdd ZeroDetection_0/and_0/nand_0/a_4_88#
+= vdd ZeroDetection_0/m2_225_100#
+= vdd ZeroDetection_0/not_1/a_8_92#
+= vdd ZeroDetection_0/m2_182_100#
+= vdd ZeroDetection_0/nor_0/a_0_88#
+= vdd ZeroDetection_0/not_0/a_8_92#
+= vdd ZeroDetection_0/m2_43_100#
+= vdd ZeroDetection_1/m2_93_100#
+= vdd ZeroDetection_1/m2_436_100#
+= vdd ZeroDetection_1/and_1/not_0/a_8_92#
+= vdd ZeroDetection_1/and_1/nand_0/a_4_88#
+= vdd ZeroDetection_1/nor_2/a_0_88#
+= vdd ZeroDetection_1/not_3/a_8_92#
+= vdd ZeroDetection_1/m2_398_100#
+= vdd ZeroDetection_1/nor_1/a_0_88#
+= vdd ZeroDetection_1/m2_319_100#
+= vdd ZeroDetection_1/not_2/a_8_92#
+= vdd ZeroDetection_1/m2_278_100#
+= vdd ZeroDetection_1/and_0/not_0/a_8_92#
+= vdd ZeroDetection_1/and_0/nand_0/a_4_88#
+= vdd ZeroDetection_1/m2_225_100#
+= vdd ZeroDetection_1/not_1/a_8_92#
+= vdd ZeroDetection_1/m2_182_100#
+= vdd ZeroDetection_1/nor_0/a_0_88#
+= vdd ZeroDetection_1/not_0/a_8_92#
+= vdd ZeroDetection_1/m2_43_100#
+= vdd CRS6B_0/m1_92_144#
+= vdd CRS6B_0/m1_n2488_156#
+= vdd CRS6B_0/m1_n1456_160#
+= vdd CRS6B_0/not_3/a_8_92#
+= vdd CRS6B_0/FullAdder_4/m2_72_n8#
+= vdd CRS6B_0/FullAdder_4/or_0/not_0/a_8_92#
+= vdd CRS6B_0/FullAdder_4/or_0/nor_0/a_0_88#
+= vdd CRS6B_0/FullAdder_4/m2_161_108#
+= vdd CRS6B_0/FullAdder_4/and_1/not_0/a_8_92#
+= vdd CRS6B_0/FullAdder_4/and_1/nand_0/a_4_88#
+= vdd CRS6B_0/FullAdder_4/EXC_0/xor_0/a_2_88#
+= vdd CRS6B_0/FullAdder_4/EXC_0/not_1/a_8_92#
+= vdd CRS6B_0/FullAdder_4/EXC_0/not_0/a_8_92#
+= vdd CRS6B_0/FullAdder_4/m1_272_n20#
+= vdd CRS6B_0/FullAdder_4/and_0/not_0/a_8_92#
+= vdd CRS6B_0/FullAdder_4/and_0/nand_0/a_4_88#
+= vdd CRS6B_0/FullAdder_4/EXC_1/xor_0/a_2_88#
+= vdd CRS6B_0/FullAdder_4/EXC_1/not_1/a_8_92#
+= vdd CRS6B_0/FullAdder_4/EXC_1/not_0/a_8_92#
+= vdd CRS6B_0/m1_n1992_164#
+= vdd CRS6B_0/not_4/a_8_92#
+= vdd CRS6B_0/not_5/a_8_92#
+= vdd CRS6B_0/FullAdder_5/m2_72_n8#
+= vdd CRS6B_0/FullAdder_5/or_0/not_0/a_8_92#
+= vdd CRS6B_0/FullAdder_5/or_0/nor_0/a_0_88#
+= vdd CRS6B_0/FullAdder_5/m2_161_108#
+= vdd CRS6B_0/FullAdder_5/and_1/not_0/a_8_92#
+= vdd CRS6B_0/FullAdder_5/and_1/nand_0/a_4_88#
+= vdd CRS6B_0/FullAdder_5/EXC_0/xor_0/a_2_88#
+= vdd CRS6B_0/FullAdder_5/EXC_0/not_1/a_8_92#
+= vdd CRS6B_0/FullAdder_5/EXC_0/not_0/a_8_92#
+= vdd CRS6B_0/FullAdder_5/m1_272_n20#
+= vdd CRS6B_0/FullAdder_5/and_0/not_0/a_8_92#
+= vdd CRS6B_0/FullAdder_5/and_0/nand_0/a_4_88#
+= vdd CRS6B_0/FullAdder_5/EXC_1/xor_0/a_2_88#
+= vdd CRS6B_0/FullAdder_5/EXC_1/not_1/a_8_92#
+= vdd CRS6B_0/FullAdder_5/EXC_1/not_0/a_8_92#
+= vdd CRS6B_0/m1_321_173#
+= vdd CRS6B_0/FullAdder_0/m1_160_n64#
+= vdd CRS6B_0/FullAdder_0/and_1/nand_0/a_24_10#
+= vdd CRS6B_0/FullAdder_0/EXC_1/m1_n32_48#
+= vdd CRS6B_0/FullAdder_0/EXC_1/not_0/a_8_28#
+= vdd CRS6B_0/FullAdder_0/EXC_1/xor_0/a_n8_80#
+= vdd CRS6B_0/FullAdder_0/m2_72_n8#
+= vdd CRS6B_0/FullAdder_0/or_0/not_0/a_8_92#
+= vdd CRS6B_0/FullAdder_0/or_0/nor_0/a_0_88#
+= vdd CRS6B_0/FullAdder_0/m2_161_108#
+= vdd CRS6B_0/FullAdder_0/and_1/not_0/a_8_92#
+= vdd CRS6B_0/FullAdder_0/and_1/nand_0/a_4_88#
+= vdd CRS6B_0/FullAdder_0/EXC_0/xor_0/a_2_88#
+= vdd CRS6B_0/FullAdder_0/EXC_0/not_1/a_8_92#
+= vdd CRS6B_0/FullAdder_0/EXC_0/not_0/a_8_92#
+= vdd CRS6B_0/FullAdder_0/m1_272_n20#
+= vdd CRS6B_0/FullAdder_0/and_0/not_0/a_8_92#
+= vdd CRS6B_0/FullAdder_0/and_0/nand_0/a_4_88#
+= vdd CRS6B_0/FullAdder_0/EXC_1/xor_0/a_2_88#
+= vdd CRS6B_0/FullAdder_0/EXC_1/not_1/a_8_92#
+= vdd CRS6B_0/FullAdder_0/EXC_1/not_0/a_8_92#
+= vdd CRS6B_0/not_0/a_8_92#
+= vdd CRS6B_0/m1_n908_157#
+= vdd CRS6B_0/not_2/a_8_92#
+= vdd CRS6B_0/FullAdder_3/m2_72_n8#
+= vdd CRS6B_0/FullAdder_3/or_0/not_0/a_8_92#
+= vdd CRS6B_0/FullAdder_3/or_0/nor_0/a_0_88#
+= vdd CRS6B_0/FullAdder_3/m2_161_108#
+= vdd CRS6B_0/FullAdder_3/and_1/not_0/a_8_92#
+= vdd CRS6B_0/FullAdder_3/and_1/nand_0/a_4_88#
+= vdd CRS6B_0/FullAdder_3/EXC_0/xor_0/a_2_88#
+= vdd CRS6B_0/FullAdder_3/EXC_0/not_1/a_8_92#
+= vdd CRS6B_0/FullAdder_3/EXC_0/not_0/a_8_92#
+= vdd CRS6B_0/FullAdder_3/m1_272_n20#
+= vdd CRS6B_0/FullAdder_3/and_0/not_0/a_8_92#
+= vdd CRS6B_0/FullAdder_3/and_0/nand_0/a_4_88#
+= vdd CRS6B_0/FullAdder_3/EXC_1/xor_0/a_2_88#
+= vdd CRS6B_0/FullAdder_3/EXC_1/not_1/a_8_92#
+= vdd CRS6B_0/FullAdder_3/EXC_1/not_0/a_8_92#
+= vdd CRS6B_0/m1_n408_142#
+= vdd CRS6B_0/FullAdder_1/m2_72_n8#
+= vdd CRS6B_0/FullAdder_1/or_0/not_0/a_8_92#
+= vdd CRS6B_0/FullAdder_1/or_0/nor_0/a_0_88#
+= vdd CRS6B_0/FullAdder_1/m2_161_108#
+= vdd CRS6B_0/FullAdder_1/and_1/not_0/a_8_92#
+= vdd CRS6B_0/FullAdder_1/and_1/nand_0/a_4_88#
+= vdd CRS6B_0/FullAdder_1/EXC_0/xor_0/a_2_88#
+= vdd CRS6B_0/FullAdder_1/EXC_0/not_1/a_8_92#
+= vdd CRS6B_0/FullAdder_1/EXC_0/not_0/a_8_92#
+= vdd CRS6B_0/FullAdder_1/m1_272_n20#
+= vdd CRS6B_0/FullAdder_1/and_0/not_0/a_8_92#
+= vdd CRS6B_0/FullAdder_1/and_0/nand_0/a_4_88#
+= vdd CRS6B_0/FullAdder_1/EXC_1/xor_0/a_2_88#
+= vdd CRS6B_0/FullAdder_1/EXC_1/not_1/a_8_92#
+= vdd CRS6B_0/FullAdder_1/EXC_1/not_0/a_8_92#
+= vdd CRS6B_0/not_1/a_8_92#
+= vdd CRS6B_0/FullAdder_2/m2_72_n8#
+= vdd CRS6B_0/FullAdder_2/or_0/not_0/a_8_92#
+= vdd CRS6B_0/FullAdder_2/or_0/nor_0/a_0_88#
+= vdd CRS6B_0/FullAdder_2/m2_161_108#
+= vdd CRS6B_0/FullAdder_2/and_1/not_0/a_8_92#
+= vdd CRS6B_0/FullAdder_2/and_1/nand_0/a_4_88#
+= vdd CRS6B_0/FullAdder_2/EXC_0/xor_0/a_2_88#
+= vdd CRS6B_0/FullAdder_2/EXC_0/not_1/a_8_92#
+= vdd CRS6B_0/FullAdder_2/EXC_0/not_0/a_8_92#
+= vdd CRS6B_0/FullAdder_2/m1_272_n20#
+= vdd CRS6B_0/FullAdder_2/and_0/not_0/a_8_92#
+= vdd CRS6B_0/FullAdder_2/and_0/nand_0/a_4_88#
+= vdd CRS6B_0/FullAdder_2/EXC_1/xor_0/a_2_88#
+= vdd CRS6B_0/FullAdder_2/EXC_1/not_1/a_8_92#
+= vdd CRS6B_0/FullAdder_2/EXC_1/not_0/a_8_92#
+= vdd xor_9/a_2_88#
+= vdd xor_8/a_2_88#
+= vdd xor_0/a_2_88#
+= vdd m2_708_256#
+= vdd xor_1/a_2_88#
+= vdd xor_2/a_2_88#
+= vdd xor_3/a_2_88#
+= vdd m2_112_256#
+= vdd not_1/a_8_92#
+= vdd m2_1751_44#
+= vdd not_3/a_8_92#
+= vdd not_2/a_8_92#
+= vdd not_0/a_8_92#
+= vdd not_5/a_8_92#
+= vdd not_4/a_8_92#
+= vdd m2_1228_44#
+= vdd not_7/a_8_92#
+= vdd m2_1183_44#
+= vdd m1_1160_44#
+= vdd not_6/a_8_92#
+= vdd CRA6B_0/m2_44_232#
+= vdd CRA6B_0/m2_n2040_232#
+= vdd CRA6B_0/m2_n1524_232#
+= vdd CRA6B_0/FullAdder_4/m2_72_n8#
+= vdd CRA6B_0/FullAdder_4/or_0/not_0/a_8_92#
+= vdd CRA6B_0/FullAdder_4/or_0/nor_0/a_0_88#
+= vdd CRA6B_0/FullAdder_4/m2_161_108#
+= vdd CRA6B_0/FullAdder_4/and_1/not_0/a_8_92#
+= vdd CRA6B_0/FullAdder_4/and_1/nand_0/a_4_88#
+= vdd CRA6B_0/FullAdder_4/EXC_0/xor_0/a_2_88#
+= vdd CRA6B_0/FullAdder_4/EXC_0/not_1/a_8_92#
+= vdd CRA6B_0/FullAdder_4/EXC_0/not_0/a_8_92#
+= vdd CRA6B_0/FullAdder_4/m1_272_n20#
+= vdd CRA6B_0/FullAdder_4/and_0/not_0/a_8_92#
+= vdd CRA6B_0/FullAdder_4/and_0/nand_0/a_4_88#
+= vdd CRA6B_0/FullAdder_4/EXC_1/xor_0/a_2_88#
+= vdd CRA6B_0/FullAdder_4/EXC_1/not_1/a_8_92#
+= vdd CRA6B_0/FullAdder_4/EXC_1/not_0/a_8_92#
+= vdd CRA6B_0/FullAdder_5/m2_72_n8#
+= vdd CRA6B_0/FullAdder_5/or_0/not_0/a_8_92#
+= vdd CRA6B_0/FullAdder_5/or_0/nor_0/a_0_88#
+= vdd CRA6B_0/FullAdder_5/m2_161_108#
+= vdd CRA6B_0/FullAdder_5/and_1/not_0/a_8_92#
+= vdd CRA6B_0/FullAdder_5/and_1/nand_0/a_4_88#
+= vdd CRA6B_0/FullAdder_5/EXC_0/xor_0/a_2_88#
+= vdd CRA6B_0/FullAdder_5/EXC_0/not_1/a_8_92#
+= vdd CRA6B_0/FullAdder_5/EXC_0/not_0/a_8_92#
+= vdd CRA6B_0/FullAdder_5/m1_272_n20#
+= vdd CRA6B_0/FullAdder_5/and_0/not_0/a_8_92#
+= vdd CRA6B_0/FullAdder_5/and_0/nand_0/a_4_88#
+= vdd CRA6B_0/FullAdder_5/EXC_1/xor_0/a_2_88#
+= vdd CRA6B_0/FullAdder_5/EXC_1/not_1/a_8_92#
+= vdd CRA6B_0/FullAdder_5/EXC_1/not_0/a_8_92#
+= vdd CRA6B_0/m2_n964_232#
+= vdd CRA6B_0/FullAdder_3/m2_72_n8#
+= vdd CRA6B_0/FullAdder_3/or_0/not_0/a_8_92#
+= vdd CRA6B_0/FullAdder_3/or_0/nor_0/a_0_88#
+= vdd CRA6B_0/FullAdder_3/m2_161_108#
+= vdd CRA6B_0/FullAdder_3/and_1/not_0/a_8_92#
+= vdd CRA6B_0/FullAdder_3/and_1/nand_0/a_4_88#
+= vdd CRA6B_0/FullAdder_3/EXC_0/xor_0/a_2_88#
+= vdd CRA6B_0/FullAdder_3/EXC_0/not_1/a_8_92#
+= vdd CRA6B_0/FullAdder_3/EXC_0/not_0/a_8_92#
+= vdd CRA6B_0/FullAdder_3/m1_272_n20#
+= vdd CRA6B_0/FullAdder_3/and_0/not_0/a_8_92#
+= vdd CRA6B_0/FullAdder_3/and_0/nand_0/a_4_88#
+= vdd CRA6B_0/FullAdder_3/EXC_1/xor_0/a_2_88#
+= vdd CRA6B_0/FullAdder_3/EXC_1/not_1/a_8_92#
+= vdd CRA6B_0/FullAdder_3/EXC_1/not_0/a_8_92#
+= vdd CRA6B_0/FullAdder_0/m2_72_n8#
+= vdd CRA6B_0/FullAdder_0/or_0/not_0/a_8_92#
+= vdd CRA6B_0/FullAdder_0/or_0/nor_0/a_0_88#
+= vdd CRA6B_0/FullAdder_0/m2_161_108#
+= vdd CRA6B_0/FullAdder_0/and_1/not_0/a_8_92#
+= vdd CRA6B_0/FullAdder_0/and_1/nand_0/a_4_88#
+= vdd CRA6B_0/FullAdder_0/EXC_0/xor_0/a_2_88#
+= vdd CRA6B_0/FullAdder_0/EXC_0/not_1/a_8_92#
+= vdd CRA6B_0/FullAdder_0/EXC_0/not_0/a_8_92#
+= vdd CRA6B_0/FullAdder_0/m1_272_n20#
+= vdd CRA6B_0/FullAdder_0/and_0/not_0/a_8_92#
+= vdd CRA6B_0/FullAdder_0/and_0/nand_0/a_4_88#
+= vdd CRA6B_0/FullAdder_0/EXC_1/xor_0/a_2_88#
+= vdd CRA6B_0/FullAdder_0/EXC_1/not_1/a_8_92#
+= vdd CRA6B_0/FullAdder_0/EXC_1/not_0/a_8_92#
+= vdd CRA6B_0/m2_n440_232#
+= vdd CRA6B_0/FullAdder_1/m2_72_n8#
+= vdd CRA6B_0/FullAdder_1/or_0/not_0/a_8_92#
+= vdd CRA6B_0/FullAdder_1/or_0/nor_0/a_0_88#
+= vdd CRA6B_0/FullAdder_1/m2_161_108#
+= vdd CRA6B_0/FullAdder_1/and_1/not_0/a_8_92#
+= vdd CRA6B_0/FullAdder_1/and_1/nand_0/a_4_88#
+= vdd CRA6B_0/FullAdder_1/EXC_0/xor_0/a_2_88#
+= vdd CRA6B_0/FullAdder_1/EXC_0/not_1/a_8_92#
+= vdd CRA6B_0/FullAdder_1/EXC_0/not_0/a_8_92#
+= vdd CRA6B_0/FullAdder_1/m1_272_n20#
+= vdd CRA6B_0/FullAdder_1/and_0/not_0/a_8_92#
+= vdd CRA6B_0/FullAdder_1/and_0/nand_0/a_4_88#
+= vdd CRA6B_0/FullAdder_1/EXC_1/xor_0/a_2_88#
+= vdd CRA6B_0/FullAdder_1/EXC_1/not_1/a_8_92#
+= vdd CRA6B_0/FullAdder_1/EXC_1/not_0/a_8_92#
+= vdd CRA6B_0/FullAdder_2/m2_72_n8#
+= vdd CRA6B_0/FullAdder_2/or_0/not_0/a_8_92#
+= vdd CRA6B_0/FullAdder_2/or_0/nor_0/a_0_88#
+= vdd CRA6B_0/FullAdder_2/m2_161_108#
+= vdd CRA6B_0/FullAdder_2/and_1/not_0/a_8_92#
+= vdd CRA6B_0/FullAdder_2/and_1/nand_0/a_4_88#
+= vdd CRA6B_0/FullAdder_2/EXC_0/xor_0/a_2_88#
+= vdd CRA6B_0/FullAdder_2/EXC_0/not_1/a_8_92#
+= vdd CRA6B_0/FullAdder_2/EXC_0/not_0/a_8_92#
+= vdd CRA6B_0/FullAdder_2/m1_272_n20#
+= vdd CRA6B_0/FullAdder_2/and_0/not_0/a_8_92#
+= vdd CRA6B_0/FullAdder_2/and_0/nand_0/a_4_88#
+= vdd CRA6B_0/FullAdder_2/EXC_1/xor_0/a_2_88#
+= vdd CRA6B_0/FullAdder_2/EXC_1/not_1/a_8_92#
+= vdd CRA6B_0/FullAdder_2/EXC_1/not_0/a_8_92#
+C CRA6B_0/FullAdder_2/EXC_0/xor_0/a_n36_12# GND 20.49
+R CRA6B_0/FullAdder_2/EXC_0/xor_0/a_n36_12# 491
+R CRA6B_0/FullAdder_2/EXC_0/xor_0/a_18_88# 208
+R CRA6B_0/FullAdder_2/EXC_0/xor_0/a_n12_88# 179
+C a2 GND 644.19
+R a2 9593
+= a2 CRS6B_0/FullAdder_2/m1_0_n40#
+= a2 CRS6B_0/FullAdder_2/and_0/nand_0/a_4_80#
+= a2 CRS6B_0/FullAdder_2/EXC_0/m1_60_40#
+= a2 CRS6B_0/FullAdder_2/EXC_0/not_1/a_8_28#
+= a2 CRS6B_0/FullAdder_2/EXC_0/xor_0/a_24_40#
+= a2 xor_0/a_24_40#
+= a2 not_2/a_8_28#
+= a2 CRA6B_0/FullAdder_2/m1_0_n40#
+= a2 CRA6B_0/FullAdder_2/and_0/nand_0/a_4_80#
+= a2 CRA6B_0/FullAdder_2/EXC_0/m1_60_40#
+= a2 CRA6B_0/FullAdder_2/EXC_0/not_1/a_8_28#
+= a2 CRA6B_0/FullAdder_2/EXC_0/xor_0/a_24_40#
+C CRA6B_0/FullAdder_2/EXC_0/m1_n12_72# GND 43.18
+R CRA6B_0/FullAdder_2/EXC_0/m1_n12_72# 1448
+= CRA6B_0/FullAdder_2/EXC_0/m1_n12_72# CRA6B_0/FullAdder_2/EXC_0/not_0/a_22_8#
+= CRA6B_0/FullAdder_2/EXC_0/m1_n12_72# CRA6B_0/FullAdder_2/EXC_0/xor_0/a_8_76#
+C b2 GND 505.94
+R b2 6043
+= b2 CRS6B_0/m1_n912_95#
+= b2 CRS6B_0/not_2/a_8_28#
+= b2 xor_0/a_n28_36#
+= b2 CRA6B_0/m2_n852_100#
+= b2 CRA6B_0/FullAdder_2/m1_n12_n72#
+= b2 CRA6B_0/FullAdder_2/and_0/nand_0/a_24_10#
+= b2 CRA6B_0/FullAdder_2/EXC_0/m1_n32_48#
+= b2 CRA6B_0/FullAdder_2/EXC_0/not_0/a_8_28#
+= b2 CRA6B_0/FullAdder_2/EXC_0/xor_0/a_n8_80#
+C CRA6B_0/FullAdder_2/EXC_0/m1_0_36# GND 57.31
+R CRA6B_0/FullAdder_2/EXC_0/m1_0_36# 1509
+= CRA6B_0/FullAdder_2/EXC_0/m1_0_36# CRA6B_0/FullAdder_2/EXC_0/not_1/a_22_8#
+= CRA6B_0/FullAdder_2/EXC_0/m1_0_36# CRA6B_0/FullAdder_2/EXC_0/xor_0/a_n28_36#
+R CRA6B_0/FullAdder_2/and_1/nand_0/a_14_12# 67
+C CRA6B_0/FullAdder_2/and_1/m1_36_28# GND 43.62
+R CRA6B_0/FullAdder_2/and_1/m1_36_28# 1484
+= CRA6B_0/FullAdder_2/and_1/m1_36_28# CRA6B_0/FullAdder_2/and_1/not_0/a_8_28#
+= CRA6B_0/FullAdder_2/and_1/m1_36_28# CRA6B_0/FullAdder_2/and_1/nand_0/a_14_88#
+C CRA6B_0/FullAdder_2/m1_240_80# GND 43.07
+R CRA6B_0/FullAdder_2/m1_240_80# 1400
+= CRA6B_0/FullAdder_2/m1_240_80# CRA6B_0/FullAdder_2/or_0/nor_0/a_4_72#
+= CRA6B_0/FullAdder_2/m1_240_80# CRA6B_0/FullAdder_2/and_1/not_0/a_22_8#
+R CRA6B_0/FullAdder_2/and_0/nand_0/a_14_12# 67
+C CRA6B_0/FullAdder_2/and_0/m1_36_28# GND 43.62
+R CRA6B_0/FullAdder_2/and_0/m1_36_28# 1484
+= CRA6B_0/FullAdder_2/and_0/m1_36_28# CRA6B_0/FullAdder_2/and_0/not_0/a_8_28#
+= CRA6B_0/FullAdder_2/and_0/m1_36_28# CRA6B_0/FullAdder_2/and_0/nand_0/a_14_88#
+C CRA6B_0/FullAdder_2/m1_60_n52# GND 67.44
+R CRA6B_0/FullAdder_2/m1_60_n52# 1390
+= CRA6B_0/FullAdder_2/m1_60_n52# CRA6B_0/FullAdder_2/or_0/nor_0/a_20_56#
+= CRA6B_0/FullAdder_2/m1_60_n52# CRA6B_0/FullAdder_2/and_0/not_0/a_22_8#
+R CRA6B_0/FullAdder_2/or_0/nor_0/a_14_88# 194
+C CRA6B_0/FullAdder_2/or_0/m1_40_44# GND 52.26
+R CRA6B_0/FullAdder_2/or_0/m1_40_44# 1628
+= CRA6B_0/FullAdder_2/or_0/m1_40_44# CRA6B_0/FullAdder_2/or_0/nor_0/a_0_12#
+= CRA6B_0/FullAdder_2/or_0/m1_40_44# CRA6B_0/FullAdder_2/or_0/not_0/a_8_28#
+C gnd GND 2368.26
+R gnd 30529
+= gnd xor_9/a_18_12#
+= gnd xor_8/a_18_12#
+= gnd xor_0/a_18_12#
+= gnd m2_729_148#
+= gnd xor_1/a_18_12#
+= gnd xor_2/a_18_12#
+= gnd xor_3/a_18_12#
+= gnd m2_188_148#
+= gnd trans4to1_8/trans2to1_2/tansGate_1/a_14_8#
+= gnd trans4to1_3/trans2to1_2/tansGate_1/a_14_8#
+= gnd trans4to1_2/trans2to1_2/tansGate_1/a_14_8#
+= gnd trans4to1_1/trans2to1_2/tansGate_1/a_14_8#
+= gnd trans4to1_0/trans2to1_2/tansGate_1/a_14_8#
+= gnd not_1/a_8_8#
+= gnd not_3/a_8_8#
+= gnd not_2/a_8_8#
+= gnd not_0/a_8_8#
+= gnd not_5/a_8_8#
+= gnd not_4/a_8_8#
+= gnd not_7/a_8_8#
+= gnd m1_20_n56#
+= gnd m2_1183_n56#
+= gnd not_6/a_8_8#
+= gnd CRS6B_0/m1_n25_8#
+= gnd CRS6B_0/m1_n2488_20#
+= gnd CRS6B_0/not_3/a_8_8#
+= gnd CRS6B_0/m1_n1456_20#
+= gnd CRS6B_0/FullAdder_4/m2_161_8#
+= gnd CRS6B_0/FullAdder_4/EXC_0/m2_0_4#
+= gnd CRS6B_0/FullAdder_4/EXC_0/not_1/a_8_8#
+= gnd CRS6B_0/FullAdder_4/EXC_0/not_0/a_8_8#
+= gnd CRS6B_0/FullAdder_4/EXC_0/m2_92_4#
+= gnd CRS6B_0/FullAdder_4/EXC_0/xor_0/a_18_12#
+= gnd CRS6B_0/FullAdder_4/m1_248_n8#
+= gnd CRS6B_0/FullAdder_4/or_0/not_0/a_8_8#
+= gnd CRS6B_0/FullAdder_4/or_0/nor_0/a_14_12#
+= gnd CRS6B_0/FullAdder_4/and_1/not_0/a_8_8#
+= gnd CRS6B_0/FullAdder_4/and_1/nand_0/a_4_12#
+= gnd CRS6B_0/FullAdder_4/m1_116_n120#
+= gnd CRS6B_0/FullAdder_4/and_0/not_0/a_8_8#
+= gnd CRS6B_0/FullAdder_4/and_0/nand_0/a_4_12#
+= gnd CRS6B_0/FullAdder_4/EXC_1/m2_0_4#
+= gnd CRS6B_0/FullAdder_4/EXC_1/not_1/a_8_8#
+= gnd CRS6B_0/FullAdder_4/EXC_1/not_0/a_8_8#
+= gnd CRS6B_0/FullAdder_4/EXC_1/m2_92_4#
+= gnd CRS6B_0/FullAdder_4/EXC_1/xor_0/a_18_12#
+= gnd CRS6B_0/not_4/a_8_8#
+= gnd CRS6B_0/m1_n1992_20#
+= gnd CRS6B_0/not_5/a_8_8#
+= gnd CRS6B_0/FullAdder_5/m2_161_8#
+= gnd CRS6B_0/FullAdder_5/EXC_0/m2_0_4#
+= gnd CRS6B_0/FullAdder_5/EXC_0/not_1/a_8_8#
+= gnd CRS6B_0/FullAdder_5/EXC_0/not_0/a_8_8#
+= gnd CRS6B_0/FullAdder_5/EXC_0/m2_92_4#
+= gnd CRS6B_0/FullAdder_5/EXC_0/xor_0/a_18_12#
+= gnd CRS6B_0/FullAdder_5/m1_248_n8#
+= gnd CRS6B_0/FullAdder_5/or_0/not_0/a_8_8#
+= gnd CRS6B_0/FullAdder_5/or_0/nor_0/a_14_12#
+= gnd CRS6B_0/FullAdder_5/and_1/not_0/a_8_8#
+= gnd CRS6B_0/FullAdder_5/and_1/nand_0/a_4_12#
+= gnd CRS6B_0/FullAdder_5/m1_116_n120#
+= gnd CRS6B_0/FullAdder_5/and_0/not_0/a_8_8#
+= gnd CRS6B_0/FullAdder_5/and_0/nand_0/a_4_12#
+= gnd CRS6B_0/FullAdder_5/EXC_1/m2_0_4#
+= gnd CRS6B_0/FullAdder_5/EXC_1/not_1/a_8_8#
+= gnd CRS6B_0/FullAdder_5/EXC_1/not_0/a_8_8#
+= gnd CRS6B_0/FullAdder_5/EXC_1/m2_92_4#
+= gnd CRS6B_0/FullAdder_5/EXC_1/xor_0/a_18_12#
+= gnd CRS6B_0/FullAdder_0/m2_161_8#
+= gnd CRS6B_0/FullAdder_0/EXC_0/m2_0_4#
+= gnd CRS6B_0/FullAdder_0/EXC_0/not_1/a_8_8#
+= gnd CRS6B_0/FullAdder_0/EXC_0/not_0/a_8_8#
+= gnd CRS6B_0/FullAdder_0/EXC_0/m2_92_4#
+= gnd CRS6B_0/FullAdder_0/EXC_0/xor_0/a_18_12#
+= gnd CRS6B_0/FullAdder_0/m1_248_n8#
+= gnd CRS6B_0/FullAdder_0/or_0/not_0/a_8_8#
+= gnd CRS6B_0/FullAdder_0/or_0/nor_0/a_14_12#
+= gnd CRS6B_0/FullAdder_0/and_1/not_0/a_8_8#
+= gnd CRS6B_0/FullAdder_0/and_1/nand_0/a_4_12#
+= gnd CRS6B_0/FullAdder_0/m1_116_n120#
+= gnd CRS6B_0/FullAdder_0/and_0/not_0/a_8_8#
+= gnd CRS6B_0/FullAdder_0/and_0/nand_0/a_4_12#
+= gnd CRS6B_0/FullAdder_0/EXC_1/m2_0_4#
+= gnd CRS6B_0/FullAdder_0/EXC_1/not_1/a_8_8#
+= gnd CRS6B_0/FullAdder_0/EXC_1/not_0/a_8_8#
+= gnd CRS6B_0/FullAdder_0/EXC_1/m2_92_4#
+= gnd CRS6B_0/FullAdder_0/EXC_1/xor_0/a_18_12#
+= gnd CRS6B_0/not_0/a_8_8#
+= gnd CRS6B_0/FullAdder_1/m2_161_8#
+= gnd CRS6B_0/FullAdder_1/EXC_0/m2_0_4#
+= gnd CRS6B_0/FullAdder_1/EXC_0/not_1/a_8_8#
+= gnd CRS6B_0/FullAdder_1/EXC_0/not_0/a_8_8#
+= gnd CRS6B_0/FullAdder_1/EXC_0/m2_92_4#
+= gnd CRS6B_0/FullAdder_1/EXC_0/xor_0/a_18_12#
+= gnd CRS6B_0/FullAdder_1/m1_248_n8#
+= gnd CRS6B_0/FullAdder_1/or_0/not_0/a_8_8#
+= gnd CRS6B_0/FullAdder_1/or_0/nor_0/a_14_12#
+= gnd CRS6B_0/FullAdder_1/and_1/not_0/a_8_8#
+= gnd CRS6B_0/FullAdder_1/and_1/nand_0/a_4_12#
+= gnd CRS6B_0/FullAdder_1/m1_116_n120#
+= gnd CRS6B_0/FullAdder_1/and_0/not_0/a_8_8#
+= gnd CRS6B_0/FullAdder_1/and_0/nand_0/a_4_12#
+= gnd CRS6B_0/FullAdder_1/EXC_1/m2_0_4#
+= gnd CRS6B_0/FullAdder_1/EXC_1/not_1/a_8_8#
+= gnd CRS6B_0/FullAdder_1/EXC_1/not_0/a_8_8#
+= gnd CRS6B_0/FullAdder_1/EXC_1/m2_92_4#
+= gnd CRS6B_0/FullAdder_1/EXC_1/xor_0/a_18_12#
+= gnd CRS6B_0/m1_n408_20#
+= gnd CRS6B_0/not_1/a_8_8#
+= gnd CRS6B_0/m1_n1017_8#
+= gnd CRS6B_0/FullAdder_2/m2_161_8#
+= gnd CRS6B_0/FullAdder_2/EXC_0/m2_0_4#
+= gnd CRS6B_0/FullAdder_2/EXC_0/not_1/a_8_8#
+= gnd CRS6B_0/FullAdder_2/EXC_0/not_0/a_8_8#
+= gnd CRS6B_0/FullAdder_2/EXC_0/m2_92_4#
+= gnd CRS6B_0/FullAdder_2/EXC_0/xor_0/a_18_12#
+= gnd CRS6B_0/FullAdder_2/m1_248_n8#
+= gnd CRS6B_0/FullAdder_2/or_0/not_0/a_8_8#
+= gnd CRS6B_0/FullAdder_2/or_0/nor_0/a_14_12#
+= gnd CRS6B_0/FullAdder_2/and_1/not_0/a_8_8#
+= gnd CRS6B_0/FullAdder_2/and_1/nand_0/a_4_12#
+= gnd CRS6B_0/FullAdder_2/m1_116_n120#
+= gnd CRS6B_0/FullAdder_2/and_0/not_0/a_8_8#
+= gnd CRS6B_0/FullAdder_2/and_0/nand_0/a_4_12#
+= gnd CRS6B_0/FullAdder_2/EXC_1/m2_0_4#
+= gnd CRS6B_0/FullAdder_2/EXC_1/not_1/a_8_8#
+= gnd CRS6B_0/FullAdder_2/EXC_1/not_0/a_8_8#
+= gnd CRS6B_0/FullAdder_2/EXC_1/m2_92_4#
+= gnd CRS6B_0/FullAdder_2/EXC_1/xor_0/a_18_12#
+= gnd CRS6B_0/not_2/a_8_8#
+= gnd CRS6B_0/FullAdder_3/m2_161_8#
+= gnd CRS6B_0/FullAdder_3/EXC_0/m2_0_4#
+= gnd CRS6B_0/FullAdder_3/EXC_0/not_1/a_8_8#
+= gnd CRS6B_0/FullAdder_3/EXC_0/not_0/a_8_8#
+= gnd CRS6B_0/FullAdder_3/EXC_0/m2_92_4#
+= gnd CRS6B_0/FullAdder_3/EXC_0/xor_0/a_18_12#
+= gnd CRS6B_0/FullAdder_3/m1_248_n8#
+= gnd CRS6B_0/FullAdder_3/or_0/not_0/a_8_8#
+= gnd CRS6B_0/FullAdder_3/or_0/nor_0/a_14_12#
+= gnd CRS6B_0/FullAdder_3/and_1/not_0/a_8_8#
+= gnd CRS6B_0/FullAdder_3/and_1/nand_0/a_4_12#
+= gnd CRS6B_0/FullAdder_3/m1_116_n120#
+= gnd CRS6B_0/FullAdder_3/and_0/not_0/a_8_8#
+= gnd CRS6B_0/FullAdder_3/and_0/nand_0/a_4_12#
+= gnd CRS6B_0/FullAdder_3/EXC_1/m2_0_4#
+= gnd CRS6B_0/FullAdder_3/EXC_1/not_1/a_8_8#
+= gnd CRS6B_0/FullAdder_3/EXC_1/not_0/a_8_8#
+= gnd CRS6B_0/FullAdder_3/EXC_1/m2_92_4#
+= gnd CRS6B_0/FullAdder_3/EXC_1/xor_0/a_18_12#
+= gnd a_2424_n154#
+= gnd or_0/not_0/a_8_8#
+= gnd or_0/nor_0/a_14_12#
+= gnd m2_2436_n757#
+= gnd m2_2436_n677#
+= gnd m1_2112_n852#
+= gnd or_1/not_0/a_8_8#
+= gnd or_1/nor_0/a_14_12#
+= gnd ZeroDetection_0/m2_93_0#
+= gnd ZeroDetection_0/m2_436_0#
+= gnd ZeroDetection_0/nor_2/a_14_12#
+= gnd ZeroDetection_0/not_3/a_8_8#
+= gnd ZeroDetection_0/m2_398_0#
+= gnd ZeroDetection_0/and_1/not_0/a_8_8#
+= gnd ZeroDetection_0/and_1/nand_0/a_4_12#
+= gnd ZeroDetection_0/nor_1/a_14_12#
+= gnd ZeroDetection_0/m2_319_0#
+= gnd ZeroDetection_0/not_2/a_8_8#
+= gnd ZeroDetection_0/m2_278_0#
+= gnd ZeroDetection_0/and_0/not_0/a_8_8#
+= gnd ZeroDetection_0/and_0/nand_0/a_4_12#
+= gnd ZeroDetection_0/m2_225_0#
+= gnd ZeroDetection_0/not_1/a_8_8#
+= gnd ZeroDetection_0/m2_182_0#
+= gnd ZeroDetection_0/nor_0/a_14_12#
+= gnd ZeroDetection_0/not_0/a_8_8#
+= gnd ZeroDetection_0/m2_43_0#
+= gnd ZeroDetection_1/m2_93_0#
+= gnd ZeroDetection_1/m2_436_0#
+= gnd ZeroDetection_1/nor_2/a_14_12#
+= gnd ZeroDetection_1/not_3/a_8_8#
+= gnd ZeroDetection_1/m2_398_0#
+= gnd ZeroDetection_1/and_1/not_0/a_8_8#
+= gnd ZeroDetection_1/and_1/nand_0/a_4_12#
+= gnd ZeroDetection_1/nor_1/a_14_12#
+= gnd ZeroDetection_1/m2_319_0#
+= gnd ZeroDetection_1/not_2/a_8_8#
+= gnd ZeroDetection_1/m2_278_0#
+= gnd ZeroDetection_1/and_0/not_0/a_8_8#
+= gnd ZeroDetection_1/and_0/nand_0/a_4_12#
+= gnd ZeroDetection_1/m2_225_0#
+= gnd ZeroDetection_1/not_1/a_8_8#
+= gnd ZeroDetection_1/m2_182_0#
+= gnd ZeroDetection_1/nor_0/a_14_12#
+= gnd ZeroDetection_1/not_0/a_8_8#
+= gnd ZeroDetection_1/m2_43_0#
+= gnd m2_n448_n381#
+= gnd CRA6B_0/m1_n24_8#
+= gnd CRA6B_0/m2_n2106_8#
+= gnd CRA6B_0/m2_n1593_8#
+= gnd CRA6B_0/FullAdder_4/m2_161_8#
+= gnd CRA6B_0/FullAdder_4/EXC_0/m2_0_4#
+= gnd CRA6B_0/FullAdder_4/EXC_0/not_1/a_8_8#
+= gnd CRA6B_0/FullAdder_4/EXC_0/not_0/a_8_8#
+= gnd CRA6B_0/FullAdder_4/EXC_0/m2_92_4#
+= gnd CRA6B_0/FullAdder_4/EXC_0/xor_0/a_18_12#
+= gnd CRA6B_0/FullAdder_4/m1_248_n8#
+= gnd CRA6B_0/FullAdder_4/or_0/not_0/a_8_8#
+= gnd CRA6B_0/FullAdder_4/or_0/nor_0/a_14_12#
+= gnd CRA6B_0/FullAdder_4/and_1/not_0/a_8_8#
+= gnd CRA6B_0/FullAdder_4/and_1/nand_0/a_4_12#
+= gnd CRA6B_0/FullAdder_4/m1_116_n120#
+= gnd CRA6B_0/FullAdder_4/and_0/not_0/a_8_8#
+= gnd CRA6B_0/FullAdder_4/and_0/nand_0/a_4_12#
+= gnd CRA6B_0/FullAdder_4/EXC_1/m2_0_4#
+= gnd CRA6B_0/FullAdder_4/EXC_1/not_1/a_8_8#
+= gnd CRA6B_0/FullAdder_4/EXC_1/not_0/a_8_8#
+= gnd CRA6B_0/FullAdder_4/EXC_1/m2_92_4#
+= gnd CRA6B_0/FullAdder_4/EXC_1/xor_0/a_18_12#
+= gnd CRA6B_0/FullAdder_5/m2_161_8#
+= gnd CRA6B_0/FullAdder_5/EXC_0/m2_0_4#
+= gnd CRA6B_0/FullAdder_5/EXC_0/not_1/a_8_8#
+= gnd CRA6B_0/FullAdder_5/EXC_0/not_0/a_8_8#
+= gnd CRA6B_0/FullAdder_5/EXC_0/m2_92_4#
+= gnd CRA6B_0/FullAdder_5/EXC_0/xor_0/a_18_12#
+= gnd CRA6B_0/FullAdder_5/m1_248_n8#
+= gnd CRA6B_0/FullAdder_5/or_0/not_0/a_8_8#
+= gnd CRA6B_0/FullAdder_5/or_0/nor_0/a_14_12#
+= gnd CRA6B_0/FullAdder_5/and_1/not_0/a_8_8#
+= gnd CRA6B_0/FullAdder_5/and_1/nand_0/a_4_12#
+= gnd CRA6B_0/FullAdder_5/m1_116_n120#
+= gnd CRA6B_0/FullAdder_5/and_0/not_0/a_8_8#
+= gnd CRA6B_0/FullAdder_5/and_0/nand_0/a_4_12#
+= gnd CRA6B_0/FullAdder_5/EXC_1/m2_0_4#
+= gnd CRA6B_0/FullAdder_5/EXC_1/not_1/a_8_8#
+= gnd CRA6B_0/FullAdder_5/EXC_1/not_0/a_8_8#
+= gnd CRA6B_0/FullAdder_5/EXC_1/m2_92_4#
+= gnd CRA6B_0/FullAdder_5/EXC_1/xor_0/a_18_12#
+= gnd CRA6B_0/m1_n1016_8#
+= gnd CRA6B_0/FullAdder_3/m2_161_8#
+= gnd CRA6B_0/FullAdder_3/EXC_0/m2_0_4#
+= gnd CRA6B_0/FullAdder_3/EXC_0/not_1/a_8_8#
+= gnd CRA6B_0/FullAdder_3/EXC_0/not_0/a_8_8#
+= gnd CRA6B_0/FullAdder_3/EXC_0/m2_92_4#
+= gnd CRA6B_0/FullAdder_3/EXC_0/xor_0/a_18_12#
+= gnd CRA6B_0/FullAdder_3/m1_248_n8#
+= gnd CRA6B_0/FullAdder_3/or_0/not_0/a_8_8#
+= gnd CRA6B_0/FullAdder_3/or_0/nor_0/a_14_12#
+= gnd CRA6B_0/FullAdder_3/and_1/not_0/a_8_8#
+= gnd CRA6B_0/FullAdder_3/and_1/nand_0/a_4_12#
+= gnd CRA6B_0/FullAdder_3/m1_116_n120#
+= gnd CRA6B_0/FullAdder_3/and_0/not_0/a_8_8#
+= gnd CRA6B_0/FullAdder_3/and_0/nand_0/a_4_12#
+= gnd CRA6B_0/FullAdder_3/EXC_1/m2_0_4#
+= gnd CRA6B_0/FullAdder_3/EXC_1/not_1/a_8_8#
+= gnd CRA6B_0/FullAdder_3/EXC_1/not_0/a_8_8#
+= gnd CRA6B_0/FullAdder_3/EXC_1/m2_92_4#
+= gnd CRA6B_0/FullAdder_3/EXC_1/xor_0/a_18_12#
+= gnd CRA6B_0/m2_n506_8#
+= gnd CRA6B_0/FullAdder_2/m2_161_8#
+= gnd CRA6B_0/FullAdder_2/EXC_0/m2_0_4#
+= gnd CRA6B_0/FullAdder_2/EXC_0/not_1/a_8_8#
+= gnd CRA6B_0/FullAdder_2/EXC_0/not_0/a_8_8#
+= gnd CRA6B_0/FullAdder_2/EXC_0/m2_92_4#
+= gnd CRA6B_0/FullAdder_2/EXC_0/xor_0/a_18_12#
+= gnd CRA6B_0/FullAdder_2/m1_248_n8#
+= gnd CRA6B_0/FullAdder_2/or_0/not_0/a_8_8#
+= gnd CRA6B_0/FullAdder_2/or_0/nor_0/a_14_12#
+= gnd CRA6B_0/FullAdder_2/and_1/not_0/a_8_8#
+= gnd CRA6B_0/FullAdder_2/and_1/nand_0/a_4_12#
+= gnd CRA6B_0/FullAdder_2/m1_116_n120#
+= gnd CRA6B_0/FullAdder_2/and_0/not_0/a_8_8#
+= gnd CRA6B_0/FullAdder_2/and_0/nand_0/a_4_12#
+= gnd CRA6B_0/FullAdder_2/EXC_1/m2_0_4#
+= gnd CRA6B_0/FullAdder_2/EXC_1/not_1/a_8_8#
+= gnd CRA6B_0/FullAdder_2/EXC_1/not_0/a_8_8#
+= gnd CRA6B_0/FullAdder_2/EXC_1/m2_92_4#
+= gnd CRA6B_0/FullAdder_2/EXC_1/xor_0/a_18_12#
+= gnd CRA6B_0/FullAdder_0/m2_161_8#
+= gnd CRA6B_0/FullAdder_0/EXC_0/m2_0_4#
+= gnd CRA6B_0/FullAdder_0/EXC_0/not_1/a_8_8#
+= gnd CRA6B_0/FullAdder_0/EXC_0/not_0/a_8_8#
+= gnd CRA6B_0/FullAdder_0/EXC_0/m2_92_4#
+= gnd CRA6B_0/FullAdder_0/EXC_0/xor_0/a_18_12#
+= gnd CRA6B_0/FullAdder_0/m1_248_n8#
+= gnd CRA6B_0/FullAdder_0/or_0/not_0/a_8_8#
+= gnd CRA6B_0/FullAdder_0/or_0/nor_0/a_14_12#
+= gnd CRA6B_0/FullAdder_0/and_1/not_0/a_8_8#
+= gnd CRA6B_0/FullAdder_0/and_1/nand_0/a_4_12#
+= gnd CRA6B_0/FullAdder_0/m1_116_n120#
+= gnd CRA6B_0/FullAdder_0/and_0/not_0/a_8_8#
+= gnd CRA6B_0/FullAdder_0/and_0/nand_0/a_4_12#
+= gnd CRA6B_0/FullAdder_0/EXC_1/m2_0_4#
+= gnd CRA6B_0/FullAdder_0/EXC_1/not_1/a_8_8#
+= gnd CRA6B_0/FullAdder_0/EXC_1/not_0/a_8_8#
+= gnd CRA6B_0/FullAdder_0/EXC_1/m2_92_4#
+= gnd CRA6B_0/FullAdder_0/EXC_1/xor_0/a_18_12#
+= gnd CRA6B_0/FullAdder_1/m2_161_8#
+= gnd CRA6B_0/FullAdder_1/EXC_0/m2_0_4#
+= gnd CRA6B_0/FullAdder_1/EXC_0/not_1/a_8_8#
+= gnd CRA6B_0/FullAdder_1/EXC_0/not_0/a_8_8#
+= gnd CRA6B_0/FullAdder_1/EXC_0/m2_92_4#
+= gnd CRA6B_0/FullAdder_1/EXC_0/xor_0/a_18_12#
+= gnd CRA6B_0/FullAdder_1/m1_248_n8#
+= gnd CRA6B_0/FullAdder_1/or_0/not_0/a_8_8#
+= gnd CRA6B_0/FullAdder_1/or_0/nor_0/a_14_12#
+= gnd CRA6B_0/FullAdder_1/and_1/not_0/a_8_8#
+= gnd CRA6B_0/FullAdder_1/and_1/nand_0/a_4_12#
+= gnd CRA6B_0/FullAdder_1/m1_116_n120#
+= gnd CRA6B_0/FullAdder_1/and_0/not_0/a_8_8#
+= gnd CRA6B_0/FullAdder_1/and_0/nand_0/a_4_12#
+= gnd CRA6B_0/FullAdder_1/EXC_1/m2_0_4#
+= gnd CRA6B_0/FullAdder_1/EXC_1/not_1/a_8_8#
+= gnd CRA6B_0/FullAdder_1/EXC_1/not_0/a_8_8#
+= gnd CRA6B_0/FullAdder_1/EXC_1/m2_92_4#
+= gnd CRA6B_0/FullAdder_1/EXC_1/xor_0/a_18_12#
+C CRA6B_0/FullAdder_1/EXC_1/xor_0/a_n36_12# GND 20.49
+R CRA6B_0/FullAdder_1/EXC_1/xor_0/a_n36_12# 491
+R CRA6B_0/FullAdder_1/EXC_1/xor_0/a_18_88# 208
+R CRA6B_0/FullAdder_1/EXC_1/xor_0/a_n12_88# 179
+C m1_872_n136# GND 251.74
+R m1_872_n136# 2230
+= m1_872_n136# trans4to1_8/trans2to1_1/tansGate_1/a_14_8#
+= m1_872_n136# ZeroDetection_1/m1_n4_60#
+= m1_872_n136# ZeroDetection_1/nor_0/a_20_56#
+= m1_872_n136# CRA6B_0/m2_14_76#
+= m1_872_n136# CRA6B_0/FullAdder_1/m1_276_n52#
+= m1_872_n136# CRA6B_0/FullAdder_1/EXC_1/xor_0/a_n36_88#
+C CRA6B_0/FullAdder_1/m1_108_80# GND 118.61
+R CRA6B_0/FullAdder_1/m1_108_80# 4221
+= CRA6B_0/FullAdder_1/m1_108_80# CRA6B_0/FullAdder_1/EXC_0/xor_0/a_n36_88#
+= CRA6B_0/FullAdder_1/m1_108_80# CRA6B_0/FullAdder_1/and_1/nand_0/a_4_80#
+= CRA6B_0/FullAdder_1/m1_108_80# CRA6B_0/FullAdder_1/EXC_1/m1_60_40#
+= CRA6B_0/FullAdder_1/m1_108_80# CRA6B_0/FullAdder_1/EXC_1/not_1/a_8_28#
+= CRA6B_0/FullAdder_1/m1_108_80# CRA6B_0/FullAdder_1/EXC_1/xor_0/a_24_40#
+C CRA6B_0/FullAdder_1/EXC_1/m1_n12_72# GND 43.18
+R CRA6B_0/FullAdder_1/EXC_1/m1_n12_72# 1448
+= CRA6B_0/FullAdder_1/EXC_1/m1_n12_72# CRA6B_0/FullAdder_1/EXC_1/not_0/a_22_8#
+= CRA6B_0/FullAdder_1/EXC_1/m1_n12_72# CRA6B_0/FullAdder_1/EXC_1/xor_0/a_8_76#
+C CRA6B_0/m1_n200_n12# GND 310.35
+R CRA6B_0/m1_n200_n12# 3790
+= CRA6B_0/m1_n200_n12# CRA6B_0/FullAdder_0/m1_391_56#
+= CRA6B_0/m1_n200_n12# CRA6B_0/FullAdder_0/or_0/not_0/a_22_8#
+= CRA6B_0/m1_n200_n12# CRA6B_0/FullAdder_1/m1_160_n64#
+= CRA6B_0/m1_n200_n12# CRA6B_0/FullAdder_1/and_1/nand_0/a_24_10#
+= CRA6B_0/m1_n200_n12# CRA6B_0/FullAdder_1/EXC_1/m1_n32_48#
+= CRA6B_0/m1_n200_n12# CRA6B_0/FullAdder_1/EXC_1/not_0/a_8_28#
+= CRA6B_0/m1_n200_n12# CRA6B_0/FullAdder_1/EXC_1/xor_0/a_n8_80#
+C CRA6B_0/FullAdder_1/EXC_1/m1_0_36# GND 57.31
+R CRA6B_0/FullAdder_1/EXC_1/m1_0_36# 1509
+= CRA6B_0/FullAdder_1/EXC_1/m1_0_36# CRA6B_0/FullAdder_1/EXC_1/not_1/a_22_8#
+= CRA6B_0/FullAdder_1/EXC_1/m1_0_36# CRA6B_0/FullAdder_1/EXC_1/xor_0/a_n28_36#
+C CRA6B_0/FullAdder_1/EXC_0/xor_0/a_n36_12# GND 20.49
+R CRA6B_0/FullAdder_1/EXC_0/xor_0/a_n36_12# 491
+R CRA6B_0/FullAdder_1/EXC_0/xor_0/a_18_88# 208
+R CRA6B_0/FullAdder_1/EXC_0/xor_0/a_n12_88# 179
+C a1 GND 568.25
+R a1 9587
+= a1 CRS6B_0/FullAdder_1/m1_0_n40#
+= a1 CRS6B_0/FullAdder_1/and_0/nand_0/a_4_80#
+= a1 CRS6B_0/FullAdder_1/EXC_0/m1_60_40#
+= a1 CRS6B_0/FullAdder_1/EXC_0/not_1/a_8_28#
+= a1 CRS6B_0/FullAdder_1/EXC_0/xor_0/a_24_40#
+= a1 xor_8/a_24_40#
+= a1 not_0/a_8_28#
+= a1 CRA6B_0/FullAdder_1/m1_0_n40#
+= a1 CRA6B_0/FullAdder_1/and_0/nand_0/a_4_80#
+= a1 CRA6B_0/FullAdder_1/EXC_0/m1_60_40#
+= a1 CRA6B_0/FullAdder_1/EXC_0/not_1/a_8_28#
+= a1 CRA6B_0/FullAdder_1/EXC_0/xor_0/a_24_40#
+C CRA6B_0/FullAdder_1/EXC_0/m1_n12_72# GND 43.18
+R CRA6B_0/FullAdder_1/EXC_0/m1_n12_72# 1448
+= CRA6B_0/FullAdder_1/EXC_0/m1_n12_72# CRA6B_0/FullAdder_1/EXC_0/not_0/a_22_8#
+= CRA6B_0/FullAdder_1/EXC_0/m1_n12_72# CRA6B_0/FullAdder_1/EXC_0/xor_0/a_8_76#
+C b1 GND 448.16
+R b1 6039
+= b1 CRS6B_0/m1_n412_82#
+= b1 CRS6B_0/not_1/a_8_28#
+= b1 xor_8/a_n28_36#
+= b1 CRA6B_0/m2_n368_80#
+= b1 CRA6B_0/FullAdder_1/m1_n12_n72#
+= b1 CRA6B_0/FullAdder_1/and_0/nand_0/a_24_10#
+= b1 CRA6B_0/FullAdder_1/EXC_0/m1_n32_48#
+= b1 CRA6B_0/FullAdder_1/EXC_0/not_0/a_8_28#
+= b1 CRA6B_0/FullAdder_1/EXC_0/xor_0/a_n8_80#
+C CRA6B_0/FullAdder_1/EXC_0/m1_0_36# GND 57.31
+R CRA6B_0/FullAdder_1/EXC_0/m1_0_36# 1509
+= CRA6B_0/FullAdder_1/EXC_0/m1_0_36# CRA6B_0/FullAdder_1/EXC_0/not_1/a_22_8#
+= CRA6B_0/FullAdder_1/EXC_0/m1_0_36# CRA6B_0/FullAdder_1/EXC_0/xor_0/a_n28_36#
+R CRA6B_0/FullAdder_1/and_1/nand_0/a_14_12# 67
+C CRA6B_0/FullAdder_1/and_1/m1_36_28# GND 43.62
+R CRA6B_0/FullAdder_1/and_1/m1_36_28# 1484
+= CRA6B_0/FullAdder_1/and_1/m1_36_28# CRA6B_0/FullAdder_1/and_1/not_0/a_8_28#
+= CRA6B_0/FullAdder_1/and_1/m1_36_28# CRA6B_0/FullAdder_1/and_1/nand_0/a_14_88#
+C CRA6B_0/FullAdder_1/m1_240_80# GND 43.07
+R CRA6B_0/FullAdder_1/m1_240_80# 1400
+= CRA6B_0/FullAdder_1/m1_240_80# CRA6B_0/FullAdder_1/or_0/nor_0/a_4_72#
+= CRA6B_0/FullAdder_1/m1_240_80# CRA6B_0/FullAdder_1/and_1/not_0/a_22_8#
+R CRA6B_0/FullAdder_1/and_0/nand_0/a_14_12# 67
+C CRA6B_0/FullAdder_1/and_0/m1_36_28# GND 43.62
+R CRA6B_0/FullAdder_1/and_0/m1_36_28# 1484
+= CRA6B_0/FullAdder_1/and_0/m1_36_28# CRA6B_0/FullAdder_1/and_0/not_0/a_8_28#
+= CRA6B_0/FullAdder_1/and_0/m1_36_28# CRA6B_0/FullAdder_1/and_0/nand_0/a_14_88#
+C CRA6B_0/FullAdder_1/m1_60_n52# GND 67.44
+R CRA6B_0/FullAdder_1/m1_60_n52# 1390
+= CRA6B_0/FullAdder_1/m1_60_n52# CRA6B_0/FullAdder_1/or_0/nor_0/a_20_56#
+= CRA6B_0/FullAdder_1/m1_60_n52# CRA6B_0/FullAdder_1/and_0/not_0/a_22_8#
+R CRA6B_0/FullAdder_1/or_0/nor_0/a_14_88# 194
+C CRA6B_0/FullAdder_1/or_0/m1_40_44# GND 52.26
+R CRA6B_0/FullAdder_1/or_0/m1_40_44# 1628
+= CRA6B_0/FullAdder_1/or_0/m1_40_44# CRA6B_0/FullAdder_1/or_0/nor_0/a_0_12#
+= CRA6B_0/FullAdder_1/or_0/m1_40_44# CRA6B_0/FullAdder_1/or_0/not_0/a_8_28#
+C CRA6B_0/FullAdder_0/EXC_1/xor_0/a_n36_12# GND 20.49
+R CRA6B_0/FullAdder_0/EXC_1/xor_0/a_n36_12# 491
+R CRA6B_0/FullAdder_0/EXC_1/xor_0/a_18_88# 208
+R CRA6B_0/FullAdder_0/EXC_1/xor_0/a_n12_88# 179
+C m1_1052_n124# GND 261.82
+R m1_1052_n124# 2242
+= m1_1052_n124# trans4to1_9/trans2to1_1/tansGate_1/a_14_8#
+= m1_1052_n124# ZeroDetection_1/m1_n4_76#
+= m1_1052_n124# ZeroDetection_1/nor_0/a_4_72#
+= m1_1052_n124# CRA6B_0/FullAdder_0/m1_276_n52#
+= m1_1052_n124# CRA6B_0/FullAdder_0/EXC_1/xor_0/a_n36_88#
+C CRA6B_0/FullAdder_0/m1_108_80# GND 118.61
+R CRA6B_0/FullAdder_0/m1_108_80# 4221
+= CRA6B_0/FullAdder_0/m1_108_80# CRA6B_0/FullAdder_0/EXC_0/xor_0/a_n36_88#
+= CRA6B_0/FullAdder_0/m1_108_80# CRA6B_0/FullAdder_0/and_1/nand_0/a_4_80#
+= CRA6B_0/FullAdder_0/m1_108_80# CRA6B_0/FullAdder_0/EXC_1/m1_60_40#
+= CRA6B_0/FullAdder_0/m1_108_80# CRA6B_0/FullAdder_0/EXC_1/not_1/a_8_28#
+= CRA6B_0/FullAdder_0/m1_108_80# CRA6B_0/FullAdder_0/EXC_1/xor_0/a_24_40#
+C CRA6B_0/FullAdder_0/EXC_1/m1_n12_72# GND 43.18
+R CRA6B_0/FullAdder_0/EXC_1/m1_n12_72# 1448
+= CRA6B_0/FullAdder_0/EXC_1/m1_n12_72# CRA6B_0/FullAdder_0/EXC_1/not_0/a_22_8#
+= CRA6B_0/FullAdder_0/EXC_1/m1_n12_72# CRA6B_0/FullAdder_0/EXC_1/xor_0/a_8_76#
+R Cin 3475
+= Cin CRA6B_0/m1_256_48#
+= Cin CRA6B_0/FullAdder_0/m1_160_n64#
+= Cin CRA6B_0/FullAdder_0/and_1/nand_0/a_24_10#
+= Cin CRA6B_0/FullAdder_0/EXC_1/m1_n32_48#
+= Cin CRA6B_0/FullAdder_0/EXC_1/not_0/a_8_28#
+= Cin CRA6B_0/FullAdder_0/EXC_1/xor_0/a_n8_80#
+C CRA6B_0/FullAdder_0/EXC_1/m1_0_36# GND 57.31
+R CRA6B_0/FullAdder_0/EXC_1/m1_0_36# 1509
+= CRA6B_0/FullAdder_0/EXC_1/m1_0_36# CRA6B_0/FullAdder_0/EXC_1/not_1/a_22_8#
+= CRA6B_0/FullAdder_0/EXC_1/m1_0_36# CRA6B_0/FullAdder_0/EXC_1/xor_0/a_n28_36#
+C CRA6B_0/FullAdder_0/EXC_0/xor_0/a_n36_12# GND 20.49
+R CRA6B_0/FullAdder_0/EXC_0/xor_0/a_n36_12# 491
+R CRA6B_0/FullAdder_0/EXC_0/xor_0/a_18_88# 208
+R CRA6B_0/FullAdder_0/EXC_0/xor_0/a_n12_88# 179
+C a0 GND 501.07
+R a0 9580
+= a0 CRS6B_0/m1_272_179#
+= a0 CRS6B_0/FullAdder_0/m1_0_n40#
+= a0 CRS6B_0/FullAdder_0/and_0/nand_0/a_4_80#
+= a0 CRS6B_0/FullAdder_0/EXC_0/m1_60_40#
+= a0 CRS6B_0/FullAdder_0/EXC_0/not_1/a_8_28#
+= a0 CRS6B_0/FullAdder_0/EXC_0/xor_0/a_24_40#
+= a0 xor_9/a_24_40#
+= a0 not_1/a_8_28#
+= a0 CRA6B_0/m1_224_181#
+= a0 CRA6B_0/FullAdder_0/m1_0_n40#
+= a0 CRA6B_0/FullAdder_0/and_0/nand_0/a_4_80#
+= a0 CRA6B_0/FullAdder_0/EXC_0/m1_60_40#
+= a0 CRA6B_0/FullAdder_0/EXC_0/not_1/a_8_28#
+= a0 CRA6B_0/FullAdder_0/EXC_0/xor_0/a_24_40#
+C CRA6B_0/FullAdder_0/EXC_0/m1_n12_72# GND 43.18
+R CRA6B_0/FullAdder_0/EXC_0/m1_n12_72# 1448
+= CRA6B_0/FullAdder_0/EXC_0/m1_n12_72# CRA6B_0/FullAdder_0/EXC_0/not_0/a_22_8#
+= CRA6B_0/FullAdder_0/EXC_0/m1_n12_72# CRA6B_0/FullAdder_0/EXC_0/xor_0/a_8_76#
+C b0 GND 421.89
+R b0 6036
+= b0 CRS6B_0/m1_88_84#
+= b0 CRS6B_0/not_0/a_8_28#
+= b0 xor_9/a_n28_36#
+= b0 CRA6B_0/m2_88_84#
+= b0 CRA6B_0/FullAdder_0/m1_n12_n72#
+= b0 CRA6B_0/FullAdder_0/and_0/nand_0/a_24_10#
+= b0 CRA6B_0/FullAdder_0/EXC_0/m1_n32_48#
+= b0 CRA6B_0/FullAdder_0/EXC_0/not_0/a_8_28#
+= b0 CRA6B_0/FullAdder_0/EXC_0/xor_0/a_n8_80#
+C CRA6B_0/FullAdder_0/EXC_0/m1_0_36# GND 57.31
+R CRA6B_0/FullAdder_0/EXC_0/m1_0_36# 1509
+= CRA6B_0/FullAdder_0/EXC_0/m1_0_36# CRA6B_0/FullAdder_0/EXC_0/not_1/a_22_8#
+= CRA6B_0/FullAdder_0/EXC_0/m1_0_36# CRA6B_0/FullAdder_0/EXC_0/xor_0/a_n28_36#
+R CRA6B_0/FullAdder_0/and_1/nand_0/a_14_12# 67
+C CRA6B_0/FullAdder_0/and_1/m1_36_28# GND 43.62
+R CRA6B_0/FullAdder_0/and_1/m1_36_28# 1484
+= CRA6B_0/FullAdder_0/and_1/m1_36_28# CRA6B_0/FullAdder_0/and_1/not_0/a_8_28#
+= CRA6B_0/FullAdder_0/and_1/m1_36_28# CRA6B_0/FullAdder_0/and_1/nand_0/a_14_88#
+C CRA6B_0/FullAdder_0/m1_240_80# GND 43.07
+R CRA6B_0/FullAdder_0/m1_240_80# 1400
+= CRA6B_0/FullAdder_0/m1_240_80# CRA6B_0/FullAdder_0/or_0/nor_0/a_4_72#
+= CRA6B_0/FullAdder_0/m1_240_80# CRA6B_0/FullAdder_0/and_1/not_0/a_22_8#
+R CRA6B_0/FullAdder_0/and_0/nand_0/a_14_12# 67
+C CRA6B_0/FullAdder_0/and_0/m1_36_28# GND 43.62
+R CRA6B_0/FullAdder_0/and_0/m1_36_28# 1484
+= CRA6B_0/FullAdder_0/and_0/m1_36_28# CRA6B_0/FullAdder_0/and_0/not_0/a_8_28#
+= CRA6B_0/FullAdder_0/and_0/m1_36_28# CRA6B_0/FullAdder_0/and_0/nand_0/a_14_88#
+C CRA6B_0/FullAdder_0/m1_60_n52# GND 67.44
+R CRA6B_0/FullAdder_0/m1_60_n52# 1390
+= CRA6B_0/FullAdder_0/m1_60_n52# CRA6B_0/FullAdder_0/or_0/nor_0/a_20_56#
+= CRA6B_0/FullAdder_0/m1_60_n52# CRA6B_0/FullAdder_0/and_0/not_0/a_22_8#
+R CRA6B_0/FullAdder_0/or_0/nor_0/a_14_88# 194
+C CRA6B_0/FullAdder_0/or_0/m1_40_44# GND 52.26
+R CRA6B_0/FullAdder_0/or_0/m1_40_44# 1628
+= CRA6B_0/FullAdder_0/or_0/m1_40_44# CRA6B_0/FullAdder_0/or_0/nor_0/a_0_12#
+= CRA6B_0/FullAdder_0/or_0/m1_40_44# CRA6B_0/FullAdder_0/or_0/not_0/a_8_28#
+R or_1/nor_0/a_14_88# 194
+C m1_2376_n752# GND 42.78
+R m1_2376_n752# 1388
+= m1_2376_n752# or_0/not_0/a_22_8#
+= m1_2376_n752# or_1/nor_0/a_20_56#
+C m1_920_n112# GND 285.14
+R m1_920_n112# 759
+= m1_920_n112# trans4to1_9/trans2to1_2/tansGate_1/a_14_8#
+= m1_920_n112# or_1/not_0/a_22_8#
+C or_1/m1_40_44# GND 52.26
+R or_1/m1_40_44# 1628
+= or_1/m1_40_44# or_1/nor_0/a_0_12#
+= or_1/m1_40_44# or_1/not_0/a_8_28#
+R or_0/nor_0/a_14_88# 194
+C a_2348_n167# GND 108.03
+R a_2348_n167# 1490
+= a_2348_n167# or_0/nor_0/a_4_72#
+C or_0/m1_40_44# GND 52.26
+R or_0/m1_40_44# 1628
+= or_0/m1_40_44# or_0/nor_0/a_0_12#
+= or_0/m1_40_44# or_0/not_0/a_8_28#
+R ZeroDetection_1/and_1/nand_0/a_14_12# 67
+C ZeroDetection_1/and_1/m1_36_28# GND 43.62
+R ZeroDetection_1/and_1/m1_36_28# 1484
+= ZeroDetection_1/and_1/m1_36_28# ZeroDetection_1/and_1/not_0/a_8_28#
+= ZeroDetection_1/and_1/m1_36_28# ZeroDetection_1/and_1/nand_0/a_14_88#
+C ZeroDetection_1/m1_390_44# GND 45.12
+R ZeroDetection_1/m1_390_44# 1544
+= ZeroDetection_1/m1_390_44# ZeroDetection_1/not_3/a_8_28#
+= ZeroDetection_1/m1_390_44# ZeroDetection_1/and_1/not_0/a_22_8#
+R ZeroDetection_1/and_0/nand_0/a_14_12# 67
+C ZeroDetection_1/and_0/m1_36_28# GND 43.62
+R ZeroDetection_1/and_0/m1_36_28# 1484
+= ZeroDetection_1/and_0/m1_36_28# ZeroDetection_1/and_0/not_0/a_8_28#
+= ZeroDetection_1/and_0/m1_36_28# ZeroDetection_1/and_0/nand_0/a_14_88#
+C m1_2380_n672# GND 53.12
+R m1_2380_n672# 1473
+= m1_2380_n672# or_0/nor_0/a_20_56#
+= m1_2380_n672# ZeroDetection_1/m1_481_44#
+= m1_2380_n672# ZeroDetection_1/nor_2/a_0_12#
+R ZeroDetection_1/nor_2/a_14_88# 194
+C ZeroDetection_1/m1_270_64# GND 55.00
+R ZeroDetection_1/m1_270_64# 1439
+= ZeroDetection_1/m1_270_64# ZeroDetection_1/and_1/nand_0/a_4_80#
+= ZeroDetection_1/m1_270_64# ZeroDetection_1/nor_1/a_0_12#
+R ZeroDetection_1/nor_1/a_14_88# 194
+C ZeroDetection_1/m1_428_76# GND 40.57
+R ZeroDetection_1/m1_428_76# 1400
+= ZeroDetection_1/m1_428_76# ZeroDetection_1/nor_2/a_4_72#
+= ZeroDetection_1/m1_428_76# ZeroDetection_1/not_3/a_22_8#
+C ZeroDetection_1/m1_39_44# GND 55.54
+R ZeroDetection_1/m1_39_44# 1390
+= ZeroDetection_1/m1_39_44# ZeroDetection_1/and_0/nand_0/a_24_10#
+= ZeroDetection_1/m1_39_44# ZeroDetection_1/nor_0/a_0_12#
+R ZeroDetection_1/nor_0/a_14_88# 194
+C ZeroDetection_1/m1_311_36# GND 42.33
+R ZeroDetection_1/m1_311_36# 1305
+= ZeroDetection_1/m1_311_36# ZeroDetection_1/and_1/nand_0/a_24_10#
+= ZeroDetection_1/m1_311_36# ZeroDetection_1/not_2/a_22_8#
+C ZeroDetection_1/m1_217_76# GND 41.32
+R ZeroDetection_1/m1_217_76# 1400
+= ZeroDetection_1/m1_217_76# ZeroDetection_1/nor_1/a_4_72#
+= ZeroDetection_1/m1_217_76# ZeroDetection_1/not_1/a_22_8#
+C ZeroDetection_1/m1_174_40# GND 45.12
+R ZeroDetection_1/m1_174_40# 1544
+= ZeroDetection_1/m1_174_40# ZeroDetection_1/and_0/not_0/a_22_8#
+= ZeroDetection_1/m1_174_40# ZeroDetection_1/not_1/a_8_28#
+C ZeroDetection_1/m1_85_64# GND 45.08
+R ZeroDetection_1/m1_85_64# 1354
+= ZeroDetection_1/m1_85_64# ZeroDetection_1/and_0/nand_0/a_4_80#
+= ZeroDetection_1/m1_85_64# ZeroDetection_1/not_0/a_22_8#
+R ZeroDetection_0/and_1/nand_0/a_14_12# 67
+C ZeroDetection_0/and_1/m1_36_28# GND 43.62
+R ZeroDetection_0/and_1/m1_36_28# 1484
+= ZeroDetection_0/and_1/m1_36_28# ZeroDetection_0/and_1/not_0/a_8_28#
+= ZeroDetection_0/and_1/m1_36_28# ZeroDetection_0/and_1/nand_0/a_14_88#
+C ZeroDetection_0/m1_390_44# GND 45.12
+R ZeroDetection_0/m1_390_44# 1544
+= ZeroDetection_0/m1_390_44# ZeroDetection_0/not_3/a_8_28#
+= ZeroDetection_0/m1_390_44# ZeroDetection_0/and_1/not_0/a_22_8#
+R ZeroDetection_0/and_0/nand_0/a_14_12# 67
+C ZeroDetection_0/and_0/m1_36_28# GND 43.62
+R ZeroDetection_0/and_0/m1_36_28# 1484
+= ZeroDetection_0/and_0/m1_36_28# ZeroDetection_0/and_0/not_0/a_8_28#
+= ZeroDetection_0/and_0/m1_36_28# ZeroDetection_0/and_0/nand_0/a_14_88#
+C m1_2304_n752# GND 166.61
+R m1_2304_n752# 1495
+= m1_2304_n752# or_1/nor_0/a_4_72#
+= m1_2304_n752# ZeroDetection_0/m1_481_44#
+= m1_2304_n752# ZeroDetection_0/nor_2/a_0_12#
+R ZeroDetection_0/nor_2/a_14_88# 194
+C ZeroDetection_0/m1_270_64# GND 55.00
+R ZeroDetection_0/m1_270_64# 1439
+= ZeroDetection_0/m1_270_64# ZeroDetection_0/and_1/nand_0/a_4_80#
+= ZeroDetection_0/m1_270_64# ZeroDetection_0/nor_1/a_0_12#
+R ZeroDetection_0/nor_1/a_14_88# 194
+C ZeroDetection_0/m1_428_76# GND 40.57
+R ZeroDetection_0/m1_428_76# 1400
+= ZeroDetection_0/m1_428_76# ZeroDetection_0/nor_2/a_4_72#
+= ZeroDetection_0/m1_428_76# ZeroDetection_0/not_3/a_22_8#
+C ZeroDetection_0/m1_39_44# GND 55.54
+R ZeroDetection_0/m1_39_44# 1390
+= ZeroDetection_0/m1_39_44# ZeroDetection_0/and_0/nand_0/a_24_10#
+= ZeroDetection_0/m1_39_44# ZeroDetection_0/nor_0/a_0_12#
+R ZeroDetection_0/nor_0/a_14_88# 194
+C ZeroDetection_0/m1_311_36# GND 42.33
+R ZeroDetection_0/m1_311_36# 1305
+= ZeroDetection_0/m1_311_36# ZeroDetection_0/and_1/nand_0/a_24_10#
+= ZeroDetection_0/m1_311_36# ZeroDetection_0/not_2/a_22_8#
+C ZeroDetection_0/m1_217_76# GND 41.32
+R ZeroDetection_0/m1_217_76# 1400
+= ZeroDetection_0/m1_217_76# ZeroDetection_0/nor_1/a_4_72#
+= ZeroDetection_0/m1_217_76# ZeroDetection_0/not_1/a_22_8#
+C ZeroDetection_0/m1_174_40# GND 45.12
+R ZeroDetection_0/m1_174_40# 1544
+= ZeroDetection_0/m1_174_40# ZeroDetection_0/and_0/not_0/a_22_8#
+= ZeroDetection_0/m1_174_40# ZeroDetection_0/not_1/a_8_28#
+C ZeroDetection_0/m1_85_64# GND 45.08
+R ZeroDetection_0/m1_85_64# 1354
+= ZeroDetection_0/m1_85_64# ZeroDetection_0/and_0/nand_0/a_4_80#
+= ZeroDetection_0/m1_85_64# ZeroDetection_0/not_0/a_22_8#

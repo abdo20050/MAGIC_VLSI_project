@@ -1,0 +1,161 @@
+| units: 100 tech: scmos format: MIT
+p or_0/m1_40_44# vdd Cout 2 4 379 92
+n or_0/m1_40_44# gnd Cout 2 4 379 8
+p m1_240_80# vdd or_0/nor_0/a_14_88# 2 4 335 88
+p m1_60_n52# or_0/nor_0/a_14_88# or_0/m1_40_44# 2 4 350 88
+n m1_240_80# or_0/m1_40_44# gnd 2 4 335 12
+n m1_60_n52# gnd or_0/m1_40_44# 2 4 350 12
+p and_0/m1_36_28# vdd m1_60_n52# 2 4 52 -16
+n and_0/m1_36_28# gnd m1_60_n52# 2 4 52 -100
+p a vdd and_0/m1_36_28# 2 4 8 -20
+n a gnd and_0/nand_0/a_14_12# 2 4 8 -96
+p b and_0/m1_36_28# vdd 2 4 20 -20
+n b and_0/nand_0/a_14_12# and_0/m1_36_28# 2 4 20 -96
+p and_1/m1_36_28# vdd m1_240_80# 2 4 232 100
+n and_1/m1_36_28# gnd m1_240_80# 2 4 232 16
+p m1_108_80# vdd and_1/m1_36_28# 2 4 188 96
+n m1_108_80# gnd and_1/nand_0/a_14_12# 2 4 188 20
+p m1_160_n64# and_1/m1_36_28# vdd 2 4 200 96
+n m1_160_n64# and_1/nand_0/a_14_12# and_1/m1_36_28# 2 4 200 20
+p EXC_0/m1_n12_72# vdd EXC_0/xor_0/a_18_88# 2 4 84 96
+n EXC_0/m1_n12_72# a gnd 2 4 84 20
+p b EXC_0/xor_0/a_n12_88# vdd 2 4 68 96
+p a EXC_0/xor_0/a_18_88# m1_108_80# 2 4 100 96
+n b EXC_0/xor_0/a_n12_12# a 2 4 68 20
+n a gnd a 2 4 100 20
+p EXC_0/m1_0_36# m1_108_80# EXC_0/xor_0/a_n12_88# 2 4 55 96
+n EXC_0/m1_0_36# a EXC_0/xor_0/a_n12_12# 2 4 55 20
+p b vdd EXC_0/m1_n12_72# 2 4 12 100
+n b gnd EXC_0/m1_n12_72# 2 4 12 16
+p a vdd EXC_0/m1_0_36# 2 4 141 100
+n a gnd EXC_0/m1_0_36# 2 4 141 16
+p EXC_1/m1_n12_72# vdd EXC_1/xor_0/a_18_88# 2 4 252 -32
+n EXC_1/m1_n12_72# EXC_1/xor_0/a_n36_12# gnd 2 4 252 -108
+p m1_160_n64# EXC_1/xor_0/a_n12_88# vdd 2 4 236 -32
+p m1_108_80# EXC_1/xor_0/a_18_88# Sum 2 4 268 -32
+n m1_160_n64# EXC_1/xor_0/a_n12_12# EXC_1/xor_0/a_n36_12# 2 4 236 -108
+n m1_108_80# gnd EXC_1/xor_0/a_n36_12# 2 4 268 -108
+p EXC_1/m1_0_36# Sum EXC_1/xor_0/a_n12_88# 2 4 223 -32
+n EXC_1/m1_0_36# EXC_1/xor_0/a_n36_12# EXC_1/xor_0/a_n12_12# 2 4 223 -108
+p m1_160_n64# vdd EXC_1/m1_n12_72# 2 4 180 -28
+n m1_160_n64# gnd EXC_1/m1_n12_72# 2 4 180 -112
+p m1_108_80# vdd EXC_1/m1_0_36# 2 4 309 -28
+n m1_108_80# gnd EXC_1/m1_0_36# 2 4 309 -112
+C m1_108_80# EXC_0/m1_0_36# 2.31
+C Sum EXC_1/m1_0_36# 2.31
+C vdd GND 102.28
+R vdd 4337
+= vdd or_0/not_0/a_8_92#
+= vdd or_0/nor_0/a_0_88#
+= vdd and_1/not_0/a_8_92#
+= vdd and_1/nand_0/a_4_88#
+= vdd EXC_0/xor_0/a_2_88#
+= vdd EXC_0/not_1/a_8_92#
+= vdd EXC_0/not_0/a_8_92#
+= vdd m2_72_n8#
+= vdd m1_272_n20#
+= vdd and_0/not_0/a_8_92#
+= vdd and_0/nand_0/a_4_88#
+= vdd EXC_1/xor_0/a_2_88#
+= vdd EXC_1/not_1/a_8_92#
+= vdd EXC_1/not_0/a_8_92#
+C gnd GND 106.23
+R gnd 1646
+= gnd m1_248_n8#
+= gnd or_0/not_0/a_8_8#
+= gnd or_0/nor_0/a_14_12#
+= gnd and_1/not_0/a_8_8#
+= gnd and_1/nand_0/a_4_12#
+= gnd EXC_0/m2_0_4#
+= gnd EXC_0/xor_0/a_18_12#
+= gnd EXC_0/not_1/a_8_8#
+= gnd EXC_0/m2_92_4#
+= gnd EXC_0/not_0/a_8_8#
+= gnd m2_161_8#
+= gnd and_0/not_0/a_8_8#
+= gnd and_0/nand_0/a_4_12#
+= gnd EXC_1/m2_0_4#
+= gnd EXC_1/xor_0/a_18_12#
+= gnd EXC_1/not_1/a_8_8#
+= gnd EXC_1/m2_92_4#
+= gnd EXC_1/not_0/a_8_8#
+C EXC_1/m1_n12_72# GND 43.18
+R EXC_1/m1_n12_72# 1448
+= EXC_1/m1_n12_72# EXC_1/xor_0/a_8_76#
+= EXC_1/m1_n12_72# EXC_1/not_0/a_22_8#
+C m1_160_n64# GND 107.36
+R m1_160_n64# 3475
+= m1_160_n64# and_1/nand_0/a_24_10#
+= m1_160_n64# EXC_1/m1_n32_48#
+= m1_160_n64# EXC_1/xor_0/a_n8_80#
+= m1_160_n64# EXC_1/not_0/a_8_28#
+C EXC_1/xor_0/a_n12_12# GND 6.02
+R EXC_1/xor_0/a_n12_12# 80
+C EXC_1/xor_0/a_n36_12# GND 13.58
+R EXC_1/xor_0/a_n36_12# 485
+R EXC_1/xor_0/a_18_88# 208
+R EXC_1/xor_0/a_n12_88# 179
+C Sum GND 20.74
+R Sum 621
+= Sum EXC_1/xor_0/a_n36_88#
+C m1_108_80# GND 106.59
+R m1_108_80# 4140
+= m1_108_80# and_1/nand_0/a_4_80#
+= m1_108_80# EXC_0/xor_0/a_n36_88#
+= m1_108_80# EXC_1/m1_60_40#
+= m1_108_80# EXC_1/not_1/a_8_28#
+= m1_108_80# EXC_1/xor_0/a_24_40#
+C EXC_1/m1_0_36# GND 58.06
+R EXC_1/m1_0_36# 1509
+= EXC_1/m1_0_36# EXC_1/not_1/a_22_8#
+= EXC_1/m1_0_36# EXC_1/xor_0/a_n28_36#
+C EXC_0/m1_n12_72# GND 43.18
+R EXC_0/m1_n12_72# 1448
+= EXC_0/m1_n12_72# EXC_0/xor_0/a_8_76#
+= EXC_0/m1_n12_72# EXC_0/not_0/a_22_8#
+C b GND 97.36
+R b 3474
+= b and_0/nand_0/a_24_10#
+= b EXC_0/m1_n32_48#
+= b EXC_0/xor_0/a_n8_80#
+= b EXC_0/not_0/a_8_28#
+C EXC_0/xor_0/a_n12_12# GND 6.02
+R EXC_0/xor_0/a_n12_12# 80
+R EXC_0/xor_0/a_18_88# 208
+R EXC_0/xor_0/a_n12_88# 179
+C a GND 106.11
+R a 4006
+= a EXC_0/xor_0/a_n36_12#
+= a and_0/nand_0/a_4_80#
+= a EXC_0/m1_60_40#
+= a EXC_0/not_1/a_8_28#
+= a EXC_0/xor_0/a_24_40#
+C EXC_0/m1_0_36# GND 58.06
+R EXC_0/m1_0_36# 1509
+= EXC_0/m1_0_36# EXC_0/not_1/a_22_8#
+= EXC_0/m1_0_36# EXC_0/xor_0/a_n28_36#
+R and_1/nand_0/a_14_12# 67
+C m1_240_80# GND 43.07
+R m1_240_80# 1400
+= m1_240_80# or_0/nor_0/a_4_72#
+= m1_240_80# and_1/not_0/a_22_8#
+C and_1/m1_36_28# GND 43.62
+R and_1/m1_36_28# 1484
+= and_1/m1_36_28# and_1/nand_0/a_14_88#
+= and_1/m1_36_28# and_1/not_0/a_8_28#
+R and_0/nand_0/a_14_12# 67
+C m1_60_n52# GND 65.94
+R m1_60_n52# 1390
+= m1_60_n52# or_0/nor_0/a_20_56#
+= m1_60_n52# and_0/not_0/a_22_8#
+C and_0/m1_36_28# GND 43.62
+R and_0/m1_36_28# 1484
+= and_0/m1_36_28# and_0/nand_0/a_14_88#
+= and_0/m1_36_28# and_0/not_0/a_8_28#
+R or_0/nor_0/a_14_88# 194
+R Cout 303
+= Cout or_0/not_0/a_22_8#
+C or_0/m1_40_44# GND 52.26
+R or_0/m1_40_44# 1628
+= or_0/m1_40_44# or_0/nor_0/a_0_12#
+= or_0/m1_40_44# or_0/not_0/a_8_28#

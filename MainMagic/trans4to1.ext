@@ -1,4 +1,4 @@
-timestamp 1664050318
+timestamp 1667779387
 version 8.3
 tech scmos
 style lambda=1.0(scna20_orb)
@@ -7,22 +7,20 @@ resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
 use trans2to1 trans2to1_2 0 -1 -12 -1 0 52
 use trans2to1 trans2to1_1 0 1 76 -1 0 52
 use trans2to1 trans2to1_0 1 0 4 0 1 0
+node "m2_0_40#" 0 304 0 40 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
 node "m2_n16_52#" 1 7296 -16 52 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 384 200 0 0
 node "m2_n56_56#" 1 13984 -56 56 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 736 376 0 0
 node "m1_n16_n4#" 0 752 -16 -4 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
 node "m1_n56_n4#" 0 752 -56 -4 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
 node "m1_56_0#" 0 752 56 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
-node "m1_0_0#" 0 4384 0 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 48 32 144 80 0 0
 node "m1_56_20#" 1 8272 56 20 m1 0 0 0 0 0 0 0 0 0 0 0 0 176 96 16 16 0 0
 node "m1_n32_20#" 1 8272 -32 20 v 0 0 0 0 0 0 0 0 0 0 0 0 176 96 16 16 0 0
-cap "m1_n32_20#" "m1_0_0#" 720
-cap "trans2to1_0/m2_n4_40#" "trans2to1_0/m2_n4_0#" 720
-cap "trans2to1_2/tansGate_1/a_12_22#" "trans2to1_2/m1_20_20#" 720
-cap "trans2to1_1/m2_n4_0#" "trans2to1_1/m1_20_20#" 720
-merge "trans2to1_0/m2_n4_40#" "m1_0_0#" -304 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+cap "trans2to1_2/m1_20_20#" "trans2to1_2/tansGate_1/a_12_22#" 720
+cap "trans2to1_1/m1_20_20#" "trans2to1_1/m2_n4_0#" 720
 merge "trans2to1_1/m2_n4_0#" "trans2to1_2/tansGate_1/a_12_22#" -1968 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -32 -32 0 0
 merge "trans2to1_2/tansGate_1/a_12_22#" "m2_n16_52#"
 merge "m2_n16_52#" "m1_n16_n4#"
+merge "trans2to1_0/m2_n4_40#" "m2_0_40#" -304 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
 merge "trans2to1_0/tansGate_1/a_14_8#" "trans2to1_1/m1_20_20#" -1056 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -16 -16 0 0
 merge "trans2to1_1/m1_20_20#" "m1_56_20#"
 merge "trans2to1_0/tansGate_1/a_12_22#" "m1_56_0#" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0

@@ -1,0 +1,94 @@
+magic
+tech scmos
+timestamp 1667969995
+<< metal1 >>
+rect -8 44 0 48
+rect 104 -36 108 8
+rect -8 -72 0 -68
+rect 116 -116 120 0
+rect 140 -48 144 0
+rect 160 -60 164 44
+rect 248 -4 252 8
+rect 272 -16 276 108
+rect 160 -64 168 -60
+rect 288 -76 292 72
+rect 312 60 323 64
+rect 312 4 316 60
+rect 391 56 408 60
+<< metal2 >>
+rect 161 108 180 112
+rect 252 108 272 112
+rect 276 108 336 112
+rect 332 104 336 108
+rect 112 80 180 84
+rect 244 80 323 84
+rect 164 76 168 80
+rect 164 72 288 76
+rect 164 44 180 48
+rect -12 -68 -8 44
+rect 104 12 108 40
+rect 161 8 180 12
+rect 144 0 312 4
+rect 328 -4 332 0
+rect 72 -8 172 -4
+rect 252 -8 332 -4
+rect 168 -16 172 -8
+rect 4 -40 104 -36
+rect 64 -52 140 -48
+rect 280 -52 365 -48
+rect 72 -116 76 -104
+rect 72 -120 116 -116
+rect 120 -120 168 -116
+<< m2contact >>
+rect 272 108 276 112
+rect 108 80 112 84
+rect 180 80 184 84
+rect 240 80 244 84
+rect -12 44 -8 48
+rect 160 44 164 48
+rect 180 44 184 48
+rect 104 40 108 44
+rect 104 8 108 12
+rect 0 -40 4 -36
+rect 104 -40 108 -36
+rect 116 0 120 4
+rect 60 -52 64 -48
+rect -12 -72 -8 -68
+rect 140 0 144 4
+rect 140 -52 144 -48
+rect 248 8 252 12
+rect 248 -8 252 -4
+rect 323 80 327 84
+rect 272 -20 276 -16
+rect 288 72 292 76
+rect 276 -52 280 -48
+rect 312 0 316 4
+rect 116 -120 120 -116
+use EXC  EXC_0
+timestamp 1667957112
+transform 1 0 32 0 1 0
+box -32 0 129 112
+use EXC  EXC_1
+timestamp 1667957112
+transform 1 0 200 0 1 -128
+box -32 0 129 112
+use and  and_0
+timestamp 1663595043
+transform 1 0 0 0 1 -108
+box 0 0 72 104
+use and  and_1
+timestamp 1663595043
+transform 1 0 180 0 1 8
+box 0 0 72 104
+use or  or_0
+timestamp 1663598260
+transform 1 0 323 0 1 0
+box 0 0 76 104
+<< labels >>
+rlabel metal2 -11 -18 -11 -18 3 b
+rlabel metal1 105 -25 105 -25 1 a
+rlabel metal1 403 58 403 58 7 Cout
+rlabel metal2 350 -50 350 -50 1 Sum
+rlabel metal2 168 110 168 110 5 vdd
+rlabel metal2 146 -119 146 -119 1 gnd
+<< end >>
